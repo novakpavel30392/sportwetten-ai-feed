@@ -1,15 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-30T21:22:35.880446+00:00",
+  "generated_at": "2026-08-31T00:22:38.685466+00:00",
   "mode": "training",
   "target_daily_tips": 10,
   "daily_target_reached": false,
   "daily_tip_status": {
-    "2026-08-30": {
-      "eligible": 0,
-      "selected": 0,
-      "target_reached": false
-    },
     "2026-08-31": {
       "eligible": 0,
       "selected": 0,
@@ -19,4082 +14,16 @@
       "eligible": 0,
       "selected": 0,
       "target_reached": false
+    },
+    "2026-09-02": {
+      "eligible": 0,
+      "selected": 0,
+      "target_reached": false
     }
   },
   "eligible_tip_count": 0,
   "daily_tips": [],
   "matches": [
-    {
-      "id": "openfootball:66921d2030f090f45ab5",
-      "league": "Eredivisie",
-      "model_league": "N1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T10:15:00+00:00",
-      "home_team": "FC Utrecht",
-      "away_team": "PSV",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "66921d2030f090f45ab5"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.345738+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "FC Utrecht",
-          "model": "Utrecht",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "PSV",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5714
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · FC Utrecht gewinnt",
-          "probability": 0.5205,
-          "fair_odds": 1.92,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2564,
-          "fair_odds": 3.9,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · PSV gewinnt",
-          "probability": 0.2231,
-          "fair_odds": 4.48,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5251,
-          "fair_odds": 1.9,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4749,
-          "fair_odds": 2.11,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5446,
-          "fair_odds": 1.84,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4554,
-          "fair_odds": 2.2,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4225,
-          "fair_odds": 2.37,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3491,
-          "fair_odds": 2.86,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "FC Utrecht trifft in beiden HZ",
-          "probability": 0.3671,
-          "fair_odds": 2.72,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "PSV trifft in beiden HZ",
-          "probability": 0.1606,
-          "fair_odds": 6.23,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:74ecafaceb0325c837d9",
-      "league": "Eredivisie",
-      "model_league": "N1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T12:30:00+00:00",
-      "home_team": "Willem II Tilburg",
-      "away_team": "SC Heerenveen",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "74ecafaceb0325c837d9"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.345738+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Willem II Tilburg",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6923
-        },
-        "away": {
-          "external": "SC Heerenveen",
-          "model": "Heerenveen",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Willem II Tilburg gewinnt",
-          "probability": 0.5147,
-          "fair_odds": 1.94,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2426,
-          "fair_odds": 4.12,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · SC Heerenveen gewinnt",
-          "probability": 0.2427,
-          "fair_odds": 4.12,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5987,
-          "fair_odds": 1.67,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4013,
-          "fair_odds": 2.49,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.607,
-          "fair_odds": 1.65,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.393,
-          "fair_odds": 2.54,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4951,
-          "fair_odds": 2.02,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3998,
-          "fair_odds": 2.5,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Willem II Tilburg trifft in beiden HZ",
-          "probability": 0.4045,
-          "fair_odds": 2.47,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "SC Heerenveen trifft in beiden HZ",
-          "probability": 0.2083,
-          "fair_odds": 4.8,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:e3ff5f4e0f4adbff72e5",
-      "league": "Eredivisie",
-      "model_league": "N1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T12:30:00+00:00",
-      "home_team": "Feyenoord Rotterdam",
-      "away_team": "ADO Den Haag",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "e3ff5f4e0f4adbff72e5"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.345738+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Feyenoord Rotterdam",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6429
-        },
-        "away": {
-          "external": "ADO Den Haag",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.8
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Feyenoord Rotterdam gewinnt",
-          "probability": 0.4612,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2501,
-          "fair_odds": 4.0,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · ADO Den Haag gewinnt",
-          "probability": 0.2887,
-          "fair_odds": 3.46,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6008,
-          "fair_odds": 1.66,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3992,
-          "fair_odds": 2.5,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.622,
-          "fair_odds": 1.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.378,
-          "fair_odds": 2.65,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.5074,
-          "fair_odds": 1.97,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.4166,
-          "fair_odds": 2.4,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Feyenoord Rotterdam trifft in beiden HZ",
-          "probability": 0.3797,
-          "fair_odds": 2.63,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "ADO Den Haag trifft in beiden HZ",
-          "probability": 0.2369,
-          "fair_odds": 4.22,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:aab18fb452d0efc1ad09",
-      "league": "Premier League",
-      "model_league": "E0",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T13:00:00+00:00",
-      "home_team": "Sunderland AFC",
-      "away_team": "Fulham FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "aab18fb452d0efc1ad09"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.373337+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Sunderland AFC",
-          "model": "Sunderland",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Fulham FC",
-          "model": "Fulham",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Sunderland AFC gewinnt",
-          "probability": 0.4244,
-          "fair_odds": 2.36,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2991,
-          "fair_odds": 3.34,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Fulham FC gewinnt",
-          "probability": 0.2765,
-          "fair_odds": 3.62,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4088,
-          "fair_odds": 2.45,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5912,
-          "fair_odds": 1.69,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.4742,
-          "fair_odds": 2.11,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.5258,
-          "fair_odds": 1.9,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3338,
-          "fair_odds": 3.0,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.2341,
-          "fair_odds": 4.27,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Sunderland AFC trifft in beiden HZ",
-          "probability": 0.2213,
-          "fair_odds": 4.52,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Fulham FC trifft in beiden HZ",
-          "probability": 0.1409,
-          "fair_odds": 7.1,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:0b25e6276ba33cb3e053",
-      "league": "Premier League",
-      "model_league": "E0",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T13:00:00+00:00",
-      "home_team": "Chelsea FC",
-      "away_team": "Brighton & Hove Albion FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "0b25e6276ba33cb3e053"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.373337+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Chelsea FC",
-          "model": "Chelsea",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Brighton & Hove Albion FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5714
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Chelsea FC gewinnt",
-          "probability": 0.4513,
-          "fair_odds": 2.22,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2648,
-          "fair_odds": 3.78,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Brighton & Hove Albion FC gewinnt",
-          "probability": 0.2839,
-          "fair_odds": 3.52,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5383,
-          "fair_odds": 1.86,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4617,
-          "fair_odds": 2.17,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5745,
-          "fair_odds": 1.74,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4255,
-          "fair_odds": 2.35,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4492,
-          "fair_odds": 2.23,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3632,
-          "fair_odds": 2.75,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Chelsea FC trifft in beiden HZ",
-          "probability": 0.3034,
-          "fair_odds": 3.3,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Brighton & Hove Albion FC trifft in beiden HZ",
-          "probability": 0.2017,
-          "fair_odds": 4.96,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:ec8ea19351c2b936c190",
-      "league": "Premier League",
-      "model_league": "E0",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T13:00:00+00:00",
-      "home_team": "Leeds United FC",
-      "away_team": "Brentford FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "ec8ea19351c2b936c190"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.373337+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Leeds United FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6429
-        },
-        "away": {
-          "external": "Brentford FC",
-          "model": "Brentford",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Leeds United FC gewinnt",
-          "probability": 0.4099,
-          "fair_odds": 2.44,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2724,
-          "fair_odds": 3.67,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Brentford FC gewinnt",
-          "probability": 0.3177,
-          "fair_odds": 3.15,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5219,
-          "fair_odds": 1.92,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4781,
-          "fair_odds": 2.09,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5679,
-          "fair_odds": 1.76,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4321,
-          "fair_odds": 2.31,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4386,
-          "fair_odds": 2.28,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3558,
-          "fair_odds": 2.81,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Leeds United FC trifft in beiden HZ",
-          "probability": 0.2711,
-          "fair_odds": 3.69,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Brentford FC trifft in beiden HZ",
-          "probability": 0.2207,
-          "fair_odds": 4.53,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:d94f0e09a9d15e41b8a7",
-      "league": "Ligue 1",
-      "model_league": "F1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T13:00:00+00:00",
-      "home_team": "Paris FC",
-      "away_team": "OGC Nice",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "d94f0e09a9d15e41b8a7"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.012473+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Paris FC",
-          "model": "Paris FC",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "OGC Nice",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6667
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Paris FC gewinnt",
-          "probability": 0.4118,
-          "fair_odds": 2.43,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2549,
-          "fair_odds": 3.92,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · OGC Nice gewinnt",
-          "probability": 0.3333,
-          "fair_odds": 3.0,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.598,
-          "fair_odds": 1.67,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.402,
-          "fair_odds": 2.49,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.6084,
-          "fair_odds": 1.64,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.3916,
-          "fair_odds": 2.55,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.5102,
-          "fair_odds": 1.96,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.4227,
-          "fair_odds": 2.37,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Paris FC trifft in beiden HZ",
-          "probability": 0.3254,
-          "fair_odds": 3.07,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "OGC Nice trifft in beiden HZ",
-          "probability": 0.267,
-          "fair_odds": 3.75,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:14832bef6f90857d22fd",
-      "league": "Bundesliga",
-      "model_league": "D1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T13:30:00+00:00",
-      "home_team": "SC Freiburg",
-      "away_team": "SV Werder Bremen",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "14832bef6f90857d22fd"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.681317+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "SC Freiburg",
-          "model": "Freiburg",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "SV Werder Bremen",
-          "model": "Werder Bremen",
-          "method": "fuzzy",
-          "score": 0.8966
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · SC Freiburg gewinnt",
-          "probability": 0.4857,
-          "fair_odds": 2.06,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2464,
-          "fair_odds": 4.06,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · SV Werder Bremen gewinnt",
-          "probability": 0.2679,
-          "fair_odds": 3.73,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6079,
-          "fair_odds": 1.64,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3921,
-          "fair_odds": 2.55,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.6184,
-          "fair_odds": 1.62,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.3816,
-          "fair_odds": 2.62,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.5054,
-          "fair_odds": 1.98,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3902,
-          "fair_odds": 2.56,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "SC Freiburg trifft in beiden HZ",
-          "probability": 0.3501,
-          "fair_odds": 2.86,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "SV Werder Bremen trifft in beiden HZ",
-          "probability": 0.2207,
-          "fair_odds": 4.53,
-          "confidence": 0.6276,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:dc780216adb67f179bd2",
-      "league": "Primeira Liga",
-      "model_league": "P1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T14:30:00+00:00",
-      "home_team": "CD Nacional",
-      "away_team": "CF Estrela da Amadora",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "dc780216adb67f179bd2"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.481921+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "CD Nacional",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.8421
-        },
-        "away": {
-          "external": "CF Estrela da Amadora",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.56
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · CD Nacional gewinnt",
-          "probability": 0.4296,
-          "fair_odds": 2.33,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2768,
-          "fair_odds": 3.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · CF Estrela da Amadora gewinnt",
-          "probability": 0.2936,
-          "fair_odds": 3.41,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4959,
-          "fair_odds": 2.02,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5041,
-          "fair_odds": 1.98,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5446,
-          "fair_odds": 1.84,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4554,
-          "fair_odds": 2.2,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4125,
-          "fair_odds": 2.42,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3392,
-          "fair_odds": 2.95,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "CD Nacional trifft in beiden HZ",
-          "probability": 0.2692,
-          "fair_odds": 3.71,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "CF Estrela da Amadora trifft in beiden HZ",
-          "probability": 0.1966,
-          "fair_odds": 5.09,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:26aff77be726cfb3c91d",
-      "league": "Eredivisie",
-      "model_league": "N1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T14:45:00+00:00",
-      "home_team": "Telstar 1963",
-      "away_team": "AFC Ajax",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "26aff77be726cfb3c91d"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.345738+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Telstar 1963",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7368
-        },
-        "away": {
-          "external": "AFC Ajax",
-          "model": "Ajax",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Telstar 1963 gewinnt",
-          "probability": 0.3128,
-          "fair_odds": 3.2,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2499,
-          "fair_odds": 4.0,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · AFC Ajax gewinnt",
-          "probability": 0.4373,
-          "fair_odds": 2.29,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6129,
-          "fair_odds": 1.63,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3871,
-          "fair_odds": 2.58,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.6355,
-          "fair_odds": 1.57,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.3645,
-          "fair_odds": 2.74,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.5223,
-          "fair_odds": 1.91,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.4124,
-          "fair_odds": 2.42,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Telstar 1963 trifft in beiden HZ",
-          "probability": 0.2765,
-          "fair_odds": 3.62,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "AFC Ajax trifft in beiden HZ",
-          "probability": 0.3328,
-          "fair_odds": 3.0,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:04774cfc0804df6a20e8",
-      "league": "La Liga",
-      "model_league": "SP1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T15:00:00+00:00",
-      "home_team": "Real Madrid CF",
-      "away_team": "Málaga CF",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "04774cfc0804df6a20e8"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.854985+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Real Madrid CF",
-          "model": "Real Madrid",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Málaga CF",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5714
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Real Madrid CF gewinnt",
-          "probability": 0.6696,
-          "fair_odds": 1.49,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2003,
-          "fair_odds": 4.99,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Málaga CF gewinnt",
-          "probability": 0.1301,
-          "fair_odds": 7.69,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6046,
-          "fair_odds": 1.65,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3954,
-          "fair_odds": 2.53,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5401,
-          "fair_odds": 1.85,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4599,
-          "fair_odds": 2.17,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4404,
-          "fair_odds": 2.27,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3936,
-          "fair_odds": 2.54,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Real Madrid CF trifft in beiden HZ",
-          "probability": 0.4449,
-          "fair_odds": 2.25,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Málaga CF trifft in beiden HZ",
-          "probability": 0.1262,
-          "fair_odds": 7.92,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:7c6aeb2c9fa733291359",
-      "league": "Ligue 1",
-      "model_league": "F1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T15:15:00+00:00",
-      "home_team": "Stade Rennais FC 1901",
-      "away_team": "Le Mans FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "7c6aeb2c9fa733291359"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.012473+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Stade Rennais FC 1901",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.4286
-        },
-        "away": {
-          "external": "Le Mans FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7273
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Stade Rennais FC 1901 gewinnt",
-          "probability": 0.4253,
-          "fair_odds": 2.35,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2668,
-          "fair_odds": 3.75,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Le Mans FC gewinnt",
-          "probability": 0.3079,
-          "fair_odds": 3.25,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5411,
-          "fair_odds": 1.85,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4589,
-          "fair_odds": 2.18,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5743,
-          "fair_odds": 1.74,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4257,
-          "fair_odds": 2.35,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.455,
-          "fair_odds": 2.2,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3662,
-          "fair_odds": 2.73,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Stade Rennais FC 1901 trifft in beiden HZ",
-          "probability": 0.2998,
-          "fair_odds": 3.34,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Le Mans FC trifft in beiden HZ",
-          "probability": 0.2248,
-          "fair_odds": 4.45,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:fa4dfcda377d97761cd1",
-      "league": "Premier League",
-      "model_league": "E0",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T15:30:00+00:00",
-      "home_team": "Manchester United FC",
-      "away_team": "Ipswich Town FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "fa4dfcda377d97761cd1"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.373337+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Manchester United FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7407
-        },
-        "away": {
-          "external": "Ipswich Town FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7368
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Manchester United FC gewinnt",
-          "probability": 0.4232,
-          "fair_odds": 2.36,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2654,
-          "fair_odds": 3.77,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Ipswich Town FC gewinnt",
-          "probability": 0.3114,
-          "fair_odds": 3.21,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5479,
-          "fair_odds": 1.83,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4521,
-          "fair_odds": 2.21,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5866,
-          "fair_odds": 1.7,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4134,
-          "fair_odds": 2.42,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4616,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3714,
-          "fair_odds": 2.69,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Manchester United FC trifft in beiden HZ",
-          "probability": 0.2919,
-          "fair_odds": 3.43,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Ipswich Town FC trifft in beiden HZ",
-          "probability": 0.2258,
-          "fair_odds": 4.43,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:038547bbd8b29de3d6bb",
-      "league": "Bundesliga",
-      "model_league": "D1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T15:30:00+00:00",
-      "home_team": "FC Augsburg",
-      "away_team": "FC Schalke 04",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "038547bbd8b29de3d6bb"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.681317+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "FC Augsburg",
-          "model": "Augsburg",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "FC Schalke 04",
-          "model": "Schalke 04",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · FC Augsburg gewinnt",
-          "probability": 0.4239,
-          "fair_odds": 2.36,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2698,
-          "fair_odds": 3.71,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · FC Schalke 04 gewinnt",
-          "probability": 0.3063,
-          "fair_odds": 3.26,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5418,
-          "fair_odds": 1.85,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4582,
-          "fair_odds": 2.18,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5713,
-          "fair_odds": 1.75,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4287,
-          "fair_odds": 2.33,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4434,
-          "fair_odds": 2.26,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3575,
-          "fair_odds": 2.8,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "FC Augsburg trifft in beiden HZ",
-          "probability": 0.2767,
-          "fair_odds": 3.61,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "FC Schalke 04 trifft in beiden HZ",
-          "probability": 0.2192,
-          "fair_odds": 4.56,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:a3b027a6b522326adcd4",
-      "league": "Serie A",
-      "model_league": "I1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T16:30:00+00:00",
-      "home_team": "SSC Napoli",
-      "away_team": "Como 1907",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "a3b027a6b522326adcd4"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.178959+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "SSC Napoli",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.75
-        },
-        "away": {
-          "external": "Como 1907",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6154
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · SSC Napoli gewinnt",
-          "probability": 0.3899,
-          "fair_odds": 2.57,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2886,
-          "fair_odds": 3.47,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Como 1907 gewinnt",
-          "probability": 0.3216,
-          "fair_odds": 3.11,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4603,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5397,
-          "fair_odds": 1.85,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.521,
-          "fair_odds": 1.92,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.479,
-          "fair_odds": 2.09,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3834,
-          "fair_odds": 2.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3045,
-          "fair_odds": 3.28,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "SSC Napoli trifft in beiden HZ",
-          "probability": 0.2312,
-          "fair_odds": 4.33,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Como 1907 trifft in beiden HZ",
-          "probability": 0.1971,
-          "fair_odds": 5.07,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:2274b130ec700f69e3d3",
-      "league": "Primeira Liga",
-      "model_league": "P1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T17:00:00+00:00",
-      "home_team": "Casa Pia AC",
-      "away_team": "Moreirense FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "2274b130ec700f69e3d3"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.481921+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Casa Pia AC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.8421
-        },
-        "away": {
-          "external": "Moreirense FC",
-          "model": "Moreirense",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Casa Pia AC gewinnt",
-          "probability": 0.4821,
-          "fair_odds": 2.07,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2728,
-          "fair_odds": 3.67,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Moreirense FC gewinnt",
-          "probability": 0.2451,
-          "fair_odds": 4.08,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4824,
-          "fair_odds": 2.07,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5176,
-          "fair_odds": 1.93,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5216,
-          "fair_odds": 1.92,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4784,
-          "fair_odds": 2.09,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3914,
-          "fair_odds": 2.55,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3161,
-          "fair_odds": 3.16,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Casa Pia AC trifft in beiden HZ",
-          "probability": 0.2819,
-          "fair_odds": 3.55,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Moreirense FC trifft in beiden HZ",
-          "probability": 0.1653,
-          "fair_odds": 6.05,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:c85219280845b05889e7",
-      "league": "La Liga",
-      "model_league": "SP1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T17:30:00+00:00",
-      "home_team": "RC Deportivo La Coruña",
-      "away_team": "Valencia CF",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "c85219280845b05889e7"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.854985+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "RC Deportivo La Coruña",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.4211
-        },
-        "away": {
-          "external": "Valencia CF",
-          "model": "Valencia",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · RC Deportivo La Coruña gewinnt",
-          "probability": 0.4932,
-          "fair_odds": 2.03,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2683,
-          "fair_odds": 3.73,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Valencia CF gewinnt",
-          "probability": 0.2385,
-          "fair_odds": 4.19,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4942,
-          "fair_odds": 2.02,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5058,
-          "fair_odds": 1.98,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5335,
-          "fair_odds": 1.87,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4665,
-          "fair_odds": 2.14,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3999,
-          "fair_odds": 2.5,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3276,
-          "fair_odds": 3.05,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "RC Deportivo La Coruña trifft in beiden HZ",
-          "probability": 0.3024,
-          "fair_odds": 3.31,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Valencia CF trifft in beiden HZ",
-          "probability": 0.1585,
-          "fair_odds": 6.31,
-          "confidence": 0.54,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:ed94a049b25f60d8a0d4",
-      "league": "Eredivisie",
-      "model_league": "N1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T18:00:00+00:00",
-      "home_team": "SC Cambuur-Leeuwarden",
-      "away_team": "FC Twente '65",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "ed94a049b25f60d8a0d4"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.345738+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "SC Cambuur-Leeuwarden",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.56
-        },
-        "away": {
-          "external": "FC Twente '65",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.8
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · SC Cambuur-Leeuwarden gewinnt",
-          "probability": 0.4612,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2501,
-          "fair_odds": 4.0,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · FC Twente '65 gewinnt",
-          "probability": 0.2887,
-          "fair_odds": 3.46,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6008,
-          "fair_odds": 1.66,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3992,
-          "fair_odds": 2.5,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.622,
-          "fair_odds": 1.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.378,
-          "fair_odds": 2.65,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.5074,
-          "fair_odds": 1.97,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.4166,
-          "fair_odds": 2.4,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "SC Cambuur-Leeuwarden trifft in beiden HZ",
-          "probability": 0.3797,
-          "fair_odds": 2.63,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "FC Twente '65 trifft in beiden HZ",
-          "probability": 0.2369,
-          "fair_odds": 4.22,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:ba0f8deadc5a4adb21fa",
-      "league": "Ligue 1",
-      "model_league": "F1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T18:45:00+00:00",
-      "home_team": "AS Monaco FC",
-      "away_team": "Olympique de Marseille",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "ba0f8deadc5a4adb21fa"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.012473+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "AS Monaco FC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.8
-        },
-        "away": {
-          "external": "Olympique de Marseille",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5806
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · AS Monaco FC gewinnt",
-          "probability": 0.4253,
-          "fair_odds": 2.35,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2668,
-          "fair_odds": 3.75,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Olympique de Marseille gewinnt",
-          "probability": 0.3079,
-          "fair_odds": 3.25,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5411,
-          "fair_odds": 1.85,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4589,
-          "fair_odds": 2.18,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5743,
-          "fair_odds": 1.74,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4257,
-          "fair_odds": 2.35,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.455,
-          "fair_odds": 2.2,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3662,
-          "fair_odds": 2.73,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "AS Monaco FC trifft in beiden HZ",
-          "probability": 0.2998,
-          "fair_odds": 3.34,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Olympique de Marseille trifft in beiden HZ",
-          "probability": 0.2248,
-          "fair_odds": 4.45,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:76f2d0c117d301540c9e",
-      "league": "Serie A",
-      "model_league": "I1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T18:45:00+00:00",
-      "home_team": "SS Lazio",
-      "away_team": "Genoa CFC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "76f2d0c117d301540c9e"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.178959+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "SS Lazio",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7692
-        },
-        "away": {
-          "external": "Genoa CFC",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.7143
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · SS Lazio gewinnt",
-          "probability": 0.3899,
-          "fair_odds": 2.57,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2886,
-          "fair_odds": 3.47,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Genoa CFC gewinnt",
-          "probability": 0.3216,
-          "fair_odds": 3.11,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4603,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5397,
-          "fair_odds": 1.85,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.521,
-          "fair_odds": 1.92,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.479,
-          "fair_odds": 2.09,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3834,
-          "fair_odds": 2.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3045,
-          "fair_odds": 3.28,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "SS Lazio trifft in beiden HZ",
-          "probability": 0.2312,
-          "fair_odds": 4.33,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Genoa CFC trifft in beiden HZ",
-          "probability": 0.1971,
-          "fair_odds": 5.07,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:fa2b1f5aee89ef0078fc",
-      "league": "Serie A",
-      "model_league": "I1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T18:45:00+00:00",
-      "home_team": "Cagliari Calcio",
-      "away_team": "FC Internazionale Milano",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "fa2b1f5aee89ef0078fc"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.178959+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Cagliari Calcio",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.6957
-        },
-        "away": {
-          "external": "FC Internazionale Milano",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.4828
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Cagliari Calcio gewinnt",
-          "probability": 0.3899,
-          "fair_odds": 2.57,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2886,
-          "fair_odds": 3.47,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · FC Internazionale Milano gewinnt",
-          "probability": 0.3216,
-          "fair_odds": 3.11,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4603,
-          "fair_odds": 2.17,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5397,
-          "fair_odds": 1.85,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.521,
-          "fair_odds": 1.92,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.479,
-          "fair_odds": 2.09,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3834,
-          "fair_odds": 2.61,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3045,
-          "fair_odds": 3.28,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Cagliari Calcio trifft in beiden HZ",
-          "probability": 0.2312,
-          "fair_odds": 4.33,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "FC Internazionale Milano trifft in beiden HZ",
-          "probability": 0.1971,
-          "fair_odds": 5.07,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:822f249c29f9e2f67805",
-      "league": "La Liga",
-      "model_league": "SP1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T19:30:00+00:00",
-      "home_team": "RC Celta de Vigo",
-      "away_team": "Athletic Club",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "822f249c29f9e2f67805"
-      },
-      "retrieved_at": "2026-08-30T21:22:19.854985+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "RC Celta de Vigo",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5217
-        },
-        "away": {
-          "external": "Athletic Club",
-          "model": null,
-          "method": "unresolved",
-          "score": 0.5333
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · RC Celta de Vigo gewinnt",
-          "probability": 0.4525,
-          "fair_odds": 2.21,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2743,
-          "fair_odds": 3.65,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Athletic Club gewinnt",
-          "probability": 0.2732,
-          "fair_odds": 3.66,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4954,
-          "fair_odds": 2.02,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5046,
-          "fair_odds": 1.98,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5445,
-          "fair_odds": 1.84,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4555,
-          "fair_odds": 2.2,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4088,
-          "fair_odds": 2.45,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3303,
-          "fair_odds": 3.03,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "RC Celta de Vigo trifft in beiden HZ",
-          "probability": 0.281,
-          "fair_odds": 3.56,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Athletic Club trifft in beiden HZ",
-          "probability": 0.1824,
-          "fair_odds": 5.48,
-          "confidence": 0.38,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
-    {
-      "id": "openfootball:8d10e9090b01863802ca",
-      "league": "Primeira Liga",
-      "model_league": "P1",
-      "league_specific_model": true,
-      "kickoff": "2026-08-30T19:30:00+00:00",
-      "home_team": "FC Famalicão",
-      "away_team": "Gil Vicente FC",
-      "status": "scheduled",
-      "sources": [
-        "openfootball"
-      ],
-      "source_ids": {
-        "openfootball": "8d10e9090b01863802ca"
-      },
-      "retrieved_at": "2026-08-30T21:22:20.481921+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "FC Famalicão",
-          "model": "Famalicao",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Gil Vicente FC",
-          "model": "Gil Vicente",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · FC Famalicão gewinnt",
-          "probability": 0.5072,
-          "fair_odds": 1.97,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.291,
-          "fair_odds": 3.44,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Gil Vicente FC gewinnt",
-          "probability": 0.2018,
-          "fair_odds": 4.96,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.3845,
-          "fair_odds": 2.6,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.6155,
-          "fair_odds": 1.62,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.429,
-          "fair_odds": 2.33,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.571,
-          "fair_odds": 1.75,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.2958,
-          "fair_odds": 3.38,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.2677,
-          "fair_odds": 3.74,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "FC Famalicão trifft in beiden HZ",
-          "probability": 0.2441,
-          "fair_odds": 4.1,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Gil Vicente FC trifft in beiden HZ",
-          "probability": 0.11,
-          "fair_odds": 9.09,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false
-        }
-      ]
-    },
     {
       "id": "espn:401874945",
       "league": "Italian Serie A",
@@ -4110,7 +39,7 @@
       "source_ids": {
         "espn": "401874945"
       },
-      "retrieved_at": "2026-08-30T21:22:21.720432+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.717085+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4132,7 +61,7 @@
           "group": "1x2",
           "label": "1 · Lecce gewinnt",
           "probability": 0.2215,
-          "fair_odds": 4.52,
+          "fair_odds": 4.51,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -4157,7 +86,7 @@
           "id": "away_win",
           "group": "1x2",
           "label": "2 · AS Roma gewinnt",
-          "probability": 0.476,
+          "probability": 0.4759,
           "fair_odds": 2.1,
           "confidence": 0.54,
           "readiness": "training",
@@ -4196,7 +125,7 @@
           "id": "btts_yes",
           "group": "btts",
           "label": "Beide Teams treffen · Ja",
-          "probability": 0.4237,
+          "probability": 0.4238,
           "fair_odds": 2.36,
           "confidence": 0.54,
           "readiness": "training",
@@ -4209,7 +138,7 @@
           "id": "btts_no",
           "group": "btts",
           "label": "Beide Teams treffen · Nein",
-          "probability": 0.5763,
+          "probability": 0.5762,
           "fair_odds": 1.74,
           "confidence": 0.54,
           "readiness": "training",
@@ -4248,7 +177,7 @@
           "id": "home_scores_both_halves",
           "group": "halves",
           "label": "Lecce trifft in beiden HZ",
-          "probability": 0.1142,
+          "probability": 0.1143,
           "fair_odds": 8.75,
           "confidence": 0.54,
           "readiness": "training",
@@ -4287,7 +216,7 @@
       "source_ids": {
         "openfootball": "dc7c9921600485883610"
       },
-      "retrieved_at": "2026-08-30T21:22:20.178959+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.491871+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4464,7 +393,7 @@
       "source_ids": {
         "espn": "401883247"
       },
-      "retrieved_at": "2026-08-30T21:22:21.554988+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.506729+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4641,7 +570,7 @@
       "source_ids": {
         "espn": "401882901"
       },
-      "retrieved_at": "2026-08-30T21:22:21.436001+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.437766+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4701,7 +630,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.3776,
+          "probability": 0.3777,
           "fair_odds": 2.65,
           "confidence": 0.7,
           "readiness": "training",
@@ -4714,7 +643,7 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.6224,
+          "probability": 0.6223,
           "fair_odds": 1.61,
           "confidence": 0.7,
           "readiness": "training",
@@ -4753,7 +682,7 @@
           "id": "btts_over_2_5",
           "group": "btts",
           "label": "BTTS + Over 2,5",
-          "probability": 0.3079,
+          "probability": 0.308,
           "fair_odds": 3.25,
           "confidence": 0.7,
           "readiness": "training",
@@ -4818,7 +747,7 @@
       "source_ids": {
         "openfootball": "e79dd1c150e8ac8e22a2"
       },
-      "retrieved_at": "2026-08-30T21:22:19.854985+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.199837+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4969,7 +898,7 @@
           "id": "away_scores_both_halves",
           "group": "halves",
           "label": "Getafe CF trifft in beiden HZ",
-          "probability": 0.1254,
+          "probability": 0.1255,
           "fair_odds": 7.97,
           "confidence": 0.54,
           "readiness": "training",
@@ -4995,7 +924,7 @@
       "source_ids": {
         "espn": "401874970"
       },
-      "retrieved_at": "2026-08-30T21:22:21.720432+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.717085+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5042,7 +971,7 @@
           "id": "away_win",
           "group": "1x2",
           "label": "2 · Bologna gewinnt",
-          "probability": 0.2788,
+          "probability": 0.2789,
           "fair_odds": 3.59,
           "confidence": 0.7,
           "readiness": "training",
@@ -5055,7 +984,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.5119,
+          "probability": 0.5118,
           "fair_odds": 1.95,
           "confidence": 0.7,
           "readiness": "training",
@@ -5068,7 +997,7 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.4881,
+          "probability": 0.4882,
           "fair_odds": 2.05,
           "confidence": 0.7,
           "readiness": "training",
@@ -5133,7 +1062,7 @@
           "id": "home_scores_both_halves",
           "group": "halves",
           "label": "Atalanta trifft in beiden HZ",
-          "probability": 0.281,
+          "probability": 0.2809,
           "fair_odds": 3.56,
           "confidence": 0.7,
           "readiness": "training",
@@ -5172,7 +1101,7 @@
       "source_ids": {
         "espn": "401876770"
       },
-      "retrieved_at": "2026-08-30T21:22:22.273772+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.920643+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5349,7 +1278,7 @@
       "source_ids": {
         "openfootball": "24a8c78694428c59fa37"
       },
-      "retrieved_at": "2026-08-30T21:22:20.178959+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.491871+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5528,7 +1457,7 @@
         "espn": "401879295",
         "openfootball": "b0b54968838124fe755f"
       },
-      "retrieved_at": "2026-08-30T21:22:20.661757+00:00",
+      "retrieved_at": "2026-08-31T00:22:20.694137+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5705,7 +1634,7 @@
       "source_ids": {
         "espn": "401885457"
       },
-      "retrieved_at": "2026-08-30T21:22:22.620982+00:00",
+      "retrieved_at": "2026-08-31T00:22:15.134318+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5726,7 +1655,7 @@
           "id": "home_win",
           "group": "1x2",
           "label": "1 · Benfica gewinnt",
-          "probability": 0.7702,
+          "probability": 0.7701,
           "fair_odds": 1.3,
           "confidence": 0.7,
           "readiness": "training",
@@ -5739,7 +1668,7 @@
           "id": "draw",
           "group": "1x2",
           "label": "X · Unentschieden",
-          "probability": 0.1437,
+          "probability": 0.1438,
           "fair_odds": 6.96,
           "confidence": 0.7,
           "readiness": "training",
@@ -5752,7 +1681,7 @@
           "id": "away_win",
           "group": "1x2",
           "label": "2 · Estoril gewinnt",
-          "probability": 0.0861,
+          "probability": 0.0862,
           "fair_odds": 11.61,
           "confidence": 0.7,
           "readiness": "training",
@@ -5765,7 +1694,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.733,
+          "probability": 0.7329,
           "fair_odds": 1.36,
           "confidence": 0.7,
           "readiness": "training",
@@ -5778,8 +1707,8 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.267,
-          "fair_odds": 3.75,
+          "probability": 0.2671,
+          "fair_odds": 3.74,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -5830,7 +1759,7 @@
           "id": "first_half_over_1_5",
           "group": "halves",
           "label": "1. HZ Over 1,5",
-          "probability": 0.6133,
+          "probability": 0.6132,
           "fair_odds": 1.63,
           "confidence": 0.7,
           "readiness": "training",
@@ -5843,7 +1772,7 @@
           "id": "home_scores_both_halves",
           "group": "halves",
           "label": "Benfica trifft in beiden HZ",
-          "probability": 0.5854,
+          "probability": 0.5853,
           "fair_odds": 1.71,
           "confidence": 0.7,
           "readiness": "training",
@@ -5882,7 +1811,7 @@
       "source_ids": {
         "espn": "401885462"
       },
-      "retrieved_at": "2026-08-30T21:22:22.620982+00:00",
+      "retrieved_at": "2026-08-31T00:22:15.134318+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6059,7 +1988,7 @@
       "source_ids": {
         "openfootball": "da292ce52d5b5a391232"
       },
-      "retrieved_at": "2026-08-30T21:22:20.481921+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.777108+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6236,7 +2165,7 @@
       "source_ids": {
         "openfootball": "ee4e077bd33048d2d0d7"
       },
-      "retrieved_at": "2026-08-30T21:22:20.481921+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.777108+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6413,7 +2342,7 @@
       "source_ids": {
         "espn": "401882903"
       },
-      "retrieved_at": "2026-08-30T21:22:21.436001+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.437766+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6447,8 +2376,8 @@
           "id": "draw",
           "group": "1x2",
           "label": "X · Unentschieden",
-          "probability": 0.1696,
-          "fair_odds": 5.9,
+          "probability": 0.1697,
+          "fair_odds": 5.89,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -6460,8 +2389,8 @@
           "id": "away_win",
           "group": "1x2",
           "label": "2 · Rayo Vallecano gewinnt",
-          "probability": 0.0954,
-          "fair_odds": 10.48,
+          "probability": 0.0955,
+          "fair_odds": 10.47,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -6473,7 +2402,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.6445,
+          "probability": 0.6444,
           "fair_odds": 1.55,
           "confidence": 0.54,
           "readiness": "training",
@@ -6486,7 +2415,7 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.3555,
+          "probability": 0.3556,
           "fair_odds": 2.81,
           "confidence": 0.54,
           "readiness": "training",
@@ -6538,7 +2467,7 @@
           "id": "first_half_over_1_5",
           "group": "halves",
           "label": "1. HZ Over 1,5",
-          "probability": 0.4799,
+          "probability": 0.4798,
           "fair_odds": 2.08,
           "confidence": 0.54,
           "readiness": "training",
@@ -6590,7 +2519,7 @@
       "source_ids": {
         "espn": "401883316"
       },
-      "retrieved_at": "2026-08-30T21:22:21.554988+00:00",
+      "retrieved_at": "2026-08-31T00:22:14.506729+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6767,7 +2696,7 @@
       "source_ids": {
         "openfootball": "dd6464cdd5cc73baff43"
       },
-      "retrieved_at": "2026-08-30T21:22:19.854985+00:00",
+      "retrieved_at": "2026-08-31T00:22:21.199837+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6801,8 +2730,8 @@
           "id": "draw",
           "group": "1x2",
           "label": "X · Unentschieden",
-          "probability": 0.1696,
-          "fair_odds": 5.9,
+          "probability": 0.1697,
+          "fair_odds": 5.89,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -6814,8 +2743,8 @@
           "id": "away_win",
           "group": "1x2",
           "label": "2 · Rayo Vallecano de Madrid gewinnt",
-          "probability": 0.0954,
-          "fair_odds": 10.48,
+          "probability": 0.0955,
+          "fair_odds": 10.47,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -6827,7 +2756,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.6445,
+          "probability": 0.6444,
           "fair_odds": 1.55,
           "confidence": 0.54,
           "readiness": "training",
@@ -6840,7 +2769,7 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.3555,
+          "probability": 0.3556,
           "fair_odds": 2.81,
           "confidence": 0.54,
           "readiness": "training",
@@ -6892,7 +2821,7 @@
           "id": "first_half_over_1_5",
           "group": "halves",
           "label": "1. HZ Over 1,5",
-          "probability": 0.4799,
+          "probability": 0.4798,
           "fair_odds": 2.08,
           "confidence": 0.54,
           "readiness": "training",
@@ -6946,7 +2875,7 @@
         "espn": "401880303",
         "openfootball": "52cd9fd2491c48ae864c"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7125,7 +3054,7 @@
         "espn": "401880302",
         "openfootball": "9567bc19c275767b1f99"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7185,7 +3114,7 @@
           "id": "over_2_5",
           "group": "over_under",
           "label": "Over 2,5 Tore",
-          "probability": 0.3885,
+          "probability": 0.3886,
           "fair_odds": 2.57,
           "confidence": 0.59,
           "readiness": "training",
@@ -7198,7 +3127,7 @@
           "id": "under_2_5",
           "group": "over_under",
           "label": "Under 2,5 Tore",
-          "probability": 0.6115,
+          "probability": 0.6114,
           "fair_odds": 1.64,
           "confidence": 0.59,
           "readiness": "training",
@@ -7304,7 +3233,7 @@
         "espn": "401880301",
         "openfootball": "43a4cb6b6ef5f55bfd85"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7455,7 +3384,7 @@
           "id": "away_scores_both_halves",
           "group": "halves",
           "label": "Bristol City trifft in beiden HZ",
-          "probability": 0.1702,
+          "probability": 0.1703,
           "fair_odds": 5.87,
           "confidence": 0.59,
           "readiness": "training",
@@ -7483,7 +3412,7 @@
         "espn": "401880300",
         "openfootball": "7bde462a1360e993dcac"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7569,7 +3498,7 @@
           "id": "btts_yes",
           "group": "btts",
           "label": "Beide Teams treffen · Ja",
-          "probability": 0.5663,
+          "probability": 0.5662,
           "fair_odds": 1.77,
           "confidence": 0.59,
           "readiness": "training",
@@ -7582,7 +3511,7 @@
           "id": "btts_no",
           "group": "btts",
           "label": "Beide Teams treffen · Nein",
-          "probability": 0.4337,
+          "probability": 0.4338,
           "fair_odds": 2.31,
           "confidence": 0.59,
           "readiness": "training",
@@ -7596,7 +3525,7 @@
           "group": "btts",
           "label": "BTTS + Over 2,5",
           "probability": 0.4357,
-          "fair_odds": 2.29,
+          "fair_odds": 2.3,
           "confidence": 0.59,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -7662,7 +3591,7 @@
         "espn": "401880298",
         "openfootball": "81c9f3aa915bfb0dd29c"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7841,7 +3770,7 @@
         "espn": "401880297",
         "openfootball": "2d933ec2850c7eef8d25"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8020,7 +3949,7 @@
         "espn": "401880304",
         "openfootball": "31ea4877c72862fade4c"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8171,7 +4100,7 @@
           "id": "away_scores_both_halves",
           "group": "halves",
           "label": "Southampton trifft in beiden HZ",
-          "probability": 0.3213,
+          "probability": 0.3212,
           "fair_odds": 3.11,
           "confidence": 0.59,
           "readiness": "training",
@@ -8199,7 +4128,7 @@
         "espn": "401880299",
         "openfootball": "8699d070d368c7bad520"
       },
-      "retrieved_at": "2026-08-30T21:22:27.374328+00:00",
+      "retrieved_at": "2026-08-31T00:22:22.075618+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8360,6 +4289,722 @@
           "recommended": false
         }
       ]
+    },
+    {
+      "id": "espn:401880295",
+      "league": "English League Championship",
+      "model_league": "E1",
+      "league_specific_model": true,
+      "kickoff": "2026-09-02T18:45:00+00:00",
+      "home_team": "Millwall",
+      "away_team": "Wrexham",
+      "status": "STATUS_SCHEDULED",
+      "sources": [
+        "espn",
+        "openfootball"
+      ],
+      "source_ids": {
+        "espn": "401880295",
+        "openfootball": "01beac3597efdb25b470"
+      },
+      "retrieved_at": "2026-08-31T00:22:28.492057+00:00",
+      "stale": false,
+      "team_mapping": {
+        "home": {
+          "external": "Millwall",
+          "model": "Millwall",
+          "method": "exact",
+          "score": 1.0
+        },
+        "away": {
+          "external": "Wrexham",
+          "model": "Wrexham",
+          "method": "exact",
+          "score": 1.0
+        }
+      },
+      "markets": [
+        {
+          "id": "home_win",
+          "group": "1x2",
+          "label": "1 · Millwall gewinnt",
+          "probability": 0.3865,
+          "fair_odds": 2.59,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "draw",
+          "group": "1x2",
+          "label": "X · Unentschieden",
+          "probability": 0.3042,
+          "fair_odds": 3.29,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_win",
+          "group": "1x2",
+          "label": "2 · Wrexham gewinnt",
+          "probability": 0.3093,
+          "fair_odds": 3.23,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "over_2_5",
+          "group": "over_under",
+          "label": "Over 2,5 Tore",
+          "probability": 0.4022,
+          "fair_odds": 2.49,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "paper_test_candidate",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "under_2_5",
+          "group": "over_under",
+          "label": "Under 2,5 Tore",
+          "probability": 0.5978,
+          "fair_odds": 1.67,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "btts_yes",
+          "group": "btts",
+          "label": "Beide Teams treffen · Ja",
+          "probability": 0.4847,
+          "fair_odds": 2.06,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_no",
+          "group": "btts",
+          "label": "Beide Teams treffen · Nein",
+          "probability": 0.5153,
+          "fair_odds": 1.94,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_over_2_5",
+          "group": "btts",
+          "label": "BTTS + Over 2,5",
+          "probability": 0.3315,
+          "fair_odds": 3.02,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "first_half_over_1_5",
+          "group": "halves",
+          "label": "1. HZ Over 1,5",
+          "probability": 0.2157,
+          "fair_odds": 4.64,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "home_scores_both_halves",
+          "group": "halves",
+          "label": "Millwall trifft in beiden HZ",
+          "probability": 0.2045,
+          "fair_odds": 4.89,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_scores_both_halves",
+          "group": "halves",
+          "label": "Wrexham trifft in beiden HZ",
+          "probability": 0.1496,
+          "fair_odds": 6.69,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        }
+      ]
+    },
+    {
+      "id": "espn:401880294",
+      "league": "English League Championship",
+      "model_league": "E1",
+      "league_specific_model": true,
+      "kickoff": "2026-09-02T18:45:00+00:00",
+      "home_team": "Queens Park Rangers",
+      "away_team": "Cardiff City",
+      "status": "STATUS_SCHEDULED",
+      "sources": [
+        "espn",
+        "openfootball"
+      ],
+      "source_ids": {
+        "espn": "401880294",
+        "openfootball": "c786dff71dd3cae5e1ca"
+      },
+      "retrieved_at": "2026-08-31T00:22:28.492057+00:00",
+      "stale": false,
+      "team_mapping": {
+        "home": {
+          "external": "Queens Park Rangers",
+          "model": null,
+          "method": "unresolved",
+          "score": 0.48
+        },
+        "away": {
+          "external": "Cardiff City",
+          "model": null,
+          "method": "unresolved",
+          "score": 0.7368
+        }
+      },
+      "markets": [
+        {
+          "id": "home_win",
+          "group": "1x2",
+          "label": "1 · Queens Park Rangers gewinnt",
+          "probability": 0.4219,
+          "fair_odds": 2.37,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "draw",
+          "group": "1x2",
+          "label": "X · Unentschieden",
+          "probability": 0.2836,
+          "fair_odds": 3.53,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_win",
+          "group": "1x2",
+          "label": "2 · Cardiff City gewinnt",
+          "probability": 0.2945,
+          "fair_odds": 3.4,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "over_2_5",
+          "group": "over_under",
+          "label": "Over 2,5 Tore",
+          "probability": 0.4709,
+          "fair_odds": 2.12,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "paper_test_candidate",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "under_2_5",
+          "group": "over_under",
+          "label": "Under 2,5 Tore",
+          "probability": 0.5291,
+          "fair_odds": 1.89,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "btts_yes",
+          "group": "btts",
+          "label": "Beide Teams treffen · Ja",
+          "probability": 0.5325,
+          "fair_odds": 1.88,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_no",
+          "group": "btts",
+          "label": "Beide Teams treffen · Nein",
+          "probability": 0.4675,
+          "fair_odds": 2.14,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_over_2_5",
+          "group": "btts",
+          "label": "BTTS + Over 2,5",
+          "probability": 0.3904,
+          "fair_odds": 2.56,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "first_half_over_1_5",
+          "group": "halves",
+          "label": "1. HZ Over 1,5",
+          "probability": 0.3338,
+          "fair_odds": 3.0,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "home_scores_both_halves",
+          "group": "halves",
+          "label": "Queens Park Rangers trifft in beiden HZ",
+          "probability": 0.256,
+          "fair_odds": 3.91,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_scores_both_halves",
+          "group": "halves",
+          "label": "Cardiff City trifft in beiden HZ",
+          "probability": 0.1871,
+          "fair_odds": 5.34,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        }
+      ]
+    },
+    {
+      "id": "espn:401880293",
+      "league": "English League Championship",
+      "model_league": "E1",
+      "league_specific_model": true,
+      "kickoff": "2026-09-02T18:45:00+00:00",
+      "home_team": "West Bromwich Albion",
+      "away_team": "Charlton Athletic",
+      "status": "STATUS_SCHEDULED",
+      "sources": [
+        "espn",
+        "openfootball"
+      ],
+      "source_ids": {
+        "espn": "401880293",
+        "openfootball": "cd5b61869841d126e016"
+      },
+      "retrieved_at": "2026-08-31T00:22:28.492057+00:00",
+      "stale": false,
+      "team_mapping": {
+        "home": {
+          "external": "West Bromwich Albion",
+          "model": null,
+          "method": "unresolved",
+          "score": 0.6207
+        },
+        "away": {
+          "external": "Charlton Athletic",
+          "model": null,
+          "method": "unresolved",
+          "score": 0.64
+        }
+      },
+      "markets": [
+        {
+          "id": "home_win",
+          "group": "1x2",
+          "label": "1 · West Bromwich Albion gewinnt",
+          "probability": 0.4219,
+          "fair_odds": 2.37,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "draw",
+          "group": "1x2",
+          "label": "X · Unentschieden",
+          "probability": 0.2836,
+          "fair_odds": 3.53,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_win",
+          "group": "1x2",
+          "label": "2 · Charlton Athletic gewinnt",
+          "probability": 0.2945,
+          "fair_odds": 3.4,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "over_2_5",
+          "group": "over_under",
+          "label": "Over 2,5 Tore",
+          "probability": 0.4709,
+          "fair_odds": 2.12,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "paper_test_candidate",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "under_2_5",
+          "group": "over_under",
+          "label": "Under 2,5 Tore",
+          "probability": 0.5291,
+          "fair_odds": 1.89,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "btts_yes",
+          "group": "btts",
+          "label": "Beide Teams treffen · Ja",
+          "probability": 0.5325,
+          "fair_odds": 1.88,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_no",
+          "group": "btts",
+          "label": "Beide Teams treffen · Nein",
+          "probability": 0.4675,
+          "fair_odds": 2.14,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_over_2_5",
+          "group": "btts",
+          "label": "BTTS + Over 2,5",
+          "probability": 0.3904,
+          "fair_odds": 2.56,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "first_half_over_1_5",
+          "group": "halves",
+          "label": "1. HZ Over 1,5",
+          "probability": 0.3338,
+          "fair_odds": 3.0,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "home_scores_both_halves",
+          "group": "halves",
+          "label": "West Bromwich Albion trifft in beiden HZ",
+          "probability": 0.256,
+          "fair_odds": 3.91,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_scores_both_halves",
+          "group": "halves",
+          "label": "Charlton Athletic trifft in beiden HZ",
+          "probability": 0.1871,
+          "fair_odds": 5.34,
+          "confidence": 0.43,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        }
+      ]
+    },
+    {
+      "id": "espn:401880296",
+      "league": "English League Championship",
+      "model_league": "E1",
+      "league_specific_model": true,
+      "kickoff": "2026-09-02T19:00:00+00:00",
+      "home_team": "Burnley",
+      "away_team": "Middlesbrough",
+      "status": "STATUS_SCHEDULED",
+      "sources": [
+        "espn",
+        "openfootball"
+      ],
+      "source_ids": {
+        "espn": "401880296",
+        "openfootball": "40bb57d17cf1a31c4917"
+      },
+      "retrieved_at": "2026-08-31T00:22:28.492057+00:00",
+      "stale": false,
+      "team_mapping": {
+        "home": {
+          "external": "Burnley",
+          "model": "Burnley",
+          "method": "exact",
+          "score": 1.0
+        },
+        "away": {
+          "external": "Middlesbrough",
+          "model": "Middlesbrough",
+          "method": "exact",
+          "score": 1.0
+        }
+      },
+      "markets": [
+        {
+          "id": "home_win",
+          "group": "1x2",
+          "label": "1 · Burnley gewinnt",
+          "probability": 0.5146,
+          "fair_odds": 1.94,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "draw",
+          "group": "1x2",
+          "label": "X · Unentschieden",
+          "probability": 0.2765,
+          "fair_odds": 3.62,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_win",
+          "group": "1x2",
+          "label": "2 · Middlesbrough gewinnt",
+          "probability": 0.2089,
+          "fair_odds": 4.79,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "over_2_5",
+          "group": "over_under",
+          "label": "Over 2,5 Tore",
+          "probability": 0.4382,
+          "fair_odds": 2.28,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "paper_test_candidate",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "under_2_5",
+          "group": "over_under",
+          "label": "Under 2,5 Tore",
+          "probability": 0.5618,
+          "fair_odds": 1.78,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "btts_yes",
+          "group": "btts",
+          "label": "Beide Teams treffen · Ja",
+          "probability": 0.4838,
+          "fair_odds": 2.07,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_no",
+          "group": "btts",
+          "label": "Beide Teams treffen · Nein",
+          "probability": 0.5162,
+          "fair_odds": 1.94,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": true,
+          "recommended": false
+        },
+        {
+          "id": "btts_over_2_5",
+          "group": "btts",
+          "label": "BTTS + Over 2,5",
+          "probability": 0.3428,
+          "fair_odds": 2.92,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "first_half_over_1_5",
+          "group": "halves",
+          "label": "1. HZ Over 1,5",
+          "probability": 0.3639,
+          "fair_odds": 2.75,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "locked_validation",
+          "tip_status": "locked_model_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "home_scores_both_halves",
+          "group": "halves",
+          "label": "Burnley trifft in beiden HZ",
+          "probability": 0.2874,
+          "fair_odds": 3.48,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        },
+        {
+          "id": "away_scores_both_halves",
+          "group": "halves",
+          "label": "Middlesbrough trifft in beiden HZ",
+          "probability": 0.13,
+          "fair_odds": 7.69,
+          "confidence": 0.75,
+          "readiness": "training",
+          "probability_status": "probability_ready",
+          "tip_status": "locked_no_odds_validation",
+          "calibrated": false,
+          "recommended": false
+        }
+      ]
     }
   ],
   "ai_150_plus": {
@@ -8375,21 +5020,21 @@
   "source_status": {
     "sofascore_fixtures": 0,
     "sofascore_state": "disabled_access_blocked",
-    "espn_fixtures": 18,
+    "espn_fixtures": 22,
     "openligadb_fixtures": 0,
-    "openfootball_fixtures": 38,
+    "openfootball_fixtures": 19,
     "thesportsdb_fixtures": 0,
-    "merged_fixtures": 47,
+    "merged_fixtures": 28,
     "errors": []
   },
   "forecast_window": {
-    "start": "2026-08-30",
-    "end": "2026-09-01",
+    "start": "2026-08-31",
+    "end": "2026-09-02",
     "days": 3
   },
   "training": {
     "matches": 19554,
-    "cutoff_exclusive": "2026-08-30",
+    "cutoff_exclusive": "2026-08-31",
     "future_leakage_guard": true,
     "market_registry": "reports/market_registry_calibrated.json",
     "real_money_approved_markets": 0,
