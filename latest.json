@@ -6,7 +6,7 @@
     "days": 4,
     "timezone": "Europe/Zurich"
   },
-  "generated_at": "2026-09-21T13:18:04.296327+00:00",
+  "generated_at": "2026-09-21T15:29:49.247289+00:00",
   "mode": "training",
   "target_daily_tips": 10,
   "daily_target_reached": false,
@@ -48,46 +48,14 @@
       "rejected_markets": {},
       "reason_codes": [
         "no_upcoming_fixtures",
-        "insufficient_qualified_candidates",
-        "source_data_incomplete"
+        "insufficient_qualified_candidates"
       ],
       "provider_observations": 0,
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
       "source_errors": [],
-      "partial_source_failures": [
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4332"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4394"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4334"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4401"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4337"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-23",
-          "league": "4344"
-        }
-      ]
+      "partial_source_failures": []
     },
     "2026-09-23": {
       "eligible": 0,
@@ -110,38 +78,41 @@
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
-      "source_errors": [
-        "TheSportsDB 2026-09-24: TheSportsDB failed for all 12 requested leagues"
-      ],
+      "source_errors": [],
       "partial_source_failures": [
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
+          "league": "4400"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
           "league": "4332"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4394"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4334"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4401"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4337"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4344"
         }
       ]
@@ -168,38 +139,42 @@
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
       "source_errors": [
-        "TheSportsDB 2026-09-24: TheSportsDB failed for all 12 requested leagues",
         "TheSportsDB 2026-09-25: TheSportsDB failed for all 12 requested leagues"
       ],
       "partial_source_failures": [
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
+          "league": "4400"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
           "league": "4332"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4394"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4334"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4401"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4337"
         },
         {
           "source": "TheSportsDB",
-          "query_date": "2026-09-23",
+          "query_date": "2026-09-24",
           "league": "4344"
         }
       ]
@@ -275,32 +250,37 @@
     "partial_failures": [
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
+        "league": "4400"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
         "league": "4332"
       },
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
         "league": "4394"
       },
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
         "league": "4334"
       },
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
         "league": "4401"
       },
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
         "league": "4337"
       },
       {
         "source": "TheSportsDB",
-        "query_date": "2026-09-23",
+        "query_date": "2026-09-24",
         "league": "4344"
       }
     ],
@@ -322,11 +302,11 @@
       "4337",
       "4344",
       "4394",
+      "4400",
       "4401"
     ],
     "merged_fixtures": 0,
     "errors": [
-      "TheSportsDB 2026-09-24: TheSportsDB failed for all 12 requested leagues",
       "TheSportsDB 2026-09-25: TheSportsDB failed for all 12 requested leagues"
     ]
   },
@@ -355,11 +335,11 @@
   },
   "live_evaluation": {
     "schema_version": 1,
-    "generated_at": "2026-09-21T13:15:55.219175+00:00",
-    "total_predictions": 4623,
+    "generated_at": "2026-09-21T15:27:42.370088+00:00",
+    "total_predictions": 4569,
     "settled_predictions": 4334,
-    "pending_predictions": 289,
-    "excluded_predictions": 932,
+    "pending_predictions": 235,
+    "excluded_predictions": 986,
     "identity_audit": [
       {
         "kept_prediction_id": "espn:401876472:home_win",
@@ -1638,7 +1618,7 @@
     ],
     "excluded_duplicate_or_conflicting_predictions": 182,
     "excluded_late_publications": 22,
-    "excluded_missing_half_time": 717,
+    "excluded_missing_half_time": 771,
     "excluded_missing_final_result": 11,
     "all": {
       "predictions": 4334,
