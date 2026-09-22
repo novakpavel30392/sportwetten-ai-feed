@@ -6,7 +6,7 @@
     "days": 4,
     "timezone": "Europe/Zurich"
   },
-  "generated_at": "2026-09-22T08:37:53.363254+00:00",
+  "generated_at": "2026-09-22T14:06:27.531624+00:00",
   "mode": "training",
   "target_daily_tips": 10,
   "daily_target_reached": false,
@@ -48,14 +48,46 @@
       "rejected_markets": {},
       "reason_codes": [
         "no_upcoming_fixtures",
-        "insufficient_qualified_candidates"
+        "insufficient_qualified_candidates",
+        "source_data_incomplete"
       ],
       "provider_observations": 0,
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
       "source_errors": [],
-      "partial_source_failures": []
+      "partial_source_failures": [
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4332"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4394"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4334"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4401"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4337"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4344"
+        }
+      ]
     },
     "2026-09-24": {
       "eligible": 15,
@@ -77,8 +109,41 @@
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
-      "source_errors": [],
-      "partial_source_failures": []
+      "source_errors": [
+        "TheSportsDB 2026-09-25: TheSportsDB failed for all 12 requested leagues"
+      ],
+      "partial_source_failures": [
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4332"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4394"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4334"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4401"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4337"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4344"
+        }
+      ]
     },
     "2026-09-25": {
       "eligible": 8,
@@ -100,14 +165,49 @@
         "incomplete_model_coverage",
         "market_not_validated",
         "quality_thresholds",
-        "insufficient_qualified_candidates"
+        "insufficient_qualified_candidates",
+        "source_data_incomplete"
       ],
-      "provider_observations": 11,
+      "provider_observations": 10,
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
-      "source_errors": [],
-      "partial_source_failures": []
+      "source_errors": [
+        "TheSportsDB 2026-09-25: TheSportsDB failed for all 12 requested leagues",
+        "TheSportsDB 2026-09-26: TheSportsDB failed for all 12 requested leagues"
+      ],
+      "partial_source_failures": [
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4332"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4394"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4334"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4401"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4337"
+        },
+        {
+          "source": "TheSportsDB",
+          "query_date": "2026-09-24",
+          "league": "4344"
+        }
+      ]
     }
   },
   "eligible_tip_count": 23,
@@ -221,7 +321,7 @@
       "source_ids": {
         "espn": "401861047"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -289,7 +389,7 @@
           "bookmaker_odds": 3.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.4793,
           "confidence": 0.7,
           "readiness": "training",
@@ -308,7 +408,7 @@
           "bookmaker_odds": 2.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.241,
           "confidence": 0.7,
           "readiness": "training",
@@ -327,7 +427,7 @@
           "bookmaker_odds": 2.35,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.3016,
           "confidence": 0.7,
           "readiness": "training",
@@ -508,7 +608,7 @@
       "source_ids": {
         "espn": "401861048"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -636,7 +736,7 @@
           "bookmaker_odds": 1.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1273,
           "confidence": 0.7,
           "readiness": "training",
@@ -655,7 +755,7 @@
           "bookmaker_odds": 4.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.0419,
           "confidence": 0.7,
           "readiness": "training",
@@ -674,7 +774,7 @@
           "bookmaker_odds": 6.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.1509,
           "confidence": 0.7,
           "readiness": "training",
@@ -855,7 +955,7 @@
       "source_ids": {
         "espn": "401861045"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -882,7 +982,7 @@
           "bookmaker_odds": 2.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.0849,
           "confidence": 0.7,
           "readiness": "training",
@@ -901,7 +1001,7 @@
           "bookmaker_odds": 3.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1295,
           "confidence": 0.7,
           "readiness": "training",
@@ -920,7 +1020,7 @@
           "bookmaker_odds": 2.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.2254,
           "confidence": 0.7,
           "readiness": "training",
@@ -939,7 +1039,7 @@
           "bookmaker_odds": 2.35,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.0243,
           "confidence": 0.7,
           "readiness": "training",
@@ -958,7 +1058,7 @@
           "bookmaker_odds": 1.59,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.104,
           "confidence": 0.7,
           "readiness": "training",
@@ -1101,7 +1201,7 @@
       "source_ids": {
         "espn": "401861043"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -1189,7 +1289,7 @@
           "bookmaker_odds": 10.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 2.3722,
           "confidence": 0.7,
           "readiness": "training",
@@ -1208,7 +1308,7 @@
           "bookmaker_odds": 4.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.3884,
           "confidence": 0.7,
           "readiness": "training",
@@ -1227,7 +1327,7 @@
           "bookmaker_odds": 1.29,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.5038,
           "confidence": 0.7,
           "readiness": "training",
@@ -1246,7 +1346,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1076,
           "confidence": 0.7,
           "readiness": "training",
@@ -1265,7 +1365,7 @@
           "bookmaker_odds": 1.71,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.0142,
           "confidence": 0.7,
           "readiness": "training",
@@ -1408,7 +1508,7 @@
       "source_ids": {
         "espn": "401861041"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -1496,7 +1596,7 @@
           "bookmaker_odds": 2.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.3428,
           "confidence": 0.7,
           "readiness": "training",
@@ -1515,7 +1615,7 @@
           "bookmaker_odds": 3.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1647,
           "confidence": 0.7,
           "readiness": "training",
@@ -1534,7 +1634,7 @@
           "bookmaker_odds": 2.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.4954,
           "confidence": 0.7,
           "readiness": "training",
@@ -1715,7 +1815,7 @@
       "source_ids": {
         "espn": "401861046"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -1780,11 +1880,11 @@
           "label": "1 · Norway gewinnt",
           "probability": 0.7007,
           "fair_odds": 1.43,
-          "bookmaker_odds": 1.77,
+          "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
-          "value_edge": 0.2397,
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
+          "value_edge": 0.2197,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -1799,11 +1899,11 @@
           "label": "X · Unentschieden",
           "probability": 0.1725,
           "fair_odds": 5.8,
-          "bookmaker_odds": 3.8,
+          "bookmaker_odds": 3.85,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
-          "value_edge": -0.3445,
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
+          "value_edge": -0.3358,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -1818,11 +1918,11 @@
           "label": "2 · Denmark gewinnt",
           "probability": 0.1268,
           "fair_odds": 7.89,
-          "bookmaker_odds": 3.95,
+          "bookmaker_odds": 4.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
-          "value_edge": -0.4991,
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
+          "value_edge": -0.4928,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -1840,7 +1940,7 @@
           "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.1504,
           "confidence": 0.7,
           "readiness": "training",
@@ -1859,7 +1959,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.2878,
           "confidence": 0.7,
           "readiness": "training",
@@ -2002,7 +2102,7 @@
       "source_ids": {
         "espn": "401861044"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2029,7 +2129,7 @@
           "bookmaker_odds": 1.2,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.2847,
           "confidence": 0.7,
           "readiness": "training",
@@ -2048,7 +2148,7 @@
           "bookmaker_odds": 6.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.2967,
           "confidence": 0.7,
           "readiness": "training",
@@ -2067,7 +2167,7 @@
           "bookmaker_odds": 12.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 1.2531,
           "confidence": 0.7,
           "readiness": "training",
@@ -2083,11 +2183,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5969,
           "fair_odds": 1.68,
-          "bookmaker_odds": 1.56,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
-          "value_edge": -0.0714,
+          "bookmaker_odds": null,
+          "bookmaker": null,
+          "odds_source": null,
+          "odds_retrieved_at": null,
+          "value_edge": null,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -2102,11 +2202,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.4031,
           "fair_odds": 2.48,
-          "bookmaker_odds": 2.4,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
-          "value_edge": -0.0327,
+          "bookmaker_odds": null,
+          "bookmaker": null,
+          "odds_source": null,
+          "odds_retrieved_at": null,
+          "value_edge": null,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -2248,7 +2348,7 @@
       "source_ids": {
         "espn": "401861042"
       },
-      "retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+      "retrieved_at": "2026-09-22T14:05:23.436887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2275,7 +2375,7 @@
           "bookmaker_odds": 2.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.0182,
           "confidence": 0.7,
           "readiness": "training",
@@ -2294,7 +2394,7 @@
           "bookmaker_odds": 3.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1043,
           "confidence": 0.7,
           "readiness": "training",
@@ -2313,7 +2413,7 @@
           "bookmaker_odds": 2.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1597,
           "confidence": 0.7,
           "readiness": "training",
@@ -2332,7 +2432,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": 0.0177,
           "confidence": 0.7,
           "readiness": "training",
@@ -2351,7 +2451,7 @@
           "bookmaker_odds": 1.71,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:48.774311+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:23.436887+00:00",
           "value_edge": -0.1165,
           "confidence": 0.7,
           "readiness": "training",
@@ -2494,7 +2594,7 @@
       "source_ids": {
         "espn": "401861050"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2562,7 +2662,7 @@
           "bookmaker_odds": 1.71,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.339,
           "confidence": 0.7,
           "readiness": "training",
@@ -2581,7 +2681,7 @@
           "bookmaker_odds": 3.55,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.004,
           "confidence": 0.7,
           "readiness": "training",
@@ -2600,7 +2700,7 @@
           "bookmaker_odds": 4.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.4689,
           "confidence": 0.7,
           "readiness": "training",
@@ -2619,7 +2719,7 @@
           "bookmaker_odds": 1.91,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0992,
           "confidence": 0.7,
           "readiness": "training",
@@ -2638,7 +2738,7 @@
           "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0317,
           "confidence": 0.7,
           "readiness": "training",
@@ -2781,7 +2881,7 @@
       "source_ids": {
         "espn": "401861049"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2808,7 +2908,7 @@
           "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0563,
           "confidence": 0.7,
           "readiness": "training",
@@ -2827,7 +2927,7 @@
           "bookmaker_odds": 3.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1758,
           "confidence": 0.7,
           "readiness": "training",
@@ -2846,7 +2946,7 @@
           "bookmaker_odds": 3.9,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.053,
           "confidence": 0.7,
           "readiness": "training",
@@ -2865,7 +2965,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.1184,
           "confidence": 0.7,
           "readiness": "training",
@@ -2884,7 +2984,7 @@
           "bookmaker_odds": 1.77,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.2201,
           "confidence": 0.7,
           "readiness": "training",
@@ -3027,7 +3127,7 @@
       "source_ids": {
         "openligadb": "84813"
       },
-      "retrieved_at": "2026-09-22T08:35:42.669636+00:00",
+      "retrieved_at": "2026-09-22T14:04:19.692504+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3268,14 +3368,12 @@
       "away_team": "Albacete",
       "status": "STATUS_SCHEDULED",
       "sources": [
-        "espn",
-        "thesportsdb"
+        "espn"
       ],
       "source_ids": {
-        "espn": "401883200",
-        "thesportsdb": "2505775"
+        "espn": "401883200"
       },
-      "retrieved_at": "2026-09-22T08:36:54.985898+00:00",
+      "retrieved_at": "2026-09-22T14:05:24.770032+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3323,9 +3421,9 @@
           "bookmaker_odds": 1.51,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:52.353834+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:24.770032+00:00",
           "value_edge": -0.2677,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
           "tip_status": "locked_no_odds_validation",
@@ -3342,9 +3440,9 @@
           "bookmaker_odds": 4.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:52.353834+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:24.770032+00:00",
           "value_edge": 0.1179,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
           "tip_status": "locked_model_validation",
@@ -3361,9 +3459,9 @@
           "bookmaker_odds": 5.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:52.353834+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:24.770032+00:00",
           "value_edge": 0.3436,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
           "tip_status": "locked_no_odds_validation",
@@ -3380,9 +3478,9 @@
           "bookmaker_odds": 1.56,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:52.353834+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:24.770032+00:00",
           "value_edge": -0.1606,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
           "tip_status": "locked_model_validation",
@@ -3399,9 +3497,9 @@
           "bookmaker_odds": 2.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:52.353834+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:24.770032+00:00",
           "value_edge": 0.0358,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
           "tip_status": "locked_model_validation",
@@ -3420,7 +3518,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
           "tip_status": "locked_model_validation",
@@ -3439,7 +3537,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
           "tip_status": "locked_model_validation",
@@ -3458,7 +3556,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
           "tip_status": "locked_model_validation",
@@ -3477,7 +3575,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
           "tip_status": "locked_model_validation",
@@ -3496,7 +3594,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
           "tip_status": "locked_no_odds_validation",
@@ -3515,7 +3613,7 @@
           "odds_source": null,
           "odds_retrieved_at": null,
           "value_edge": null,
-          "confidence": 0.75,
+          "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
           "tip_status": "locked_model_validation",
@@ -3542,7 +3640,7 @@
       "source_ids": {
         "espn": "401861054"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3569,7 +3667,7 @@
           "bookmaker_odds": 2.2,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0623,
           "confidence": 0.7,
           "readiness": "training",
@@ -3588,7 +3686,7 @@
           "bookmaker_odds": 3.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.2398,
           "confidence": 0.7,
           "readiness": "training",
@@ -3604,11 +3702,11 @@
           "label": "2 · Ukraine gewinnt",
           "probability": 0.3324,
           "fair_odds": 3.01,
-          "bookmaker_odds": 3.15,
+          "bookmaker_odds": 3.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
-          "value_edge": 0.0472,
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
+          "value_edge": 0.0306,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -3626,7 +3724,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.2445,
           "confidence": 0.7,
           "readiness": "training",
@@ -3645,7 +3743,7 @@
           "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.316,
           "confidence": 0.7,
           "readiness": "training",
@@ -3788,7 +3886,7 @@
       "source_ids": {
         "espn": "401861052"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3846,7 +3944,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1618,
           "confidence": 0.7,
           "readiness": "training",
@@ -3865,7 +3963,7 @@
           "bookmaker_odds": 3.45,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1682,
           "confidence": 0.7,
           "readiness": "training",
@@ -3884,7 +3982,7 @@
           "bookmaker_odds": 3.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0972,
           "confidence": 0.7,
           "readiness": "training",
@@ -3903,7 +4001,7 @@
           "bookmaker_odds": 1.77,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0838,
           "confidence": 0.7,
           "readiness": "training",
@@ -3919,11 +4017,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.3874,
           "fair_odds": 2.58,
-          "bookmaker_odds": 1.95,
+          "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
-          "value_edge": -0.2437,
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
+          "value_edge": -0.2252,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -4065,7 +4163,7 @@
       "source_ids": {
         "espn": "401861056"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4133,7 +4231,7 @@
           "bookmaker_odds": 1.69,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1951,
           "confidence": 0.7,
           "readiness": "training",
@@ -4152,7 +4250,7 @@
           "bookmaker_odds": 3.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0748,
           "confidence": 0.7,
           "readiness": "training",
@@ -4171,7 +4269,7 @@
           "bookmaker_odds": 4.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.1731,
           "confidence": 0.7,
           "readiness": "training",
@@ -4190,7 +4288,7 @@
           "bookmaker_odds": 1.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0263,
           "confidence": 0.7,
           "readiness": "training",
@@ -4209,7 +4307,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1462,
           "confidence": 0.7,
           "readiness": "training",
@@ -4352,7 +4450,7 @@
       "source_ids": {
         "espn": "401861055"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4379,7 +4477,7 @@
           "bookmaker_odds": 1.62,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1648,
           "confidence": 0.54,
           "readiness": "training",
@@ -4398,7 +4496,7 @@
           "bookmaker_odds": 3.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.0833,
           "confidence": 0.54,
           "readiness": "training",
@@ -4417,7 +4515,7 @@
           "bookmaker_odds": 4.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.1437,
           "confidence": 0.54,
           "readiness": "training",
@@ -4436,7 +4534,7 @@
           "bookmaker_odds": 1.91,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0265,
           "confidence": 0.54,
           "readiness": "training",
@@ -4455,7 +4553,7 @@
           "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1525,
           "confidence": 0.54,
           "readiness": "training",
@@ -4598,7 +4696,7 @@
       "source_ids": {
         "espn": "401861051"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4646,7 +4744,7 @@
           "bookmaker_odds": 1.47,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.3936,
           "confidence": 0.7,
           "readiness": "training",
@@ -4665,7 +4763,7 @@
           "bookmaker_odds": 4.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.1158,
           "confidence": 0.7,
           "readiness": "training",
@@ -4684,7 +4782,7 @@
           "bookmaker_odds": 5.75,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.8782,
           "confidence": 0.7,
           "readiness": "training",
@@ -4703,7 +4801,7 @@
           "bookmaker_odds": 1.61,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.1319,
           "confidence": 0.7,
           "readiness": "training",
@@ -4722,7 +4820,7 @@
           "bookmaker_odds": 2.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0339,
           "confidence": 0.7,
           "readiness": "training",
@@ -4865,7 +4963,7 @@
       "source_ids": {
         "espn": "401861053"
       },
-      "retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+      "retrieved_at": "2026-09-22T14:05:25.420101+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4913,7 +5011,7 @@
           "bookmaker_odds": 6.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 1.3881,
           "confidence": 0.7,
           "readiness": "training",
@@ -4932,7 +5030,7 @@
           "bookmaker_odds": 4.2,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": 0.0928,
           "confidence": 0.7,
           "readiness": "training",
@@ -4951,7 +5049,7 @@
           "bookmaker_odds": 1.45,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-22T08:36:53.032734+00:00",
+          "odds_retrieved_at": "2026-09-22T14:05:25.420101+00:00",
           "value_edge": -0.5028,
           "confidence": 0.7,
           "readiness": "training",
@@ -5180,7 +5278,38 @@
       "2026-09-25",
       "2026-09-26"
     ],
-    "partial_failures": [],
+    "partial_failures": [
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4332"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4394"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4334"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4401"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4337"
+      },
+      {
+        "source": "TheSportsDB",
+        "query_date": "2026-09-24",
+        "league": "4344"
+      }
+    ],
     "kickoff_conflicts": [],
     "sofascore_fixtures": 0,
     "sofascore_state": "disabled_access_blocked",
@@ -5188,14 +5317,24 @@
     "api_football_odds": 0,
     "api_football_state": "not_configured",
     "espn_fixtures": 31,
-    "espn_odds": 130,
+    "espn_odds": 128,
     "openligadb_fixtures": 1,
     "openfootball_fixtures": 0,
-    "thesportsdb_fixtures": 4,
-    "thesportsdb_confirmed_fixtures": 1,
-    "thesportsdb_failed_leagues": [],
+    "thesportsdb_fixtures": 0,
+    "thesportsdb_confirmed_fixtures": 0,
+    "thesportsdb_failed_leagues": [
+      "4332",
+      "4334",
+      "4337",
+      "4344",
+      "4394",
+      "4401"
+    ],
     "merged_fixtures": 18,
-    "errors": []
+    "errors": [
+      "TheSportsDB 2026-09-25: TheSportsDB failed for all 12 requested leagues",
+      "TheSportsDB 2026-09-26: TheSportsDB failed for all 12 requested leagues"
+    ]
   },
   "training": {
     "matches": 31883,
@@ -5222,11 +5361,11 @@
   },
   "live_evaluation": {
     "schema_version": 1,
-    "generated_at": "2026-09-22T08:35:42.812952+00:00",
-    "total_predictions": 4696,
-    "settled_predictions": 4334,
-    "pending_predictions": 362,
-    "excluded_predictions": 1046,
+    "generated_at": "2026-09-22T14:04:19.944597+00:00",
+    "total_predictions": 4729,
+    "settled_predictions": 4444,
+    "pending_predictions": 285,
+    "excluded_predictions": 1013,
     "identity_audit": [
       {
         "kept_prediction_id": "espn:401876472:home_win",
@@ -6230,6 +6369,27 @@
         "reason": "same_fixture_market_first_publication"
       },
       {
+        "kept_prediction_id": "espn:401882859:first_half_over_1_5",
+        "excluded_prediction_ids": [
+          "thesportsdb:2506233:first_half_over_1_5"
+        ],
+        "reason": "same_fixture_market_first_publication"
+      },
+      {
+        "kept_prediction_id": "espn:401882859:home_scores_both_halves",
+        "excluded_prediction_ids": [
+          "thesportsdb:2506233:home_scores_both_halves"
+        ],
+        "reason": "same_fixture_market_first_publication"
+      },
+      {
+        "kept_prediction_id": "espn:401882859:away_scores_both_halves",
+        "excluded_prediction_ids": [
+          "thesportsdb:2506233:away_scores_both_halves"
+        ],
+        "reason": "same_fixture_market_first_publication"
+      },
+      {
         "kept_prediction_id": "espn:401882865:home_win",
         "excluded_prediction_ids": [
           "thesportsdb:2506229:home_win"
@@ -6461,61 +6621,61 @@
         "reason": "same_fixture_market_first_publication"
       }
     ],
-    "excluded_duplicate_or_conflicting_predictions": 176,
+    "excluded_duplicate_or_conflicting_predictions": 179,
     "excluded_late_publications": 22,
-    "excluded_missing_half_time": 837,
+    "excluded_missing_half_time": 801,
     "excluded_missing_final_result": 11,
     "all": {
-      "predictions": 4334,
-      "fixture_ids": 478,
+      "predictions": 4444,
+      "fixture_ids": 479,
       "calibration_bins": [
         {
           "lower": 0.0,
           "upper": 0.1,
-          "predictions": 12,
-          "mean_probability": 0.081142,
+          "predictions": 15,
+          "mean_probability": 0.081687,
           "observed_frequency": 0.0,
-          "gap": -0.081142
+          "gap": -0.081687
         },
         {
           "lower": 0.1,
           "upper": 0.2,
-          "predictions": 178,
-          "mean_probability": 0.166203,
-          "observed_frequency": 0.207865,
-          "gap": 0.041662
+          "predictions": 204,
+          "mean_probability": 0.165543,
+          "observed_frequency": 0.220588,
+          "gap": 0.055045
         },
         {
           "lower": 0.2,
           "upper": 0.3,
-          "predictions": 881,
-          "mean_probability": 0.260136,
-          "observed_frequency": 0.288309,
-          "gap": 0.028173
+          "predictions": 920,
+          "mean_probability": 0.260001,
+          "observed_frequency": 0.281522,
+          "gap": 0.02152
         },
         {
           "lower": 0.3,
           "upper": 0.4,
-          "predictions": 854,
-          "mean_probability": 0.351044,
-          "observed_frequency": 0.380562,
-          "gap": 0.029518
+          "predictions": 875,
+          "mean_probability": 0.350704,
+          "observed_frequency": 0.379429,
+          "gap": 0.028724
         },
         {
           "lower": 0.4,
           "upper": 0.5,
-          "predictions": 1233,
-          "mean_probability": 0.450055,
-          "observed_frequency": 0.450933,
-          "gap": 0.000877
+          "predictions": 1247,
+          "mean_probability": 0.450017,
+          "observed_frequency": 0.453087,
+          "gap": 0.00307
         },
         {
           "lower": 0.5,
           "upper": 0.6,
-          "predictions": 879,
-          "mean_probability": 0.544717,
-          "observed_frequency": 0.539249,
-          "gap": -0.005468
+          "predictions": 884,
+          "mean_probability": 0.544667,
+          "observed_frequency": 0.539593,
+          "gap": -0.005075
         },
         {
           "lower": 0.6,
@@ -6528,10 +6688,10 @@
         {
           "lower": 0.7,
           "upper": 0.8,
-          "predictions": 40,
-          "mean_probability": 0.736365,
-          "observed_frequency": 0.6,
-          "gap": -0.136365
+          "predictions": 42,
+          "mean_probability": 0.73694,
+          "observed_frequency": 0.595238,
+          "gap": -0.141702
         },
         {
           "lower": 0.8,
@@ -6542,14 +6702,14 @@
           "gap": 0.188133
         }
       ],
-      "brier": 0.231313,
-      "accuracy": 0.6117,
+      "brier": 0.230497,
+      "accuracy": 0.6141,
       "roi": -0.0798,
       "roi_bets": 1356
     },
     "daily_tips": {
-      "predictions": 235,
-      "fixture_ids": 183,
+      "predictions": 237,
+      "fixture_ids": 184,
       "calibration_bins": [
         {
           "lower": 0.1,
@@ -6602,20 +6762,20 @@
         {
           "lower": 0.7,
           "upper": 0.8,
-          "predictions": 18,
-          "mean_probability": 0.7407,
-          "observed_frequency": 0.833333,
-          "gap": 0.092633
+          "predictions": 20,
+          "mean_probability": 0.741475,
+          "observed_frequency": 0.8,
+          "gap": 0.058525
         }
       ],
-      "brier": 0.228512,
-      "accuracy": 0.5915,
+      "brier": 0.229552,
+      "accuracy": 0.5907,
       "roi": 0.0074,
       "roi_bets": 107
     },
     "ai_150_plus": {
-      "predictions": 215,
-      "fixture_ids": 175,
+      "predictions": 217,
+      "fixture_ids": 176,
       "calibration_bins": [
         {
           "lower": 0.1,
@@ -6668,79 +6828,79 @@
         {
           "lower": 0.7,
           "upper": 0.8,
-          "predictions": 12,
-          "mean_probability": 0.738633,
-          "observed_frequency": 0.666667,
-          "gap": -0.071967
+          "predictions": 14,
+          "mean_probability": 0.740036,
+          "observed_frequency": 0.642857,
+          "gap": -0.097179
         }
       ],
-      "brier": 0.229091,
-      "accuracy": 0.6186,
+      "brier": 0.230222,
+      "accuracy": 0.6175,
       "roi": -0.0257,
       "roi_bets": 96
     },
     "markets": {
       "away_scores_both_halves": {
-        "predictions": 170,
-        "fixture_ids": 170,
+        "predictions": 204,
+        "fixture_ids": 204,
         "calibration_bins": [
           {
             "lower": 0.0,
             "upper": 0.1,
-            "predictions": 2,
-            "mean_probability": 0.07095,
+            "predictions": 4,
+            "mean_probability": 0.0799,
             "observed_frequency": 0.0,
-            "gap": -0.07095
+            "gap": -0.0799
           },
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 63,
-            "mean_probability": 0.164905,
-            "observed_frequency": 0.253968,
-            "gap": 0.089063
+            "predictions": 78,
+            "mean_probability": 0.164036,
+            "observed_frequency": 0.24359,
+            "gap": 0.079554
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 85,
-            "mean_probability": 0.232859,
-            "observed_frequency": 0.282353,
-            "gap": 0.049494
+            "predictions": 99,
+            "mean_probability": 0.233449,
+            "observed_frequency": 0.272727,
+            "gap": 0.039278
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 18,
-            "mean_probability": 0.334278,
-            "observed_frequency": 0.222222,
-            "gap": -0.112056
+            "predictions": 19,
+            "mean_probability": 0.334342,
+            "observed_frequency": 0.210526,
+            "gap": -0.123816
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 2,
-            "mean_probability": 0.41255,
+            "predictions": 4,
+            "mean_probability": 0.42505,
             "observed_frequency": 0.5,
-            "gap": 0.08745
+            "gap": 0.07495
           }
         ],
-        "brier": 0.195709,
-        "accuracy": 0.7353,
+        "brier": 0.189736,
+        "accuracy": 0.7451,
         "roi": null,
         "roi_bets": 0
       },
       "away_win": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.0,
             "upper": 0.1,
-            "predictions": 8,
-            "mean_probability": 0.082025,
+            "predictions": 9,
+            "mean_probability": 0.081122,
             "observed_frequency": 0.0,
-            "gap": -0.082025
+            "gap": -0.081122
           },
           {
             "lower": 0.1,
@@ -6799,14 +6959,14 @@
             "gap": -0.378567
           }
         ],
-        "brier": 0.216763,
-        "accuracy": 0.6799,
+        "brier": 0.216322,
+        "accuracy": 0.6806,
         "roi": -0.12,
         "roi_bets": 308
       },
       "btts_no": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -6827,10 +6987,10 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 279,
-            "mean_probability": 0.447618,
-            "observed_frequency": 0.397849,
-            "gap": -0.049768
+            "predictions": 280,
+            "mean_probability": 0.447695,
+            "observed_frequency": 0.396429,
+            "gap": -0.051266
           },
           {
             "lower": 0.5,
@@ -6857,14 +7017,14 @@
             "gap": 0.2864
           }
         ],
-        "brier": 0.242036,
-        "accuracy": 0.5669,
+        "brier": 0.24199,
+        "accuracy": 0.5678,
         "roi": null,
         "roi_bets": 0
       },
       "btts_over_2_5": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -6893,10 +7053,10 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 225,
-            "mean_probability": 0.444609,
-            "observed_frequency": 0.524444,
-            "gap": 0.079836
+            "predictions": 226,
+            "mean_probability": 0.444707,
+            "observed_frequency": 0.526549,
+            "gap": 0.081842
           },
           {
             "lower": 0.5,
@@ -6923,14 +7083,14 @@
             "gap": -0.7131
           }
         ],
-        "brier": 0.258925,
-        "accuracy": 0.5,
+        "brier": 0.258978,
+        "accuracy": 0.499,
         "roi": null,
         "roi_bets": 0
       },
       "btts_yes": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -6959,10 +7119,10 @@
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 279,
-            "mean_probability": 0.552382,
-            "observed_frequency": 0.602151,
-            "gap": 0.049768
+            "predictions": 280,
+            "mean_probability": 0.552305,
+            "observed_frequency": 0.603571,
+            "gap": 0.051266
           },
           {
             "lower": 0.6,
@@ -6981,22 +7141,22 @@
             "gap": -0.152071
           }
         ],
-        "brier": 0.242036,
-        "accuracy": 0.5669,
+        "brier": 0.24199,
+        "accuracy": 0.5678,
         "roi": null,
         "roi_bets": 0
       },
       "draw": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 24,
-            "mean_probability": 0.174288,
-            "observed_frequency": 0.166667,
-            "gap": -0.007621
+            "predictions": 25,
+            "mean_probability": 0.17288,
+            "observed_frequency": 0.2,
+            "gap": 0.02712
           },
           {
             "lower": 0.2,
@@ -7015,46 +7175,54 @@
             "gap": 0.025025
           }
         ],
-        "brier": 0.192187,
-        "accuracy": 0.7385,
+        "brier": 0.193333,
+        "accuracy": 0.737,
         "roi": -0.0365,
         "roi_bets": 308
       },
       "first_half_over_1_5": {
-        "predictions": 170,
-        "fixture_ids": 170,
+        "predictions": 204,
+        "fixture_ids": 204,
         "calibration_bins": [
+          {
+            "lower": 0.1,
+            "upper": 0.2,
+            "predictions": 2,
+            "mean_probability": 0.1556,
+            "observed_frequency": 0.5,
+            "gap": 0.3444
+          },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 21,
-            "mean_probability": 0.256348,
-            "observed_frequency": 0.380952,
-            "gap": 0.124605
+            "predictions": 31,
+            "mean_probability": 0.2625,
+            "observed_frequency": 0.322581,
+            "gap": 0.060081
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 105,
-            "mean_probability": 0.350369,
-            "observed_frequency": 0.409524,
-            "gap": 0.059155
+            "predictions": 117,
+            "mean_probability": 0.349887,
+            "observed_frequency": 0.401709,
+            "gap": 0.051822
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 32,
-            "mean_probability": 0.436322,
-            "observed_frequency": 0.5,
-            "gap": 0.063678
+            "predictions": 39,
+            "mean_probability": 0.435787,
+            "observed_frequency": 0.512821,
+            "gap": 0.077033
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 10,
-            "mean_probability": 0.53838,
-            "observed_frequency": 0.3,
-            "gap": -0.23838
+            "predictions": 13,
+            "mean_probability": 0.534838,
+            "observed_frequency": 0.384615,
+            "gap": -0.150223
           },
           {
             "lower": 0.6,
@@ -7065,14 +7233,14 @@
             "gap": -0.12675
           }
         ],
-        "brier": 0.248777,
-        "accuracy": 0.5588,
+        "brier": 0.245468,
+        "accuracy": 0.5735,
         "roi": null,
         "roi_bets": 0
       },
       "home_scores_both_halves": {
-        "predictions": 170,
-        "fixture_ids": 170,
+        "predictions": 204,
+        "fixture_ids": 204,
         "calibration_bins": [
           {
             "lower": 0.0,
@@ -7085,52 +7253,52 @@
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 17,
-            "mean_probability": 0.161094,
-            "observed_frequency": 0.235294,
-            "gap": 0.0742
+            "predictions": 25,
+            "mean_probability": 0.162764,
+            "observed_frequency": 0.28,
+            "gap": 0.117236
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 95,
-            "mean_probability": 0.261297,
-            "observed_frequency": 0.210526,
-            "gap": -0.050771
+            "predictions": 109,
+            "mean_probability": 0.261302,
+            "observed_frequency": 0.183486,
+            "gap": -0.077816
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 47,
-            "mean_probability": 0.345709,
-            "observed_frequency": 0.361702,
-            "gap": 0.015994
+            "predictions": 55,
+            "mean_probability": 0.342536,
+            "observed_frequency": 0.363636,
+            "gap": 0.0211
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 9,
-            "mean_probability": 0.444344,
-            "observed_frequency": 0.444444,
-            "gap": 0.0001
+            "predictions": 12,
+            "mean_probability": 0.450617,
+            "observed_frequency": 0.583333,
+            "gap": 0.132717
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 1,
-            "mean_probability": 0.5019,
+            "predictions": 2,
+            "mean_probability": 0.5409,
             "observed_frequency": 0.0,
-            "gap": -0.5019
+            "gap": -0.5409
           }
         ],
-        "brier": 0.192751,
-        "accuracy": 0.7294,
+        "brier": 0.191696,
+        "accuracy": 0.7255,
         "roi": null,
         "roi_bets": 0
       },
       "home_win": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.0,
@@ -7191,10 +7359,10 @@
           {
             "lower": 0.7,
             "upper": 0.8,
-            "predictions": 9,
-            "mean_probability": 0.746011,
-            "observed_frequency": 0.777778,
-            "gap": 0.031767
+            "predictions": 10,
+            "mean_probability": 0.75011,
+            "observed_frequency": 0.7,
+            "gap": -0.05011
           },
           {
             "lower": 0.8,
@@ -7205,14 +7373,14 @@
             "gap": 0.1757
           }
         ],
-        "brier": 0.233126,
-        "accuracy": 0.6276,
+        "brier": 0.233933,
+        "accuracy": 0.6263,
         "roi": -0.0838,
         "roi_bets": 308
       },
       "over_2_5": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -7257,10 +7425,10 @@
           {
             "lower": 0.7,
             "upper": 0.8,
-            "predictions": 17,
-            "mean_probability": 0.741959,
-            "observed_frequency": 0.588235,
-            "gap": -0.153724
+            "predictions": 18,
+            "mean_probability": 0.740178,
+            "observed_frequency": 0.611111,
+            "gap": -0.129067
           },
           {
             "lower": 0.8,
@@ -7271,14 +7439,14 @@
             "gap": 0.19435
           }
         ],
-        "brier": 0.242799,
-        "accuracy": 0.5732,
+        "brier": 0.242467,
+        "accuracy": 0.5741,
         "roi": 0.0426,
         "roi_bets": 216
       },
       "under_2_5": {
-        "predictions": 478,
-        "fixture_ids": 478,
+        "predictions": 479,
+        "fixture_ids": 479,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -7291,10 +7459,10 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 17,
-            "mean_probability": 0.258041,
-            "observed_frequency": 0.411765,
-            "gap": 0.153724
+            "predictions": 18,
+            "mean_probability": 0.259822,
+            "observed_frequency": 0.388889,
+            "gap": 0.129067
           },
           {
             "lower": 0.3,
@@ -7337,8 +7505,8 @@
             "gap": -0.25015
           }
         ],
-        "brier": 0.242799,
-        "accuracy": 0.5732,
+        "brier": 0.242467,
+        "accuracy": 0.5741,
         "roi": -0.2008,
         "roi_bets": 216
       }
@@ -7559,7 +7727,7 @@
         "roi_bets": 45
       },
       "Championship": {
-        "predictions": 472,
+        "predictions": 508,
         "fixture_ids": 47,
         "calibration_bins": [
           {
@@ -7573,42 +7741,42 @@
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 30,
-            "mean_probability": 0.160457,
-            "observed_frequency": 0.266667,
-            "gap": 0.10621
+            "predictions": 43,
+            "mean_probability": 0.162835,
+            "observed_frequency": 0.302326,
+            "gap": 0.139491
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 109,
-            "mean_probability": 0.26354,
-            "observed_frequency": 0.266055,
-            "gap": 0.002515
+            "predictions": 121,
+            "mean_probability": 0.263479,
+            "observed_frequency": 0.264463,
+            "gap": 0.000984
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 111,
-            "mean_probability": 0.350212,
-            "observed_frequency": 0.459459,
-            "gap": 0.109248
+            "predictions": 117,
+            "mean_probability": 0.349315,
+            "observed_frequency": 0.461538,
+            "gap": 0.112223
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 116,
-            "mean_probability": 0.4526,
-            "observed_frequency": 0.517241,
-            "gap": 0.064641
+            "predictions": 120,
+            "mean_probability": 0.451631,
+            "observed_frequency": 0.508333,
+            "gap": 0.056702
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 85,
-            "mean_probability": 0.543135,
-            "observed_frequency": 0.435294,
-            "gap": -0.107841
+            "predictions": 86,
+            "mean_probability": 0.543069,
+            "observed_frequency": 0.430233,
+            "gap": -0.112836
           },
           {
             "lower": 0.6,
@@ -7627,46 +7795,46 @@
             "gap": -0.22035
           }
         ],
-        "brier": 0.241106,
-        "accuracy": 0.5614,
+        "brier": 0.241416,
+        "accuracy": 0.5669,
         "roi": -0.0732,
         "roi_bets": 98
       },
       "Eredivisie": {
-        "predictions": 296,
+        "predictions": 305,
         "fixture_ids": 34,
         "calibration_bins": [
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 19,
-            "mean_probability": 0.162279,
-            "observed_frequency": 0.210526,
-            "gap": 0.048247
+            "predictions": 20,
+            "mean_probability": 0.163435,
+            "observed_frequency": 0.2,
+            "gap": 0.036565
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 52,
-            "mean_probability": 0.246154,
-            "observed_frequency": 0.346154,
-            "gap": 0.1
+            "predictions": 55,
+            "mean_probability": 0.246187,
+            "observed_frequency": 0.345455,
+            "gap": 0.099267
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 59,
-            "mean_probability": 0.354558,
-            "observed_frequency": 0.372881,
-            "gap": 0.018324
+            "predictions": 60,
+            "mean_probability": 0.353767,
+            "observed_frequency": 0.383333,
+            "gap": 0.029567
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 63,
-            "mean_probability": 0.446937,
-            "observed_frequency": 0.365079,
-            "gap": -0.081857
+            "predictions": 67,
+            "mean_probability": 0.447425,
+            "observed_frequency": 0.402985,
+            "gap": -0.04444
           },
           {
             "lower": 0.5,
@@ -7693,54 +7861,54 @@
             "gap": 0.119743
           }
         ],
-        "brier": 0.228456,
-        "accuracy": 0.6486,
+        "brier": 0.22977,
+        "accuracy": 0.6393,
         "roi": 0.038,
         "roi_bets": 74
       },
       "La Liga": {
-        "predictions": 372,
+        "predictions": 381,
         "fixture_ids": 42,
         "calibration_bins": [
           {
             "lower": 0.0,
             "upper": 0.1,
-            "predictions": 2,
-            "mean_probability": 0.08615,
+            "predictions": 3,
+            "mean_probability": 0.084633,
             "observed_frequency": 0.0,
-            "gap": -0.08615
+            "gap": -0.084633
           },
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 28,
-            "mean_probability": 0.170071,
-            "observed_frequency": 0.107143,
-            "gap": -0.062929
+            "predictions": 29,
+            "mean_probability": 0.169479,
+            "observed_frequency": 0.103448,
+            "gap": -0.066031
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 66,
-            "mean_probability": 0.25967,
-            "observed_frequency": 0.30303,
-            "gap": 0.043361
+            "predictions": 70,
+            "mean_probability": 0.258523,
+            "observed_frequency": 0.285714,
+            "gap": 0.027191
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 67,
-            "mean_probability": 0.352909,
-            "observed_frequency": 0.238806,
-            "gap": -0.114103
+            "predictions": 68,
+            "mean_probability": 0.35285,
+            "observed_frequency": 0.235294,
+            "gap": -0.117556
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 99,
-            "mean_probability": 0.454548,
-            "observed_frequency": 0.515152,
-            "gap": 0.060603
+            "predictions": 101,
+            "mean_probability": 0.454264,
+            "observed_frequency": 0.524752,
+            "gap": 0.070488
           },
           {
             "lower": 0.5,
@@ -7767,8 +7935,8 @@
             "gap": 0.267733
           }
         ],
-        "brier": 0.213384,
-        "accuracy": 0.6398,
+        "brier": 0.21099,
+        "accuracy": 0.643,
         "roi": -0.1394,
         "roi_bets": 144
       },
@@ -7839,32 +8007,32 @@
         "roi_bets": 119
       },
       "Ligue 1": {
-        "predictions": 253,
+        "predictions": 262,
         "fixture_ids": 29,
         "calibration_bins": [
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 4,
-            "mean_probability": 0.16945,
-            "observed_frequency": 0.75,
-            "gap": 0.58055
+            "predictions": 6,
+            "mean_probability": 0.174917,
+            "observed_frequency": 0.5,
+            "gap": 0.325083
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 49,
-            "mean_probability": 0.25988,
-            "observed_frequency": 0.244898,
-            "gap": -0.014982
+            "predictions": 51,
+            "mean_probability": 0.258618,
+            "observed_frequency": 0.235294,
+            "gap": -0.023324
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 52,
-            "mean_probability": 0.348933,
-            "observed_frequency": 0.384615,
-            "gap": 0.035683
+            "predictions": 57,
+            "mean_probability": 0.347167,
+            "observed_frequency": 0.368421,
+            "gap": 0.021254
           },
           {
             "lower": 0.4,
@@ -7891,8 +8059,8 @@
             "gap": -0.062007
           }
         ],
-        "brier": 0.235482,
-        "accuracy": 0.585,
+        "brier": 0.231541,
+        "accuracy": 0.5954,
         "roi": -0.1125,
         "roi_bets": 95
       },
@@ -7963,48 +8131,48 @@
         "roi_bets": 85
       },
       "Premier League": {
-        "predictions": 288,
+        "predictions": 315,
         "fixture_ids": 30,
         "calibration_bins": [
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 12,
-            "mean_probability": 0.166317,
-            "observed_frequency": 0.166667,
-            "gap": 0.00035
+            "predictions": 15,
+            "mean_probability": 0.159213,
+            "observed_frequency": 0.266667,
+            "gap": 0.107453
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 64,
-            "mean_probability": 0.263398,
-            "observed_frequency": 0.359375,
-            "gap": 0.095977
+            "predictions": 78,
+            "mean_probability": 0.262356,
+            "observed_frequency": 0.307692,
+            "gap": 0.045336
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 59,
-            "mean_probability": 0.358722,
-            "observed_frequency": 0.338983,
-            "gap": -0.019739
+            "predictions": 66,
+            "mean_probability": 0.357891,
+            "observed_frequency": 0.333333,
+            "gap": -0.024558
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 84,
-            "mean_probability": 0.448881,
-            "observed_frequency": 0.47619,
-            "gap": 0.02731
+            "predictions": 86,
+            "mean_probability": 0.44916,
+            "observed_frequency": 0.476744,
+            "gap": 0.027584
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 54,
-            "mean_probability": 0.54752,
-            "observed_frequency": 0.481481,
-            "gap": -0.066039
+            "predictions": 55,
+            "mean_probability": 0.546849,
+            "observed_frequency": 0.490909,
+            "gap": -0.05594
           },
           {
             "lower": 0.6,
@@ -8015,38 +8183,38 @@
             "gap": -0.031293
           }
         ],
-        "brier": 0.23763,
-        "accuracy": 0.5868,
+        "brier": 0.233608,
+        "accuracy": 0.6032,
         "roi": 0.0012,
         "roi_bets": 98
       },
       "Primeira Liga": {
-        "predictions": 299,
-        "fixture_ids": 34,
+        "predictions": 316,
+        "fixture_ids": 35,
         "calibration_bins": [
           {
             "lower": 0.0,
             "upper": 0.1,
-            "predictions": 6,
-            "mean_probability": 0.077783,
+            "predictions": 8,
+            "mean_probability": 0.079587,
             "observed_frequency": 0.0,
-            "gap": -0.077783
+            "gap": -0.079587
           },
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 16,
-            "mean_probability": 0.174175,
-            "observed_frequency": 0.1875,
-            "gap": 0.013325
+            "predictions": 21,
+            "mean_probability": 0.168762,
+            "observed_frequency": 0.190476,
+            "gap": 0.021714
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 51,
-            "mean_probability": 0.261771,
-            "observed_frequency": 0.313725,
-            "gap": 0.051955
+            "predictions": 54,
+            "mean_probability": 0.263333,
+            "observed_frequency": 0.296296,
+            "gap": 0.032963
           },
           {
             "lower": 0.3,
@@ -8059,18 +8227,18 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 90,
-            "mean_probability": 0.454379,
-            "observed_frequency": 0.477778,
-            "gap": 0.023399
+            "predictions": 92,
+            "mean_probability": 0.454675,
+            "observed_frequency": 0.478261,
+            "gap": 0.023586
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 68,
-            "mean_probability": 0.5375,
-            "observed_frequency": 0.455882,
-            "gap": -0.081618
+            "predictions": 71,
+            "mean_probability": 0.537772,
+            "observed_frequency": 0.464789,
+            "gap": -0.072983
           },
           {
             "lower": 0.6,
@@ -8083,44 +8251,44 @@
           {
             "lower": 0.7,
             "upper": 0.8,
-            "predictions": 5,
-            "mean_probability": 0.73238,
-            "observed_frequency": 0.8,
-            "gap": 0.06762
+            "predictions": 7,
+            "mean_probability": 0.736971,
+            "observed_frequency": 0.714286,
+            "gap": -0.022686
           }
         ],
-        "brier": 0.23948,
-        "accuracy": 0.5652,
+        "brier": 0.236403,
+        "accuracy": 0.5759,
         "roi": -0.0076,
         "roi_bets": 104
       },
       "Serie A": {
-        "predictions": 285,
+        "predictions": 288,
         "fixture_ids": 33,
         "calibration_bins": [
           {
             "lower": 0.1,
             "upper": 0.2,
-            "predictions": 12,
-            "mean_probability": 0.170908,
-            "observed_frequency": 0.25,
-            "gap": 0.079092
+            "predictions": 13,
+            "mean_probability": 0.168438,
+            "observed_frequency": 0.230769,
+            "gap": 0.062331
           },
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 60,
-            "mean_probability": 0.265975,
-            "observed_frequency": 0.333333,
-            "gap": 0.067358
+            "predictions": 61,
+            "mean_probability": 0.26549,
+            "observed_frequency": 0.327869,
+            "gap": 0.062379
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 61,
-            "mean_probability": 0.348318,
-            "observed_frequency": 0.442623,
-            "gap": 0.094305
+            "predictions": 62,
+            "mean_probability": 0.347897,
+            "observed_frequency": 0.435484,
+            "gap": 0.087587
           },
           {
             "lower": 0.4,
@@ -8147,8 +8315,8 @@
             "gap": -0.097462
           }
         ],
-        "brier": 0.244184,
-        "accuracy": 0.5579,
+        "brier": 0.242262,
+        "accuracy": 0.5625,
         "roi": -0.0586,
         "roi_bets": 124
       },
@@ -9650,8 +9818,8 @@
       },
       "Championship": {
         "away_scores_both_halves": {
-          "predictions": 32,
-          "fixture_ids": 32,
+          "predictions": 44,
+          "fixture_ids": 44,
           "calibration_bins": [
             {
               "lower": 0.0,
@@ -9664,18 +9832,18 @@
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 23,
-              "mean_probability": 0.159039,
-              "observed_frequency": 0.217391,
-              "gap": 0.058352
+              "predictions": 31,
+              "mean_probability": 0.160958,
+              "observed_frequency": 0.225806,
+              "gap": 0.064848
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 5,
-              "mean_probability": 0.24066,
-              "observed_frequency": 0.0,
-              "gap": -0.24066
+              "predictions": 8,
+              "mean_probability": 0.235937,
+              "observed_frequency": 0.125,
+              "gap": -0.110937
             },
             {
               "lower": 0.3,
@@ -9684,10 +9852,18 @@
               "mean_probability": 0.323367,
               "observed_frequency": 0.0,
               "gap": -0.323367
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "predictions": 1,
+              "mean_probability": 0.428,
+              "observed_frequency": 0.0,
+              "gap": -0.428
             }
           ],
-          "brier": 0.145808,
-          "accuracy": 0.8438,
+          "brier": 0.159888,
+          "accuracy": 0.8182,
           "roi": null,
           "roi_bets": 0
         },
@@ -9894,78 +10070,86 @@
           "roi_bets": 20
         },
         "first_half_over_1_5": {
-          "predictions": 32,
-          "fixture_ids": 32,
+          "predictions": 44,
+          "fixture_ids": 44,
           "calibration_bins": [
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "predictions": 1,
+              "mean_probability": 0.1573,
+              "observed_frequency": 1.0,
+              "gap": 0.8427
+            },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 7,
-              "mean_probability": 0.245957,
-              "observed_frequency": 0.285714,
-              "gap": 0.039757
+              "predictions": 11,
+              "mean_probability": 0.258518,
+              "observed_frequency": 0.363636,
+              "gap": 0.105118
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 20,
-              "mean_probability": 0.345965,
-              "observed_frequency": 0.55,
-              "gap": 0.204035
+              "predictions": 23,
+              "mean_probability": 0.344626,
+              "observed_frequency": 0.521739,
+              "gap": 0.177113
             },
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 3,
-              "mean_probability": 0.418633,
+              "predictions": 6,
+              "mean_probability": 0.420333,
               "observed_frequency": 0.333333,
-              "gap": -0.0853
+              "gap": -0.087
             },
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 2,
-              "mean_probability": 0.5631,
+              "predictions": 3,
+              "mean_probability": 0.554533,
               "observed_frequency": 0.0,
-              "gap": -0.5631
+              "gap": -0.554533
             }
           ],
-          "brier": 0.266785,
+          "brier": 0.275447,
           "accuracy": 0.5,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 32,
-          "fixture_ids": 32,
+          "predictions": 44,
+          "fixture_ids": 44,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 4,
-              "mean_probability": 0.1587,
+              "predictions": 8,
+              "mean_probability": 0.166738,
               "observed_frequency": 0.5,
-              "gap": 0.3413
+              "gap": 0.333263
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 24,
-              "mean_probability": 0.249254,
-              "observed_frequency": 0.208333,
-              "gap": -0.040921
+              "predictions": 29,
+              "mean_probability": 0.25279,
+              "observed_frequency": 0.172414,
+              "gap": -0.080376
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 4,
-              "mean_probability": 0.35455,
-              "observed_frequency": 0.5,
-              "gap": 0.14545
+              "predictions": 7,
+              "mean_probability": 0.343929,
+              "observed_frequency": 0.571429,
+              "gap": 0.2275
             }
           ],
-          "brier": 0.202482,
-          "accuracy": 0.7188,
+          "brier": 0.212839,
+          "accuracy": 0.7045,
           "roi": null,
           "roi_bets": 0
         },
@@ -10114,24 +10298,24 @@
       },
       "Eredivisie": {
         "away_scores_both_halves": {
-          "predictions": 8,
-          "fixture_ids": 8,
+          "predictions": 11,
+          "fixture_ids": 11,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 1,
-              "mean_probability": 0.1708,
-              "observed_frequency": 1.0,
-              "gap": 0.8292
+              "predictions": 2,
+              "mean_probability": 0.1781,
+              "observed_frequency": 0.5,
+              "gap": 0.3219
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 6,
-              "mean_probability": 0.244067,
-              "observed_frequency": 0.666667,
-              "gap": 0.4226
+              "predictions": 8,
+              "mean_probability": 0.238537,
+              "observed_frequency": 0.625,
+              "gap": 0.386463
             },
             {
               "lower": 0.3,
@@ -10142,8 +10326,8 @@
               "gap": 0.6365
             }
           ],
-          "brier": 0.4311,
-          "accuracy": 0.25,
+          "brier": 0.37705,
+          "accuracy": 0.3636,
           "roi": null,
           "roi_bets": 0
         },
@@ -10342,34 +10526,34 @@
           "roi_bets": 24
         },
         "first_half_over_1_5": {
-          "predictions": 8,
-          "fixture_ids": 8,
+          "predictions": 11,
+          "fixture_ids": 11,
           "calibration_bins": [
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 2,
-              "mean_probability": 0.35525,
+              "predictions": 3,
+              "mean_probability": 0.3392,
               "observed_frequency": 1.0,
-              "gap": 0.64475
+              "gap": 0.6608
             },
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 6,
-              "mean_probability": 0.44025,
-              "observed_frequency": 0.666667,
-              "gap": 0.226417
+              "predictions": 8,
+              "mean_probability": 0.437812,
+              "observed_frequency": 0.75,
+              "gap": 0.312188
             }
           ],
-          "brier": 0.315434,
-          "accuracy": 0.25,
+          "brier": 0.332022,
+          "accuracy": 0.1818,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 8,
-          "fixture_ids": 8,
+          "predictions": 11,
+          "fixture_ids": 11,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -10382,10 +10566,10 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 1,
-              "mean_probability": 0.2713,
-              "observed_frequency": 1.0,
-              "gap": 0.7287
+              "predictions": 2,
+              "mean_probability": 0.28385,
+              "observed_frequency": 0.5,
+              "gap": 0.21615
             },
             {
               "lower": 0.3,
@@ -10398,14 +10582,14 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 2,
-              "mean_probability": 0.4759,
-              "observed_frequency": 0.0,
-              "gap": -0.4759
+              "predictions": 4,
+              "mean_probability": 0.477825,
+              "observed_frequency": 0.5,
+              "gap": 0.022175
             }
           ],
-          "brier": 0.195828,
-          "accuracy": 0.875,
+          "brier": 0.199619,
+          "accuracy": 0.7273,
           "roi": null,
           "roi_bets": 0
         },
@@ -10546,9 +10730,17 @@
       },
       "La Liga": {
         "away_scores_both_halves": {
-          "predictions": 12,
-          "fixture_ids": 12,
+          "predictions": 15,
+          "fixture_ids": 15,
           "calibration_bins": [
+            {
+              "lower": 0.0,
+              "upper": 0.1,
+              "predictions": 1,
+              "mean_probability": 0.0816,
+              "observed_frequency": 0.0,
+              "gap": -0.0816
+            },
             {
               "lower": 0.1,
               "upper": 0.2,
@@ -10560,10 +10752,10 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 1,
-              "mean_probability": 0.2256,
-              "observed_frequency": 1.0,
-              "gap": 0.7744
+              "predictions": 2,
+              "mean_probability": 0.23305,
+              "observed_frequency": 0.5,
+              "gap": 0.26695
             },
             {
               "lower": 0.3,
@@ -10572,9 +10764,17 @@
               "mean_probability": 0.322933,
               "observed_frequency": 0.666667,
               "gap": 0.343733
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "predictions": 1,
+              "mean_probability": 0.4471,
+              "observed_frequency": 1.0,
+              "gap": 0.5529
             }
           ],
-          "brier": 0.200857,
+          "brier": 0.185365,
           "accuracy": 0.6667,
           "roi": null,
           "roi_bets": 0
@@ -10806,32 +11006,32 @@
           "roi_bets": 33
         },
         "first_half_over_1_5": {
-          "predictions": 12,
-          "fixture_ids": 12,
+          "predictions": 15,
+          "fixture_ids": 15,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 2,
-              "mean_probability": 0.22925,
-              "observed_frequency": 0.5,
-              "gap": 0.27075
+              "predictions": 3,
+              "mean_probability": 0.232133,
+              "observed_frequency": 0.333333,
+              "gap": 0.1012
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 8,
-              "mean_probability": 0.354137,
-              "observed_frequency": 0.25,
-              "gap": -0.104137
+              "predictions": 9,
+              "mean_probability": 0.353556,
+              "observed_frequency": 0.222222,
+              "gap": -0.131333
             },
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 1,
-              "mean_probability": 0.4371,
+              "predictions": 2,
+              "mean_probability": 0.4352,
               "observed_frequency": 1.0,
-              "gap": 0.5629
+              "gap": 0.5648
             },
             {
               "lower": 0.5,
@@ -10842,30 +11042,30 @@
               "gap": 0.4715
             }
           ],
-          "brier": 0.226872,
+          "brier": 0.214796,
           "accuracy": 0.6667,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 12,
-          "fixture_ids": 12,
+          "predictions": 15,
+          "fixture_ids": 15,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 4,
-              "mean_probability": 0.16005,
+              "predictions": 5,
+              "mean_probability": 0.15862,
               "observed_frequency": 0.0,
-              "gap": -0.16005
+              "gap": -0.15862
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 4,
-              "mean_probability": 0.264075,
-              "observed_frequency": 0.25,
-              "gap": -0.014075
+              "predictions": 6,
+              "mean_probability": 0.25605,
+              "observed_frequency": 0.166667,
+              "gap": -0.089383
             },
             {
               "lower": 0.3,
@@ -10884,8 +11084,8 @@
               "gap": 0.5556
             }
           ],
-          "brier": 0.123835,
-          "accuracy": 0.8333,
+          "brier": 0.108312,
+          "accuracy": 0.8667,
           "roi": null,
           "roi_bets": 0
         },
@@ -11396,16 +11596,16 @@
       },
       "Ligue 1": {
         "away_scores_both_halves": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 10,
+          "fixture_ids": 10,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 2,
-              "mean_probability": 0.15525,
-              "observed_frequency": 0.5,
-              "gap": 0.34475
+              "predictions": 4,
+              "mean_probability": 0.17055,
+              "observed_frequency": 0.25,
+              "gap": 0.07945
             },
             {
               "lower": 0.2,
@@ -11414,10 +11614,18 @@
               "mean_probability": 0.23712,
               "observed_frequency": 0.2,
               "gap": -0.03712
+            },
+            {
+              "lower": 0.3,
+              "upper": 0.4,
+              "predictions": 1,
+              "mean_probability": 0.3355,
+              "observed_frequency": 0.0,
+              "gap": -0.3355
             }
           ],
-          "brier": 0.228024,
-          "accuracy": 0.7143,
+          "brier": 0.177786,
+          "accuracy": 0.8,
           "roi": null,
           "roi_bets": 0
         },
@@ -11600,24 +11808,24 @@
           "roi_bets": 21
         },
         "first_half_over_1_5": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 10,
+          "fixture_ids": 10,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 2,
-              "mean_probability": 0.2812,
-              "observed_frequency": 0.5,
-              "gap": 0.2188
+              "predictions": 3,
+              "mean_probability": 0.268633,
+              "observed_frequency": 0.333333,
+              "gap": 0.0647
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 4,
-              "mean_probability": 0.372375,
-              "observed_frequency": 0.5,
-              "gap": 0.127625
+              "predictions": 6,
+              "mean_probability": 0.363633,
+              "observed_frequency": 0.333333,
+              "gap": -0.0303
             },
             {
               "lower": 0.4,
@@ -11628,34 +11836,34 @@
               "gap": 0.5489
             }
           ],
-          "brier": 0.280699,
-          "accuracy": 0.4286,
+          "brier": 0.226443,
+          "accuracy": 0.6,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 10,
+          "fixture_ids": 10,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 2,
-              "mean_probability": 0.2818,
+              "predictions": 3,
+              "mean_probability": 0.2585,
               "observed_frequency": 0.0,
-              "gap": -0.2818
+              "gap": -0.2585
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 5,
-              "mean_probability": 0.331,
-              "observed_frequency": 0.4,
-              "gap": 0.069
+              "predictions": 7,
+              "mean_probability": 0.324457,
+              "observed_frequency": 0.428571,
+              "gap": 0.104114
             }
           ],
-          "brier": 0.190659,
-          "accuracy": 0.7143,
+          "brier": 0.194025,
+          "accuracy": 0.7,
           "roi": null,
           "roi_bets": 0
         },
@@ -12134,24 +12342,24 @@
       },
       "Premier League": {
         "away_scores_both_halves": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 25,
+          "fixture_ids": 25,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 6,
-              "mean_probability": 0.176217,
-              "observed_frequency": 0.333333,
-              "gap": 0.157117
+              "predictions": 8,
+              "mean_probability": 0.161637,
+              "observed_frequency": 0.375,
+              "gap": 0.213363
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 9,
-              "mean_probability": 0.242211,
-              "observed_frequency": 0.222222,
-              "gap": -0.019989
+              "predictions": 16,
+              "mean_probability": 0.243338,
+              "observed_frequency": 0.1875,
+              "gap": -0.055838
             },
             {
               "lower": 0.3,
@@ -12162,8 +12370,8 @@
               "gap": -0.3276
             }
           ],
-          "brier": 0.197942,
-          "accuracy": 0.75,
+          "brier": 0.195107,
+          "accuracy": 0.76,
           "roi": null,
           "roi_bets": 0
         },
@@ -12346,70 +12554,86 @@
           "roi_bets": 22
         },
         "first_half_over_1_5": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 25,
+          "fixture_ids": 25,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 3,
-              "mean_probability": 0.266667,
-              "observed_frequency": 0.333333,
-              "gap": 0.066667
+              "predictions": 6,
+              "mean_probability": 0.277767,
+              "observed_frequency": 0.166667,
+              "gap": -0.1111
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 11,
-              "mean_probability": 0.356145,
-              "observed_frequency": 0.545455,
-              "gap": 0.189309
+              "predictions": 15,
+              "mean_probability": 0.359207,
+              "observed_frequency": 0.533333,
+              "gap": 0.174127
             },
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 2,
-              "mean_probability": 0.4238,
-              "observed_frequency": 0.5,
-              "gap": 0.0762
+              "predictions": 3,
+              "mean_probability": 0.4402,
+              "observed_frequency": 0.333333,
+              "gap": -0.106867
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "predictions": 1,
+              "mean_probability": 0.5106,
+              "observed_frequency": 1.0,
+              "gap": 0.4894
             }
           ],
-          "brier": 0.269575,
-          "accuracy": 0.5,
+          "brier": 0.245941,
+          "accuracy": 0.6,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 25,
+          "fixture_ids": 25,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 2,
-              "mean_probability": 0.1492,
-              "observed_frequency": 0.0,
-              "gap": -0.1492
+              "predictions": 3,
+              "mean_probability": 0.151667,
+              "observed_frequency": 0.333333,
+              "gap": 0.181667
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 9,
-              "mean_probability": 0.263978,
-              "observed_frequency": 0.333333,
-              "gap": 0.069356
+              "predictions": 13,
+              "mean_probability": 0.261692,
+              "observed_frequency": 0.230769,
+              "gap": -0.030923
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 5,
-              "mean_probability": 0.34044,
-              "observed_frequency": 0.6,
-              "gap": 0.25956
+              "predictions": 8,
+              "mean_probability": 0.335987,
+              "observed_frequency": 0.375,
+              "gap": 0.039013
+            },
+            {
+              "lower": 0.4,
+              "upper": 0.5,
+              "predictions": 1,
+              "mean_probability": 0.4488,
+              "observed_frequency": 1.0,
+              "gap": 0.5512
             }
           ],
-          "brier": 0.236717,
-          "accuracy": 0.625,
+          "brier": 0.215618,
+          "accuracy": 0.68,
           "roi": null,
           "roi_bets": 0
         },
@@ -12550,24 +12774,24 @@
       },
       "Primeira Liga": {
         "away_scores_both_halves": {
-          "predictions": 9,
-          "fixture_ids": 9,
+          "predictions": 12,
+          "fixture_ids": 12,
           "calibration_bins": [
             {
               "lower": 0.0,
               "upper": 0.1,
-              "predictions": 1,
-              "mean_probability": 0.0501,
+              "predictions": 2,
+              "mean_probability": 0.0731,
               "observed_frequency": 0.0,
-              "gap": -0.0501
+              "gap": -0.0731
             },
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 2,
-              "mean_probability": 0.1689,
-              "observed_frequency": 0.5,
-              "gap": 0.3311
+              "predictions": 4,
+              "mean_probability": 0.154725,
+              "observed_frequency": 0.25,
+              "gap": 0.095275
             },
             {
               "lower": 0.2,
@@ -12594,22 +12818,22 @@
               "gap": 0.589
             }
           ],
-          "brier": 0.217083,
-          "accuracy": 0.6667,
+          "brier": 0.166912,
+          "accuracy": 0.75,
           "roi": null,
           "roi_bets": 0
         },
         "away_win": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.0,
               "upper": 0.1,
-              "predictions": 3,
-              "mean_probability": 0.080333,
+              "predictions": 4,
+              "mean_probability": 0.078725,
               "observed_frequency": 0.0,
-              "gap": -0.080333
+              "gap": -0.078725
             },
             {
               "lower": 0.1,
@@ -12668,14 +12892,14 @@
               "gap": 0.299
             }
           ],
-          "brier": 0.205319,
-          "accuracy": 0.6471,
+          "brier": 0.199609,
+          "accuracy": 0.6571,
           "roi": -0.0205,
           "roi_bets": 22
         },
         "btts_no": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -12688,10 +12912,10 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 17,
-              "mean_probability": 0.4627,
-              "observed_frequency": 0.411765,
-              "gap": -0.050935
+              "predictions": 18,
+              "mean_probability": 0.463061,
+              "observed_frequency": 0.388889,
+              "gap": -0.074172
             },
             {
               "lower": 0.5,
@@ -12710,14 +12934,14 @@
               "gap": -0.6333
             }
           ],
-          "brier": 0.266106,
-          "accuracy": 0.4412,
+          "brier": 0.264793,
+          "accuracy": 0.4571,
           "roi": null,
           "roi_bets": 0
         },
         "btts_over_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.2,
@@ -12738,10 +12962,10 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 12,
-              "mean_probability": 0.432408,
-              "observed_frequency": 0.416667,
-              "gap": -0.015742
+              "predictions": 13,
+              "mean_probability": 0.435054,
+              "observed_frequency": 0.461538,
+              "gap": 0.026485
             },
             {
               "lower": 0.5,
@@ -12752,14 +12976,14 @@
               "gap": -0.518
             }
           ],
-          "brier": 0.268416,
-          "accuracy": 0.5,
+          "brier": 0.268869,
+          "accuracy": 0.4857,
           "roi": null,
           "roi_bets": 0
         },
         "btts_yes": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -12780,10 +13004,10 @@
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 17,
-              "mean_probability": 0.5373,
-              "observed_frequency": 0.588235,
-              "gap": 0.050935
+              "predictions": 18,
+              "mean_probability": 0.536939,
+              "observed_frequency": 0.611111,
+              "gap": 0.074172
             },
             {
               "lower": 0.6,
@@ -12794,22 +13018,22 @@
               "gap": -0.6145
             }
           ],
-          "brier": 0.266106,
-          "accuracy": 0.4412,
+          "brier": 0.264793,
+          "accuracy": 0.4571,
           "roi": null,
           "roi_bets": 0
         },
         "draw": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 3,
-              "mean_probability": 0.1693,
-              "observed_frequency": 0.333333,
-              "gap": 0.164033
+              "predictions": 4,
+              "mean_probability": 0.16175,
+              "observed_frequency": 0.5,
+              "gap": 0.33825
             },
             {
               "lower": 0.2,
@@ -12828,22 +13052,30 @@
               "gap": 0.09542
             }
           ],
-          "brier": 0.222782,
-          "accuracy": 0.6765,
+          "brier": 0.237593,
+          "accuracy": 0.6571,
           "roi": 0.3045,
           "roi_bets": 22
         },
         "first_half_over_1_5": {
-          "predictions": 9,
-          "fixture_ids": 9,
+          "predictions": 12,
+          "fixture_ids": 12,
           "calibration_bins": [
+            {
+              "lower": 0.1,
+              "upper": 0.2,
+              "predictions": 1,
+              "mean_probability": 0.1539,
+              "observed_frequency": 0.0,
+              "gap": -0.1539
+            },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 2,
-              "mean_probability": 0.24385,
+              "predictions": 3,
+              "mean_probability": 0.2573,
               "observed_frequency": 0.0,
-              "gap": -0.24385
+              "gap": -0.2573
             },
             {
               "lower": 0.3,
@@ -12852,16 +13084,24 @@
               "mean_probability": 0.340257,
               "observed_frequency": 0.285714,
               "gap": -0.054543
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "predictions": 1,
+              "mean_probability": 0.5211,
+              "observed_frequency": 1.0,
+              "gap": 0.4789
             }
           ],
-          "brier": 0.177853,
-          "accuracy": 0.7778,
+          "brier": 0.161207,
+          "accuracy": 0.8333,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 9,
-          "fixture_ids": 9,
+          "predictions": 12,
+          "fixture_ids": 12,
           "calibration_bins": [
             {
               "lower": 0.0,
@@ -12874,18 +13114,18 @@
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 3,
-              "mean_probability": 0.166067,
+              "predictions": 4,
+              "mean_probability": 0.170325,
               "observed_frequency": 0.0,
-              "gap": -0.166067
+              "gap": -0.170325
             },
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 4,
-              "mean_probability": 0.256275,
-              "observed_frequency": 0.25,
-              "gap": -0.006275
+              "predictions": 5,
+              "mean_probability": 0.2641,
+              "observed_frequency": 0.2,
+              "gap": -0.0641
             },
             {
               "lower": 0.4,
@@ -12894,16 +13134,24 @@
               "mean_probability": 0.4219,
               "observed_frequency": 1.0,
               "gap": 0.5781
+            },
+            {
+              "lower": 0.5,
+              "upper": 0.6,
+              "predictions": 1,
+              "mean_probability": 0.5799,
+              "observed_frequency": 0.0,
+              "gap": -0.5799
             }
           ],
-          "brier": 0.128505,
-          "accuracy": 0.7778,
+          "brier": 0.134468,
+          "accuracy": 0.75,
           "roi": null,
           "roi_bets": 0
         },
         "home_win": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.0,
@@ -12964,20 +13212,20 @@
             {
               "lower": 0.7,
               "upper": 0.8,
-              "predictions": 3,
-              "mean_probability": 0.750333,
-              "observed_frequency": 0.666667,
-              "gap": -0.083667
+              "predictions": 4,
+              "mean_probability": 0.7595,
+              "observed_frequency": 0.5,
+              "gap": -0.2595
             }
           ],
-          "brier": 0.211337,
-          "accuracy": 0.6765,
+          "brier": 0.222995,
+          "accuracy": 0.6571,
           "roi": -0.1986,
           "roi_bets": 22
         },
         "over_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -13014,25 +13262,25 @@
             {
               "lower": 0.7,
               "upper": 0.8,
-              "predictions": 1,
+              "predictions": 2,
               "mean_probability": 0.7099,
               "observed_frequency": 1.0,
               "gap": 0.2901
             }
           ],
-          "brier": 0.263694,
-          "accuracy": 0.5,
+          "brier": 0.258564,
+          "accuracy": 0.5143,
           "roi": 0.0405,
           "roi_bets": 19
         },
         "under_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 35,
+          "fixture_ids": 35,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 1,
+              "predictions": 2,
               "mean_probability": 0.2901,
               "observed_frequency": 0.0,
               "gap": -0.2901
@@ -13070,16 +13318,16 @@
               "gap": -0.6494
             }
           ],
-          "brier": 0.263694,
-          "accuracy": 0.5,
+          "brier": 0.258564,
+          "accuracy": 0.5143,
           "roi": -0.1811,
           "roi_bets": 19
         }
       },
       "Serie A": {
         "away_scores_both_halves": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 8,
+          "fixture_ids": 8,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -13092,14 +13340,14 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 2,
-              "mean_probability": 0.2341,
-              "observed_frequency": 1.0,
-              "gap": 0.7659
+              "predictions": 3,
+              "mean_probability": 0.234867,
+              "observed_frequency": 0.666667,
+              "gap": 0.4318
             }
           ],
-          "brier": 0.277519,
-          "accuracy": 0.5714,
+          "brier": 0.249814,
+          "accuracy": 0.625,
           "roi": null,
           "roi_bets": 0
         },
@@ -13290,8 +13538,8 @@
           "roi_bets": 25
         },
         "first_half_over_1_5": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 8,
+          "fixture_ids": 8,
           "calibration_bins": [
             {
               "lower": 0.2,
@@ -13304,28 +13552,28 @@
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 4,
-              "mean_probability": 0.315525,
-              "observed_frequency": 0.25,
-              "gap": -0.065525
+              "predictions": 5,
+              "mean_probability": 0.31686,
+              "observed_frequency": 0.2,
+              "gap": -0.11686
             }
           ],
-          "brier": 0.214958,
-          "accuracy": 0.7143,
+          "brier": 0.201065,
+          "accuracy": 0.75,
           "roi": null,
           "roi_bets": 0
         },
         "home_scores_both_halves": {
-          "predictions": 7,
-          "fixture_ids": 7,
+          "predictions": 8,
+          "fixture_ids": 8,
           "calibration_bins": [
             {
               "lower": 0.1,
               "upper": 0.2,
-              "predictions": 2,
-              "mean_probability": 0.16795,
-              "observed_frequency": 0.5,
-              "gap": 0.33205
+              "predictions": 3,
+              "mean_probability": 0.158233,
+              "observed_frequency": 0.333333,
+              "gap": 0.1751
             },
             {
               "lower": 0.2,
@@ -13336,8 +13584,8 @@
               "gap": -0.24476
             }
           ],
-          "brier": 0.144184,
-          "accuracy": 0.8571,
+          "brier": 0.128569,
+          "accuracy": 0.875,
           "roi": null,
           "roi_bets": 0
         },
