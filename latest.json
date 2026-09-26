@@ -6,30 +6,35 @@
     "days": 4,
     "timezone": "Europe/Zurich"
   },
-  "generated_at": "2026-09-26T11:30:34.737226+00:00",
+  "generated_at": "2026-09-26T16:28:29.744313+00:00",
   "mode": "training",
   "target_daily_tips": 10,
   "daily_target_reached": false,
   "daily_tip_status": {
     "2026-09-26": {
-      "eligible": 14,
-      "selected": 10,
-      "target_reached": true,
+      "eligible": 7,
+      "selected": 7,
+      "target_reached": false,
       "target": 10,
-      "shortfall": 0,
-      "matches": 14,
-      "full_coverage_matches": 14,
-      "candidate_markets": 154,
-      "recommended_candidates": 14,
+      "shortfall": 3,
+      "matches": 7,
+      "full_coverage_matches": 7,
+      "candidate_markets": 77,
+      "recommended_candidates": 7,
       "selector_rejected": 0,
       "rejected_markets": {
-        "quality_thresholds": 48,
-        "market_not_validated": 92
+        "quality_thresholds": 24,
+        "market_not_validated": 46
       },
-      "reason_codes": [],
+      "reason_codes": [
+        "market_not_validated",
+        "quality_thresholds",
+        "insufficient_qualified_candidates",
+        "provider_status_not_upcoming"
+      ],
       "provider_observations": 17,
       "excluded_kickoff_conflicts": 0,
-      "excluded_provider_status": 0,
+      "excluded_provider_status": 8,
       "excluded_started_matches": 0,
       "source_errors": [],
       "partial_source_failures": []
@@ -56,23 +61,7 @@
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
       "source_errors": [],
-      "partial_source_failures": [
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4401"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4337"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4344"
-        }
-      ]
+      "partial_source_failures": []
     },
     "2026-09-28": {
       "eligible": 9,
@@ -94,33 +83,14 @@
         "incomplete_model_coverage",
         "market_not_validated",
         "quality_thresholds",
-        "insufficient_qualified_candidates",
-        "source_data_incomplete"
+        "insufficient_qualified_candidates"
       ],
       "provider_observations": 10,
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
-      "source_errors": [
-        "TheSportsDB 2026-09-29: TheSportsDB failed for all 12 requested leagues"
-      ],
-      "partial_source_failures": [
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4401"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4337"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4344"
-        }
-      ]
+      "source_errors": [],
+      "partial_source_failures": []
     },
     "2026-09-29": {
       "eligible": 13,
@@ -142,44 +112,15 @@
       "excluded_kickoff_conflicts": 0,
       "excluded_provider_status": 0,
       "excluded_started_matches": 0,
-      "source_errors": [
-        "TheSportsDB 2026-09-29: TheSportsDB failed for all 12 requested leagues",
-        "TheSportsDB 2026-09-30: TheSportsDB failed for all 12 requested leagues"
-      ],
-      "partial_source_failures": [
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4401"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4337"
-        },
-        {
-          "source": "TheSportsDB",
-          "query_date": "2026-09-28",
-          "league": "4344"
-        }
-      ]
+      "source_errors": [],
+      "partial_source_failures": []
     }
   },
-  "eligible_tip_count": 53,
+  "eligible_tip_count": 46,
   "daily_tips": [
     {
       "tip_id": "espn:401861064:home_win",
       "match_id": "espn:401861064",
-      "market_id": "home_win"
-    },
-    {
-      "tip_id": "espn:401861058:home_win",
-      "match_id": "espn:401861058",
-      "market_id": "home_win"
-    },
-    {
-      "tip_id": "espn:401861060:home_win",
-      "match_id": "espn:401861060",
       "market_id": "home_win"
     },
     {
@@ -198,24 +139,19 @@
       "market_id": "btts_no"
     },
     {
-      "tip_id": "espn:401861057:btts_no",
-      "match_id": "espn:401861057",
-      "market_id": "btts_no"
-    },
-    {
-      "tip_id": "espn:401861061:btts_no",
-      "match_id": "espn:401861061",
-      "market_id": "btts_no"
-    },
-    {
       "tip_id": "espn:401861066:btts_no",
       "match_id": "espn:401861066",
       "market_id": "btts_no"
     },
     {
-      "tip_id": "espn:401861059:btts_no",
-      "match_id": "espn:401861059",
+      "tip_id": "espn:401861064:btts_no",
+      "match_id": "espn:401861064",
       "market_id": "btts_no"
+    },
+    {
+      "tip_id": "espn:401861064:home_scores_both_halves",
+      "match_id": "espn:401861064",
+      "market_id": "home_scores_both_halves"
     },
     {
       "tip_id": "espn:401861074:home_win",
@@ -365,2016 +301,6 @@
   ],
   "matches": [
     {
-      "id": "espn:401883166",
-      "league": "Spanish LALIGA 2",
-      "model_league": "SP2",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T12:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Ceuta",
-      "away_team": "Real Sociedad II",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401883166"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Ceuta",
-          "model": "Ceuta",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Real Sociedad II",
-          "model": "Sociedad B",
-          "method": "alias",
-          "score": 0.97
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2026-04-10",
-          "league": "SP2",
-          "season": "2025/26",
-          "home_team": "Ceuta",
-          "away_team": "Sociedad B",
-          "home_score": 0,
-          "away_score": 0,
-          "source": "football_data"
-        },
-        {
-          "date": "2025-12-21",
-          "league": "SP2",
-          "season": "2025/26",
-          "home_team": "Sociedad B",
-          "away_team": "Ceuta",
-          "home_score": 1,
-          "away_score": 3,
-          "source": "football_data"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Ceuta gewinnt",
-          "probability": 0.3875,
-          "fair_odds": 2.58,
-          "bookmaker_odds": 2.85,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": 0.1045,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2815,
-          "fair_odds": 3.55,
-          "bookmaker_odds": 3.45,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.0289,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Real Sociedad II gewinnt",
-          "probability": 0.331,
-          "fair_odds": 3.02,
-          "bookmaker_odds": 2.4,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.2056,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4891,
-          "fair_odds": 2.04,
-          "bookmaker_odds": 1.83,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.1033,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5109,
-          "fair_odds": 1.96,
-          "bookmaker_odds": 1.91,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.0247,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5441,
-          "fair_odds": 1.84,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4559,
-          "fair_odds": 2.19,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4098,
-          "fair_odds": 2.44,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3722,
-          "fair_odds": 2.69,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Ceuta trifft in beiden HZ",
-          "probability": 0.257,
-          "fair_odds": 3.89,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Real Sociedad II trifft in beiden HZ",
-          "probability": 0.2128,
-          "fair_odds": 4.7,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.679,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401861057",
-      "league": "UEFA Nations League",
-      "model_league": "UNL",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T13:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Slovenia",
-      "away_team": "Scotland",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401861057"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Slovenia",
-          "model": "Slovenia",
-          "method": "exact_national",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Scotland",
-          "model": "Scotland",
-          "method": "exact_national",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2017-10-08",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Slovenia",
-          "away_team": "Scotland",
-          "home_score": 2,
-          "away_score": 2,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2017-03-26",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Scotland",
-          "away_team": "Slovenia",
-          "home_score": 1,
-          "away_score": 0,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2005-10-12",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Slovenia",
-          "away_team": "Scotland",
-          "home_score": 0,
-          "away_score": 3,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2004-09-08",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Scotland",
-          "away_team": "Slovenia",
-          "home_score": 0,
-          "away_score": 0,
-          "source": "FIFA World Cup qualification"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Slovenia gewinnt",
-          "probability": 0.3902,
-          "fair_odds": 2.56,
-          "bookmaker_odds": 2.6,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.0145,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2834,
-          "fair_odds": 3.53,
-          "bookmaker_odds": 3.0,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1499,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Scotland gewinnt",
-          "probability": 0.3264,
-          "fair_odds": 3.06,
-          "bookmaker_odds": 2.75,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1023,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.462,
-          "fair_odds": 2.16,
-          "bookmaker_odds": 2.4,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.1088,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.538,
-          "fair_odds": 1.86,
-          "bookmaker_odds": 1.56,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1631,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.4209,
-          "fair_odds": 2.38,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.5791,
-          "fair_odds": 1.73,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3147,
-          "fair_odds": 3.18,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3364,
-          "fair_odds": 2.97,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Slovenia trifft in beiden HZ",
-          "probability": 0.2084,
-          "fair_odds": 4.8,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Scotland trifft in beiden HZ",
-          "probability": 0.2,
-          "fair_odds": 5.0,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401883165",
-      "league": "Spanish LALIGA 2",
-      "model_league": "SP2",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T14:15:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Granada",
-      "away_team": "FC Andorra",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn",
-        "thesportsdb"
-      ],
-      "source_ids": {
-        "espn": "401883165",
-        "thesportsdb": "2505776"
-      },
-      "retrieved_at": "2026-09-26T11:28:30.699526+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Granada",
-          "model": "Granada",
-          "method": "exact",
-          "score": 1.0
-        },
-        "away": {
-          "external": "FC Andorra",
-          "model": "Andorra",
-          "method": "exact",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2026-03-15",
-          "league": "SP2",
-          "season": "2025/26",
-          "home_team": "Granada",
-          "away_team": "Andorra",
-          "home_score": 1,
-          "away_score": 1,
-          "source": "football_data"
-        },
-        {
-          "date": "2025-10-17",
-          "league": "SP2",
-          "season": "2025/26",
-          "home_team": "Andorra",
-          "away_team": "Granada",
-          "home_score": 0,
-          "away_score": 0,
-          "source": "football_data"
-        },
-        {
-          "date": "2023-01-28",
-          "league": "SP2",
-          "season": "2022/23",
-          "home_team": "Granada",
-          "away_team": "Andorra",
-          "home_score": 2,
-          "away_score": 0,
-          "source": "football_data"
-        },
-        {
-          "date": "2022-09-04",
-          "league": "SP2",
-          "season": "2022/23",
-          "home_team": "Andorra",
-          "away_team": "Granada",
-          "home_score": 1,
-          "away_score": 0,
-          "source": "football_data"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Granada gewinnt",
-          "probability": 0.4408,
-          "fair_odds": 2.27,
-          "bookmaker_odds": 2.2,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.0303,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2695,
-          "fair_odds": 3.71,
-          "bookmaker_odds": 3.25,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.124,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · FC Andorra gewinnt",
-          "probability": 0.2897,
-          "fair_odds": 3.45,
-          "bookmaker_odds": 3.35,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.0295,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5225,
-          "fair_odds": 1.91,
-          "bookmaker_odds": 2.0,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": 0.045,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4775,
-          "fair_odds": 2.09,
-          "bookmaker_odds": 1.77,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.1552,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.5639,
-          "fair_odds": 1.77,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.4361,
-          "fair_odds": 2.29,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.4358,
-          "fair_odds": 2.29,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3652,
-          "fair_odds": 2.74,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Granada trifft in beiden HZ",
-          "probability": 0.2814,
-          "fair_odds": 3.55,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "FC Andorra trifft in beiden HZ",
-          "probability": 0.2039,
-          "fair_odds": 4.9,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.75,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401861061",
-      "league": "UEFA Nations League",
-      "model_league": "UNL",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T16:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Bulgaria",
-      "away_team": "Luxembourg",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401861061"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Bulgaria",
-          "model": "Bulgaria",
-          "method": "exact_national",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Luxembourg",
-          "model": "Luxembourg",
-          "method": "exact_national",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2024-11-15",
-          "league": "UEFA Nations League",
-          "season": "2022-2025",
-          "home_team": "Luxembourg",
-          "away_team": "Bulgaria",
-          "home_score": 0,
-          "away_score": 1,
-          "source": "UEFA Nations League"
-        },
-        {
-          "date": "2024-10-12",
-          "league": "UEFA Nations League",
-          "season": "2022-2025",
-          "home_team": "Bulgaria",
-          "away_team": "Luxembourg",
-          "home_score": 0,
-          "away_score": 0,
-          "source": "UEFA Nations League"
-        },
-        {
-          "date": "2017-10-10",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Luxembourg",
-          "away_team": "Bulgaria",
-          "home_score": 1,
-          "away_score": 1,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2016-09-06",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Bulgaria",
-          "away_team": "Luxembourg",
-          "home_score": 4,
-          "away_score": 3,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2007-09-12",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Bulgaria",
-          "away_team": "Luxembourg",
-          "home_score": 3,
-          "away_score": 0,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "2006-10-11",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Luxembourg",
-          "away_team": "Bulgaria",
-          "home_score": 0,
-          "away_score": 1,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "1999-10-09",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Bulgaria",
-          "away_team": "Luxembourg",
-          "home_score": 3,
-          "away_score": 0,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "1999-03-31",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Luxembourg",
-          "away_team": "Bulgaria",
-          "home_score": 0,
-          "away_score": 2,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "1997-06-08",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Bulgaria",
-          "away_team": "Luxembourg",
-          "home_score": 4,
-          "away_score": 0,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "1996-10-08",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Luxembourg",
-          "away_team": "Bulgaria",
-          "home_score": 1,
-          "away_score": 2,
-          "source": "FIFA World Cup qualification"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Bulgaria gewinnt",
-          "probability": 0.4488,
-          "fair_odds": 2.23,
-          "bookmaker_odds": 2.3,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.0321,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2734,
-          "fair_odds": 3.66,
-          "bookmaker_odds": 2.9,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.2072,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Luxembourg gewinnt",
-          "probability": 0.2779,
-          "fair_odds": 3.6,
-          "bookmaker_odds": 3.25,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.097,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.4787,
-          "fair_odds": 2.09,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.5213,
-          "fair_odds": 1.92,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.4251,
-          "fair_odds": 2.35,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.5749,
-          "fair_odds": 1.74,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3199,
-          "fair_odds": 3.13,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3859,
-          "fair_odds": 2.59,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Bulgaria trifft in beiden HZ",
-          "probability": 0.2731,
-          "fair_odds": 3.66,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Luxembourg trifft in beiden HZ",
-          "probability": 0.172,
-          "fair_odds": 5.81,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401861060",
-      "league": "UEFA Nations League",
-      "model_league": "UNL",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T16:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Faroe Islands",
-      "away_team": "Kazakhstan",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401861060"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Faroe Islands",
-          "model": "Faroe Islands",
-          "method": "exact_national",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Kazakhstan",
-          "model": "Kazakhstan",
-          "method": "exact_national",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2013-10-11",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Faroe Islands",
-          "away_team": "Kazakhstan",
-          "home_score": 1,
-          "away_score": 1,
-          "source": "FIFA World Cup qualification"
-        },
-        {
-          "date": "2013-09-06",
-          "league": "FIFA World Cup qualification",
-          "season": "calibration",
-          "home_team": "Kazakhstan",
-          "away_team": "Faroe Islands",
-          "home_score": 2,
-          "away_score": 1,
-          "source": "FIFA World Cup qualification"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Faroe Islands gewinnt",
-          "probability": 0.6197,
-          "fair_odds": 1.61,
-          "bookmaker_odds": 2.25,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.3944,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2181,
-          "fair_odds": 4.59,
-          "bookmaker_odds": 3.1,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.3239,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Kazakhstan gewinnt",
-          "probability": 0.1622,
-          "fair_odds": 6.17,
-          "bookmaker_odds": 3.2,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.481,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.5554,
-          "fair_odds": 1.8,
-          "bookmaker_odds": 2.2,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.2219,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.4446,
-          "fair_odds": 2.25,
-          "bookmaker_odds": 1.65,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.2686,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.432,
-          "fair_odds": 2.31,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.568,
-          "fair_odds": 1.76,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.336,
-          "fair_odds": 2.98,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3747,
-          "fair_odds": 2.67,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Faroe Islands trifft in beiden HZ",
-          "probability": 0.4634,
-          "fair_odds": 2.16,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Kazakhstan trifft in beiden HZ",
-          "probability": 0.1285,
-          "fair_odds": 7.78,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401861058",
-      "league": "UEFA Nations League",
-      "model_league": "UNL",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T16:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "Iceland",
-      "away_team": "Estonia",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401861058"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "Iceland",
-          "model": "Iceland",
-          "method": "exact_national",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Estonia",
-          "model": "Estonia",
-          "method": "exact_national",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · Iceland gewinnt",
-          "probability": 0.6334,
-          "fair_odds": 1.58,
-          "bookmaker_odds": 1.26,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1999,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.1918,
-          "fair_odds": 5.21,
-          "bookmaker_odds": 5.25,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.0068,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Estonia gewinnt",
-          "probability": 0.1748,
-          "fair_odds": 5.72,
-          "bookmaker_odds": 9.5,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.6609,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.6701,
-          "fair_odds": 1.49,
-          "bookmaker_odds": 1.71,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.1487,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.3299,
-          "fair_odds": 3.03,
-          "bookmaker_odds": 2.1,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.3072,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.4943,
-          "fair_odds": 2.02,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.5057,
-          "fair_odds": 1.98,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3912,
-          "fair_odds": 2.56,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.3501,
-          "fair_odds": 2.86,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "Iceland trifft in beiden HZ",
-          "probability": 0.4758,
-          "fair_odds": 2.1,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Estonia trifft in beiden HZ",
-          "probability": 0.2094,
-          "fair_odds": 4.78,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
-      "id": "espn:401861059",
-      "league": "UEFA Nations League",
-      "model_league": "UNL",
-      "league_specific_model": true,
-      "model_coverage": "full",
-      "kickoff": "2026-09-26T16:00:00+00:00",
-      "kickoff_conflict": false,
-      "home_team": "San Marino",
-      "away_team": "Finland",
-      "status": "STATUS_SCHEDULED",
-      "sources": [
-        "espn"
-      ],
-      "source_ids": {
-        "espn": "401861059"
-      },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-      "stale": false,
-      "team_mapping": {
-        "home": {
-          "external": "San Marino",
-          "model": "San Marino",
-          "method": "exact_national",
-          "score": 1.0
-        },
-        "away": {
-          "external": "Finland",
-          "model": "Finland",
-          "method": "exact_national",
-          "score": 1.0
-        }
-      },
-      "head_to_head": [
-        {
-          "date": "2023-11-20",
-          "league": "UEFA Euro qualification",
-          "season": "2022-2025",
-          "home_team": "San Marino",
-          "away_team": "Finland",
-          "home_score": 1,
-          "away_score": 2,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "2023-06-19",
-          "league": "UEFA Euro qualification",
-          "season": "2022-2025",
-          "home_team": "Finland",
-          "away_team": "San Marino",
-          "home_score": 6,
-          "away_score": 0,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "2011-06-03",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "San Marino",
-          "away_team": "Finland",
-          "home_score": 0,
-          "away_score": 1,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "2010-11-17",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Finland",
-          "away_team": "San Marino",
-          "home_score": 8,
-          "away_score": 0,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "1995-03-29",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "San Marino",
-          "away_team": "Finland",
-          "home_score": 0,
-          "away_score": 2,
-          "source": "UEFA Euro qualification"
-        },
-        {
-          "date": "1994-12-14",
-          "league": "UEFA Euro qualification",
-          "season": "calibration",
-          "home_team": "Finland",
-          "away_team": "San Marino",
-          "home_score": 4,
-          "away_score": 1,
-          "source": "UEFA Euro qualification"
-        }
-      ],
-      "markets": [
-        {
-          "id": "home_win",
-          "group": "1x2",
-          "label": "1 · San Marino gewinnt",
-          "probability": 0.2778,
-          "fair_odds": 3.6,
-          "bookmaker_odds": 23.0,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 5.3899,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "draw",
-          "group": "1x2",
-          "label": "X · Unentschieden",
-          "probability": 0.2455,
-          "fair_odds": 4.07,
-          "bookmaker_odds": 10.0,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 1.4546,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_win",
-          "group": "1x2",
-          "label": "2 · Finland gewinnt",
-          "probability": 0.4767,
-          "fair_odds": 2.1,
-          "bookmaker_odds": 1.06,
-          "bookmaker": "DraftKings",
-          "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.4935,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": false,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "over_2_5",
-          "group": "over_under",
-          "label": "Over 2,5 Tore",
-          "probability": 0.571,
-          "fair_odds": 1.75,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "under_2_5",
-          "group": "over_under",
-          "label": "Under 2,5 Tore",
-          "probability": 0.429,
-          "fair_odds": 2.33,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_unstable",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_yes",
-          "group": "btts",
-          "label": "Beide Teams treffen · Ja",
-          "probability": 0.471,
-          "fair_odds": 2.12,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "btts_no",
-          "group": "btts",
-          "label": "Beide Teams treffen · Nein",
-          "probability": 0.529,
-          "fair_odds": 1.89,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": true,
-          "recommendation_type": "model_analysis"
-        },
-        {
-          "id": "btts_over_2_5",
-          "group": "btts",
-          "label": "BTTS + Over 2,5",
-          "probability": 0.3609,
-          "fair_odds": 2.77,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "first_half_over_1_5",
-          "group": "halves",
-          "label": "1. HZ Over 1,5",
-          "probability": 0.4029,
-          "fair_odds": 2.48,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "locked_validation",
-          "tip_status": "locked_model_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "home_scores_both_halves",
-          "group": "halves",
-          "label": "San Marino trifft in beiden HZ",
-          "probability": 0.2046,
-          "fair_odds": 4.89,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        },
-        {
-          "id": "away_scores_both_halves",
-          "group": "halves",
-          "label": "Finland trifft in beiden HZ",
-          "probability": 0.3882,
-          "fair_odds": 2.58,
-          "bookmaker_odds": null,
-          "bookmaker": null,
-          "odds_source": null,
-          "odds_retrieved_at": null,
-          "value_edge": null,
-          "confidence": 0.7,
-          "readiness": "training",
-          "probability_status": "probability_ready",
-          "tip_status": "locked_no_odds_validation",
-          "calibrated": true,
-          "recommended": false,
-          "recommendation_type": null
-        }
-      ]
-    },
-    {
       "id": "espn:401883312",
       "league": "Spanish LALIGA 2",
       "model_league": "SP2",
@@ -2393,7 +319,7 @@
         "espn": "401883312",
         "thesportsdb": "2505781"
       },
-      "retrieved_at": "2026-09-26T11:28:30.699526+00:00",
+      "retrieved_at": "2026-09-26T16:26:24.195879+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2641,7 +567,7 @@
         "espn": "401883163",
         "thesportsdb": "2505778"
       },
-      "retrieved_at": "2026-09-26T11:28:30.699526+00:00",
+      "retrieved_at": "2026-09-26T16:26:24.195879+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -2686,11 +612,11 @@
           "label": "1 · Tenerife gewinnt",
           "probability": 0.4501,
           "fair_odds": 2.22,
-          "bookmaker_odds": 1.87,
+          "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": -0.1585,
+          "odds_retrieved_at": "2026-09-26T16:26:17.065977+00:00",
+          "value_edge": -0.1748,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -2705,11 +631,11 @@
           "label": "X · Unentschieden",
           "probability": 0.316,
           "fair_odds": 3.16,
-          "bookmaker_odds": 3.35,
+          "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": 0.0585,
+          "odds_retrieved_at": "2026-09-26T16:26:17.065977+00:00",
+          "value_edge": 0.0427,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -2724,11 +650,11 @@
           "label": "2 · Cádiz gewinnt",
           "probability": 0.2339,
           "fair_odds": 4.28,
-          "bookmaker_odds": 4.4,
+          "bookmaker_odds": 4.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": 0.0292,
+          "odds_retrieved_at": "2026-09-26T16:26:17.065977+00:00",
+          "value_edge": 0.0759,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -2746,7 +672,7 @@
           "bookmaker_odds": 2.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.065977+00:00",
           "value_edge": -0.2286,
           "confidence": 0.75,
           "readiness": "training",
@@ -2762,11 +688,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.6646,
           "fair_odds": 1.5,
-          "bookmaker_odds": 1.59,
+          "bookmaker_odds": 1.57,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.589961+00:00",
-          "value_edge": 0.0556,
+          "odds_retrieved_at": "2026-09-26T16:26:17.065977+00:00",
+          "value_edge": 0.0444,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -2908,7 +834,7 @@
       "source_ids": {
         "espn": "401861062"
       },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+      "retrieved_at": "2026-09-26T16:26:17.624937+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3215,7 +1141,7 @@
       "source_ids": {
         "espn": "401861063"
       },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+      "retrieved_at": "2026-09-26T16:26:17.624937+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3260,11 +1186,11 @@
           "label": "1 · Czechia gewinnt",
           "probability": 0.4981,
           "fair_odds": 2.01,
-          "bookmaker_odds": 3.5,
+          "bookmaker_odds": 3.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.7433,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.7931,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -3279,11 +1205,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2645,
           "fair_odds": 3.78,
-          "bookmaker_odds": 3.4,
+          "bookmaker_odds": 3.35,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1006,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.1138,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -3301,7 +1227,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
           "value_edge": -0.5253,
           "confidence": 0.7,
           "readiness": "training",
@@ -3320,7 +1246,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
           "value_edge": -0.1301,
           "confidence": 0.7,
           "readiness": "training",
@@ -3339,7 +1265,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
           "value_edge": 0.0334,
           "confidence": 0.7,
           "readiness": "training",
@@ -3482,7 +1408,7 @@
       "source_ids": {
         "espn": "401861066"
       },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+      "retrieved_at": "2026-09-26T16:26:17.624937+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3527,11 +1453,11 @@
           "label": "1 · England gewinnt",
           "probability": 0.3833,
           "fair_odds": 2.61,
-          "bookmaker_odds": 3.3,
+          "bookmaker_odds": 3.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.2648,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.4181,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -3549,7 +1475,7 @@
           "bookmaker_odds": 3.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
           "value_edge": -0.0957,
           "confidence": 0.7,
           "readiness": "training",
@@ -3565,11 +1491,11 @@
           "label": "2 · Spain gewinnt",
           "probability": 0.3507,
           "fair_odds": 2.85,
-          "bookmaker_odds": 2.05,
+          "bookmaker_odds": 1.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.281,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.3152,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -3584,11 +1510,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5218,
           "fair_odds": 1.92,
-          "bookmaker_odds": 1.71,
+          "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1054,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.0916,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -3603,11 +1529,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.4782,
           "fair_odds": 2.09,
-          "bookmaker_odds": 2.1,
+          "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.0042,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.0197,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -3749,7 +1675,7 @@
       "source_ids": {
         "espn": "401861065"
       },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+      "retrieved_at": "2026-09-26T16:26:17.624937+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -3773,11 +1699,11 @@
           "label": "1 · North Macedonia gewinnt",
           "probability": 0.4914,
           "fair_odds": 2.04,
-          "bookmaker_odds": 8.5,
+          "bookmaker_odds": 10.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 3.1768,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 3.9139,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -3792,11 +1718,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2791,
           "fair_odds": 3.58,
-          "bookmaker_odds": 4.7,
+          "bookmaker_odds": 4.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.3116,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.2837,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -3811,11 +1737,11 @@
           "label": "2 · Switzerland gewinnt",
           "probability": 0.2295,
           "fair_odds": 4.36,
-          "bookmaker_odds": 1.33,
+          "bookmaker_odds": 1.31,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.6939,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.6987,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -3830,11 +1756,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.4352,
           "fair_odds": 2.3,
-          "bookmaker_odds": 1.91,
+          "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1692,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.1297,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -3849,11 +1775,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.5648,
           "fair_odds": 1.77,
-          "bookmaker_odds": 1.87,
+          "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.056,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.0167,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -3995,7 +1921,7 @@
       "source_ids": {
         "espn": "401861064"
       },
-      "retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+      "retrieved_at": "2026-09-26T16:26:17.624937+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4040,11 +1966,11 @@
           "label": "1 · Slovakia gewinnt",
           "probability": 0.6474,
           "fair_odds": 1.54,
-          "bookmaker_odds": 1.13,
+          "bookmaker_odds": 1.12,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.2662,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.2716,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -4059,11 +1985,11 @@
           "label": "X · Unentschieden",
           "probability": 0.209,
           "fair_odds": 4.79,
-          "bookmaker_odds": 7.0,
+          "bookmaker_odds": 7.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.4628,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.5673,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -4081,7 +2007,7 @@
           "bookmaker_odds": 17.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
           "value_edge": 1.441,
           "confidence": 0.7,
           "readiness": "training",
@@ -4097,11 +2023,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5575,
           "fair_odds": 1.79,
-          "bookmaker_odds": 1.57,
+          "bookmaker_odds": 1.56,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": -0.1239,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": -0.1328,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -4116,11 +2042,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.4425,
           "fair_odds": 2.26,
-          "bookmaker_odds": 2.35,
+          "bookmaker_odds": 2.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:22.833156+00:00",
-          "value_edge": 0.0399,
+          "odds_retrieved_at": "2026-09-26T16:26:17.624937+00:00",
+          "value_edge": 0.062,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -4264,7 +2190,7 @@
         "espn": "401883197",
         "thesportsdb": "2505779"
       },
-      "retrieved_at": "2026-09-26T11:29:28.213595+00:00",
+      "retrieved_at": "2026-09-26T16:27:21.944839+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4312,7 +2238,7 @@
           "bookmaker_odds": 2.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": 0.0217,
           "confidence": 0.729,
           "readiness": "training",
@@ -4328,11 +2254,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2798,
           "fair_odds": 3.57,
-          "bookmaker_odds": 3.35,
+          "bookmaker_odds": 3.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
-          "value_edge": -0.0628,
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
+          "value_edge": -0.0488,
           "confidence": 0.729,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -4350,7 +2276,7 @@
           "bookmaker_odds": 3.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.172,
           "confidence": 0.729,
           "readiness": "training",
@@ -4369,7 +2295,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.1421,
           "confidence": 0.729,
           "readiness": "training",
@@ -4385,11 +2311,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.5234,
           "fair_odds": 1.91,
-          "bookmaker_odds": 1.91,
+          "bookmaker_odds": 1.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
-          "value_edge": -0.0008,
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
+          "value_edge": 0.0218,
           "confidence": 0.729,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -4531,7 +2457,7 @@
       "source_ids": {
         "espn": "401861067"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4558,7 +2484,7 @@
           "bookmaker_odds": 2.45,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.3513,
           "confidence": 0.7,
           "readiness": "training",
@@ -4577,7 +2503,7 @@
           "bookmaker_odds": 2.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.3076,
           "confidence": 0.7,
           "readiness": "training",
@@ -4596,7 +2522,7 @@
           "bookmaker_odds": 3.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.3588,
           "confidence": 0.7,
           "readiness": "training",
@@ -4777,7 +2703,7 @@
       "source_ids": {
         "espn": "401883164"
       },
-      "retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+      "retrieved_at": "2026-09-26T16:26:25.635211+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -4865,7 +2791,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": 0.2525,
           "confidence": 0.7,
           "readiness": "training",
@@ -4881,11 +2807,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2393,
           "fair_odds": 4.18,
-          "bookmaker_odds": 3.25,
+          "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
-          "value_edge": -0.2224,
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
+          "value_edge": -0.2104,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -4900,11 +2826,11 @@
           "label": "2 · Almería gewinnt",
           "probability": 0.1643,
           "fair_odds": 6.09,
-          "bookmaker_odds": 3.55,
+          "bookmaker_odds": 3.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
-          "value_edge": -0.4168,
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
+          "value_edge": -0.4086,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -4922,7 +2848,7 @@
           "bookmaker_odds": 1.87,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0372,
           "confidence": 0.7,
           "readiness": "training",
@@ -4938,11 +2864,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.485,
           "fair_odds": 2.06,
-          "bookmaker_odds": 1.83,
+          "bookmaker_odds": 1.87,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
-          "value_edge": -0.1108,
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
+          "value_edge": -0.0932,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -5084,7 +3010,7 @@
       "source_ids": {
         "espn": "401861071"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5108,11 +3034,11 @@
           "label": "1 · Austria gewinnt",
           "probability": 0.5575,
           "fair_odds": 1.79,
-          "bookmaker_odds": 1.51,
+          "bookmaker_odds": 1.54,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": -0.1566,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": -0.1412,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -5127,11 +3053,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2254,
           "fair_odds": 4.44,
-          "bookmaker_odds": 4.2,
+          "bookmaker_odds": 4.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": -0.0534,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": -0.076,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -5149,7 +3075,7 @@
           "bookmaker_odds": 5.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.1942,
           "confidence": 0.7,
           "readiness": "training",
@@ -5168,7 +3094,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.0738,
           "confidence": 0.7,
           "readiness": "training",
@@ -5187,7 +3113,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.1931,
           "confidence": 0.7,
           "readiness": "training",
@@ -5330,7 +3256,7 @@
       "source_ids": {
         "espn": "401861070"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5388,7 +3314,7 @@
           "bookmaker_odds": 1.44,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.2413,
           "confidence": 0.7,
           "readiness": "training",
@@ -5407,7 +3333,7 @@
           "bookmaker_odds": 4.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.1525,
           "confidence": 0.7,
           "readiness": "training",
@@ -5426,7 +3352,7 @@
           "bookmaker_odds": 6.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.2767,
           "confidence": 0.7,
           "readiness": "training",
@@ -5445,7 +3371,7 @@
           "bookmaker_odds": 1.77,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.1644,
           "confidence": 0.7,
           "readiness": "training",
@@ -5464,7 +3390,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.0818,
           "confidence": 0.7,
           "readiness": "training",
@@ -5607,7 +3533,7 @@
       "source_ids": {
         "espn": "401861069"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5634,7 +3560,7 @@
           "bookmaker_odds": 3.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.7559,
           "confidence": 0.7,
           "readiness": "training",
@@ -5653,7 +3579,7 @@
           "bookmaker_odds": 2.75,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.2666,
           "confidence": 0.7,
           "readiness": "training",
@@ -5672,7 +3598,7 @@
           "bookmaker_odds": 2.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.4672,
           "confidence": 0.7,
           "readiness": "training",
@@ -5853,7 +3779,7 @@
       "source_ids": {
         "espn": "401861068"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -5880,7 +3806,7 @@
           "bookmaker_odds": 6.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 1.098,
           "confidence": 0.7,
           "readiness": "training",
@@ -5899,7 +3825,7 @@
           "bookmaker_odds": 4.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.272,
           "confidence": 0.7,
           "readiness": "training",
@@ -5918,7 +3844,7 @@
           "bookmaker_odds": 1.39,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.4339,
           "confidence": 0.7,
           "readiness": "training",
@@ -5937,7 +3863,7 @@
           "bookmaker_odds": 1.61,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.1937,
           "confidence": 0.7,
           "readiness": "training",
@@ -5956,7 +3882,7 @@
           "bookmaker_odds": 2.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.1453,
           "confidence": 0.7,
           "readiness": "training",
@@ -6099,7 +4025,7 @@
       "source_ids": {
         "espn": "401883202"
       },
-      "retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+      "retrieved_at": "2026-09-26T16:26:25.635211+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6167,7 +4093,7 @@
           "bookmaker_odds": 1.91,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": 0.0405,
           "confidence": 0.7,
           "readiness": "training",
@@ -6186,7 +4112,7 @@
           "bookmaker_odds": 3.35,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0442,
           "confidence": 0.7,
           "readiness": "training",
@@ -6205,7 +4131,7 @@
           "bookmaker_odds": 4.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.3044,
           "confidence": 0.7,
           "readiness": "training",
@@ -6224,7 +4150,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.2452,
           "confidence": 0.7,
           "readiness": "training",
@@ -6243,7 +4169,7 @@
           "bookmaker_odds": 1.69,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": 0.0675,
           "confidence": 0.7,
           "readiness": "training",
@@ -6388,7 +4314,7 @@
         "espn": "401883201",
         "thesportsdb": "2505774"
       },
-      "retrieved_at": "2026-09-26T11:29:28.213595+00:00",
+      "retrieved_at": "2026-09-26T16:27:21.944839+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6476,7 +4402,7 @@
           "bookmaker_odds": 1.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0382,
           "confidence": 0.75,
           "readiness": "training",
@@ -6495,7 +4421,7 @@
           "bookmaker_odds": 3.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.1213,
           "confidence": 0.75,
           "readiness": "training",
@@ -6514,7 +4440,7 @@
           "bookmaker_odds": 3.9,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0757,
           "confidence": 0.75,
           "readiness": "training",
@@ -6533,7 +4459,7 @@
           "bookmaker_odds": 1.87,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0929,
           "confidence": 0.75,
           "readiness": "training",
@@ -6552,7 +4478,7 @@
           "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0562,
           "confidence": 0.75,
           "readiness": "training",
@@ -6695,7 +4621,7 @@
       "source_ids": {
         "espn": "401861074"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -6740,11 +4666,11 @@
           "label": "1 · Germany gewinnt",
           "probability": 0.6087,
           "fair_odds": 1.64,
-          "bookmaker_odds": 1.39,
+          "bookmaker_odds": 1.38,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": -0.1527,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": -0.1617,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -6762,7 +4688,7 @@
           "bookmaker_odds": 4.9,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.0345,
           "confidence": 0.7,
           "readiness": "training",
@@ -6781,7 +4707,7 @@
           "bookmaker_odds": 6.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.1714,
           "confidence": 0.7,
           "readiness": "training",
@@ -6962,7 +4888,7 @@
       "source_ids": {
         "espn": "401861072"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7007,11 +4933,11 @@
           "label": "1 · Israel gewinnt",
           "probability": 0.4938,
           "fair_odds": 2.03,
-          "bookmaker_odds": 2.7,
+          "bookmaker_odds": 2.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": 0.3332,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": 0.2345,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -7026,11 +4952,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2494,
           "fair_odds": 4.01,
-          "bookmaker_odds": 3.05,
+          "bookmaker_odds": 3.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": -0.2393,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": -0.2269,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -7045,11 +4971,11 @@
           "label": "2 · Republic of Ireland gewinnt",
           "probability": 0.2568,
           "fair_odds": 3.89,
-          "bookmaker_odds": 2.65,
+          "bookmaker_odds": 2.75,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": -0.3194,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": -0.2937,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -7064,11 +4990,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5452,
           "fair_odds": 1.83,
-          "bookmaker_odds": 2.05,
+          "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
-          "value_edge": 0.1177,
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
+          "value_edge": 0.0904,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -7086,7 +5012,7 @@
           "bookmaker_odds": 1.77,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.1954,
           "confidence": 0.7,
           "readiness": "training",
@@ -7229,7 +5155,7 @@
       "source_ids": {
         "espn": "401861073"
       },
-      "retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+      "retrieved_at": "2026-09-26T16:26:26.283090+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7277,7 +5203,7 @@
           "bookmaker_odds": 2.45,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": 0.4184,
           "confidence": 0.7,
           "readiness": "training",
@@ -7296,7 +5222,7 @@
           "bookmaker_odds": 3.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.2009,
           "confidence": 0.7,
           "readiness": "training",
@@ -7315,7 +5241,7 @@
           "bookmaker_odds": 2.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:32.205522+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:26.283090+00:00",
           "value_edge": -0.4873,
           "confidence": 0.7,
           "readiness": "training",
@@ -7498,7 +5424,7 @@
         "espn": "401883198",
         "thesportsdb": "2505777"
       },
-      "retrieved_at": "2026-09-26T11:29:28.213595+00:00",
+      "retrieved_at": "2026-09-26T16:27:21.944839+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7626,7 +5552,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0784,
           "confidence": 0.729,
           "readiness": "training",
@@ -7645,7 +5571,7 @@
           "bookmaker_odds": 3.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0589,
           "confidence": 0.729,
           "readiness": "training",
@@ -7664,7 +5590,7 @@
           "bookmaker_odds": 3.75,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0742,
           "confidence": 0.729,
           "readiness": "training",
@@ -7683,7 +5609,7 @@
           "bookmaker_odds": 2.35,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.1087,
           "confidence": 0.729,
           "readiness": "training",
@@ -7702,7 +5628,7 @@
           "bookmaker_odds": 1.53,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:28:31.870736+00:00",
+          "odds_retrieved_at": "2026-09-26T16:26:25.635211+00:00",
           "value_edge": -0.0526,
           "confidence": 0.729,
           "readiness": "training",
@@ -7845,7 +5771,7 @@
       "source_ids": {
         "espn": "401861076"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -7893,7 +5819,7 @@
           "bookmaker_odds": 2.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.1622,
           "confidence": 0.7,
           "readiness": "training",
@@ -7912,7 +5838,7 @@
           "bookmaker_odds": 2.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1992,
           "confidence": 0.7,
           "readiness": "training",
@@ -7931,7 +5857,7 @@
           "bookmaker_odds": 2.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1952,
           "confidence": 0.7,
           "readiness": "training",
@@ -7950,7 +5876,7 @@
           "bookmaker_odds": 2.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.1083,
           "confidence": 0.7,
           "readiness": "training",
@@ -7969,7 +5895,7 @@
           "bookmaker_odds": 1.62,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1755,
           "confidence": 0.7,
           "readiness": "training",
@@ -8112,7 +6038,7 @@
       "source_ids": {
         "espn": "401861075"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8190,7 +6116,7 @@
           "bookmaker_odds": 2.55,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.1919,
           "confidence": 0.7,
           "readiness": "training",
@@ -8209,7 +6135,7 @@
           "bookmaker_odds": 3.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.2817,
           "confidence": 0.7,
           "readiness": "training",
@@ -8228,7 +6154,7 @@
           "bookmaker_odds": 2.7,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1777,
           "confidence": 0.7,
           "readiness": "training",
@@ -8247,7 +6173,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.3596,
           "confidence": 0.7,
           "readiness": "training",
@@ -8266,7 +6192,7 @@
           "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.3863,
           "confidence": 0.7,
           "readiness": "training",
@@ -8409,7 +6335,7 @@
       "source_ids": {
         "espn": "401861082"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8433,11 +6359,11 @@
           "label": "1 · Latvia gewinnt",
           "probability": 0.372,
           "fair_odds": 2.69,
-          "bookmaker_odds": 2.55,
+          "bookmaker_odds": 2.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.0514,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.0328,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -8452,11 +6378,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2685,
           "fair_odds": 3.72,
-          "bookmaker_odds": 3.25,
+          "bookmaker_odds": 3.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.1275,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.1677,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -8474,7 +6400,7 @@
           "bookmaker_odds": 2.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.0472,
           "confidence": 0.7,
           "readiness": "training",
@@ -8493,7 +6419,7 @@
           "bookmaker_odds": 2.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.1047,
           "confidence": 0.7,
           "readiness": "training",
@@ -8512,7 +6438,7 @@
           "bookmaker_odds": 1.69,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1785,
           "confidence": 0.7,
           "readiness": "training",
@@ -8657,7 +6583,7 @@
         "espn": "401883199",
         "thesportsdb": "2505773"
       },
-      "retrieved_at": "2026-09-26T11:29:31.169933+00:00",
+      "retrieved_at": "2026-09-26T16:27:25.707887+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8722,11 +6648,11 @@
           "label": "1 · Leganés gewinnt",
           "probability": 0.3523,
           "fair_odds": 2.84,
-          "bookmaker_odds": 2.95,
+          "bookmaker_odds": 3.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.398275+00:00",
-          "value_edge": 0.0392,
+          "odds_retrieved_at": "2026-09-26T16:27:23.534122+00:00",
+          "value_edge": 0.092,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -8741,11 +6667,11 @@
           "label": "X · Unentschieden",
           "probability": 0.3028,
           "fair_odds": 3.3,
-          "bookmaker_odds": 3.2,
+          "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.398275+00:00",
-          "value_edge": -0.031,
+          "odds_retrieved_at": "2026-09-26T16:27:23.534122+00:00",
+          "value_edge": -0.0007,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -8760,11 +6686,11 @@
           "label": "2 · Castellón gewinnt",
           "probability": 0.3449,
           "fair_odds": 2.9,
-          "bookmaker_odds": 2.4,
+          "bookmaker_odds": 2.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.398275+00:00",
-          "value_edge": -0.1722,
+          "odds_retrieved_at": "2026-09-26T16:27:23.534122+00:00",
+          "value_edge": -0.224,
           "confidence": 0.75,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -8782,7 +6708,7 @@
           "bookmaker_odds": 1.83,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.398275+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:23.534122+00:00",
           "value_edge": -0.2461,
           "confidence": 0.75,
           "readiness": "training",
@@ -8801,7 +6727,7 @@
           "bookmaker_odds": 1.87,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.398275+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:23.534122+00:00",
           "value_edge": 0.1008,
           "confidence": 0.75,
           "readiness": "training",
@@ -8944,7 +6870,7 @@
       "source_ids": {
         "espn": "401861081"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -8992,7 +6918,7 @@
           "bookmaker_odds": 3.45,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.9723,
           "confidence": 0.7,
           "readiness": "training",
@@ -9011,7 +6937,7 @@
           "bookmaker_odds": 3.9,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.14,
           "confidence": 0.7,
           "readiness": "training",
@@ -9030,7 +6956,7 @@
           "bookmaker_odds": 1.87,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.6115,
           "confidence": 0.7,
           "readiness": "training",
@@ -9211,7 +7137,7 @@
       "source_ids": {
         "espn": "401861079"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -9256,11 +7182,11 @@
           "label": "1 · Northern Ireland gewinnt",
           "probability": 0.5345,
           "fair_odds": 1.87,
-          "bookmaker_odds": 2.75,
+          "bookmaker_odds": 2.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": 0.47,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": 0.4166,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -9275,11 +7201,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2632,
           "fair_odds": 3.8,
-          "bookmaker_odds": 2.9,
+          "bookmaker_odds": 2.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.2368,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.2236,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -9294,11 +7220,11 @@
           "label": "2 · Hungary gewinnt",
           "probability": 0.2023,
           "fair_odds": 4.94,
-          "bookmaker_odds": 2.65,
+          "bookmaker_odds": 2.75,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.464,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.4437,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -9316,7 +7242,7 @@
           "bookmaker_odds": 2.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.1486,
           "confidence": 0.7,
           "readiness": "training",
@@ -9332,11 +7258,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.5406,
           "fair_odds": 1.85,
-          "bookmaker_odds": 1.51,
+          "bookmaker_odds": 1.53,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.1822,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.1749,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -9478,7 +7404,7 @@
       "source_ids": {
         "espn": "401861078"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -9502,11 +7428,11 @@
           "label": "1 · Romania gewinnt",
           "probability": 0.6183,
           "fair_odds": 1.62,
-          "bookmaker_odds": 2.1,
+          "bookmaker_odds": 2.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": 0.2984,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": 0.3293,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -9521,11 +7447,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2213,
           "fair_odds": 4.52,
-          "bookmaker_odds": 3.3,
+          "bookmaker_odds": 3.25,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.2698,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.2809,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -9540,11 +7466,11 @@
           "label": "2 · Bosnia-Herzegovina gewinnt",
           "probability": 0.1605,
           "fair_odds": 6.23,
-          "bookmaker_odds": 3.3,
+          "bookmaker_odds": 3.2,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
-          "value_edge": -0.4705,
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
+          "value_edge": -0.4865,
           "confidence": 0.54,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -9562,7 +7488,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.0844,
           "confidence": 0.54,
           "readiness": "training",
@@ -9581,7 +7507,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.176,
           "confidence": 0.54,
           "readiness": "training",
@@ -9724,7 +7650,7 @@
       "source_ids": {
         "espn": "401861080"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -9812,7 +7738,7 @@
           "bookmaker_odds": 1.91,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.126,
           "confidence": 0.7,
           "readiness": "training",
@@ -9831,7 +7757,7 @@
           "bookmaker_odds": 3.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1031,
           "confidence": 0.7,
           "readiness": "training",
@@ -9850,7 +7776,7 @@
           "bookmaker_odds": 3.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.0673,
           "confidence": 0.7,
           "readiness": "training",
@@ -9869,7 +7795,7 @@
           "bookmaker_odds": 1.69,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.0216,
           "confidence": 0.7,
           "readiness": "training",
@@ -9888,7 +7814,7 @@
           "bookmaker_odds": 2.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.0949,
           "confidence": 0.7,
           "readiness": "training",
@@ -10031,7 +7957,7 @@
       "source_ids": {
         "espn": "401861077"
       },
-      "retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+      "retrieved_at": "2026-09-26T16:27:24.272222+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -10058,7 +7984,7 @@
           "bookmaker_odds": 2.6,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": 0.0601,
           "confidence": 0.7,
           "readiness": "training",
@@ -10077,7 +8003,7 @@
           "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1357,
           "confidence": 0.7,
           "readiness": "training",
@@ -10096,7 +8022,7 @@
           "bookmaker_odds": 2.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.1741,
           "confidence": 0.7,
           "readiness": "training",
@@ -10115,7 +8041,7 @@
           "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.0723,
           "confidence": 0.7,
           "readiness": "training",
@@ -10134,7 +8060,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:29.901525+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:24.272222+00:00",
           "value_edge": -0.0425,
           "confidence": 0.7,
           "readiness": "training",
@@ -10277,7 +8203,7 @@
       "source_ids": {
         "espn": "401861089"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -10544,7 +8470,7 @@
       "source_ids": {
         "espn": "401861090"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -10831,7 +8757,7 @@
       "source_ids": {
         "espn": "401861083"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -11098,7 +9024,7 @@
       "source_ids": {
         "espn": "401861092"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -11146,7 +9072,7 @@
           "bookmaker_odds": 6.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.7542,
           "confidence": 0.7,
           "readiness": "training",
@@ -11162,11 +9088,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2586,
           "fair_odds": 3.87,
-          "bookmaker_odds": 4.4,
+          "bookmaker_odds": 4.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": 0.138,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": 0.1122,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -11181,11 +9107,11 @@
           "label": "2 · England gewinnt",
           "probability": 0.449,
           "fair_odds": 2.23,
-          "bookmaker_odds": 1.42,
+          "bookmaker_odds": 1.44,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": -0.3639,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": -0.3515,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -11200,11 +9126,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5326,
           "fair_odds": 1.88,
-          "bookmaker_odds": 1.71,
+          "bookmaker_odds": 1.74,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": -0.087,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": -0.0729,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -11222,7 +9148,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.0418,
           "confidence": 0.7,
           "readiness": "training",
@@ -11365,7 +9291,7 @@
       "source_ids": {
         "espn": "401861086"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -11433,7 +9359,7 @@
           "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.1298,
           "confidence": 0.7,
           "readiness": "training",
@@ -11452,7 +9378,7 @@
           "bookmaker_odds": 3.2,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1471,
           "confidence": 0.7,
           "readiness": "training",
@@ -11471,7 +9397,7 @@
           "bookmaker_odds": 2.1,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1787,
           "confidence": 0.7,
           "readiness": "training",
@@ -11490,7 +9416,7 @@
           "bookmaker_odds": 2.05,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.0642,
           "confidence": 0.7,
           "readiness": "training",
@@ -11509,7 +9435,7 @@
           "bookmaker_odds": 1.71,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1756,
           "confidence": 0.7,
           "readiness": "training",
@@ -11652,7 +9578,7 @@
       "source_ids": {
         "espn": "401861088"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -11919,7 +9845,7 @@
       "source_ids": {
         "espn": "401861091"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -11987,7 +9913,7 @@
           "bookmaker_odds": 3.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.5962,
           "confidence": 0.7,
           "readiness": "training",
@@ -12006,7 +9932,7 @@
           "bookmaker_odds": 3.3,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1319,
           "confidence": 0.7,
           "readiness": "training",
@@ -12025,7 +9951,7 @@
           "bookmaker_odds": 2.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.4651,
           "confidence": 0.7,
           "readiness": "training",
@@ -12044,7 +9970,7 @@
           "bookmaker_odds": 1.95,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.0115,
           "confidence": 0.7,
           "readiness": "training",
@@ -12063,7 +9989,7 @@
           "bookmaker_odds": 1.8,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1113,
           "confidence": 0.7,
           "readiness": "training",
@@ -12206,7 +10132,7 @@
       "source_ids": {
         "espn": "401861085"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -12473,7 +10399,7 @@
       "source_ids": {
         "espn": "401861087"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -12521,7 +10447,7 @@
           "bookmaker_odds": 1.65,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.2225,
           "confidence": 0.7,
           "readiness": "training",
@@ -12540,7 +10466,7 @@
           "bookmaker_odds": 3.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.0841,
           "confidence": 0.7,
           "readiness": "training",
@@ -12559,7 +10485,7 @@
           "bookmaker_odds": 5.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.3287,
           "confidence": 0.7,
           "readiness": "training",
@@ -12578,7 +10504,7 @@
           "bookmaker_odds": 2.15,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": 0.0962,
           "confidence": 0.7,
           "readiness": "training",
@@ -12597,7 +10523,7 @@
           "bookmaker_odds": 1.67,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
           "value_edge": -0.1831,
           "confidence": 0.7,
           "readiness": "training",
@@ -12740,7 +10666,7 @@
       "source_ids": {
         "espn": "401861084"
       },
-      "retrieved_at": "2026-09-26T11:29:32.365792+00:00",
+      "retrieved_at": "2026-09-26T16:27:27.742043+00:00",
       "stale": false,
       "team_mapping": {
         "home": {
@@ -12785,11 +10711,11 @@
           "label": "1 · Spain gewinnt",
           "probability": 0.5332,
           "fair_odds": 1.88,
-          "bookmaker_odds": 1.26,
+          "bookmaker_odds": 1.22,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": -0.3301,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": -0.3483,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "probability_ready",
@@ -12804,11 +10730,11 @@
           "label": "X · Unentschieden",
           "probability": 0.2493,
           "fair_odds": 4.01,
-          "bookmaker_odds": 5.5,
+          "bookmaker_odds": 6.0,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": 0.3714,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": 0.496,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -12823,11 +10749,11 @@
           "label": "2 · Croatia gewinnt",
           "probability": 0.2175,
           "fair_odds": 4.6,
-          "bookmaker_odds": 8.5,
+          "bookmaker_odds": 9.5,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": 0.8487,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": 1.0662,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_validation",
@@ -12842,11 +10768,11 @@
           "label": "Over 2,5 Tore",
           "probability": 0.5155,
           "fair_odds": 1.94,
-          "bookmaker_odds": 1.59,
+          "bookmaker_odds": 1.54,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": -0.1812,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": -0.2058,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -12861,11 +10787,11 @@
           "label": "Under 2,5 Tore",
           "probability": 0.4845,
           "fair_odds": 2.06,
-          "bookmaker_odds": 2.3,
+          "bookmaker_odds": 2.4,
           "bookmaker": "DraftKings",
           "odds_source": "espn_odds",
-          "odds_retrieved_at": "2026-09-26T11:29:32.365792+00:00",
-          "value_edge": 0.1143,
+          "odds_retrieved_at": "2026-09-26T16:27:27.742043+00:00",
+          "value_edge": 0.1627,
           "confidence": 0.7,
           "readiness": "training",
           "probability_status": "locked_unstable",
@@ -12992,77 +10918,67 @@
     }
   ],
   "ai_150_plus": {
-    "date": "2026-09-27",
+    "date": "2026-09-26",
     "target_odds": 150.0,
     "status": "model_combo_available",
     "quote_type": "fair_model_odds",
     "risk_profile": "aggressive",
     "correlation_control": "one_market_per_match_and_max_three_per_league",
-    "eligible_candidates": 50,
+    "eligible_candidates": 31,
     "legs": [
       {
-        "match_id": "espn:401861074",
-        "market_id": "home_win",
-        "selection": "1 · Germany gewinnt",
-        "fair_odds": 1.64,
-        "probability": 0.6087,
+        "match_id": "espn:401861062",
+        "market_id": "btts_no",
+        "selection": "Beide Teams treffen · Nein",
+        "fair_odds": 1.66,
+        "probability": 0.6035,
         "confidence": 0.7,
         "league": "UEFA Nations League",
-        "kickoff": "2026-09-27T18:45:00+00:00"
+        "kickoff": "2026-09-26T18:45:00+00:00"
       },
       {
-        "match_id": "espn:401883164",
-        "market_id": "home_win",
-        "selection": "1 · Mallorca gewinnt",
-        "fair_odds": 1.68,
-        "probability": 0.5964,
-        "confidence": 0.7,
-        "league": "Spanish LALIGA 2",
-        "kickoff": "2026-09-27T14:15:00+00:00"
-      },
-      {
-        "match_id": "espn:401861073",
-        "market_id": "home_win",
-        "selection": "1 · Norway gewinnt",
-        "fair_odds": 1.73,
-        "probability": 0.5789,
+        "match_id": "espn:401861064",
+        "market_id": "btts_no",
+        "selection": "Beide Teams treffen · Nein",
+        "fair_odds": 1.74,
+        "probability": 0.5758,
         "confidence": 0.7,
         "league": "UEFA Nations League",
-        "kickoff": "2026-09-27T18:45:00+00:00"
+        "kickoff": "2026-09-26T18:45:00+00:00"
       },
       {
-        "match_id": "espn:401883202",
+        "match_id": "espn:401883163",
         "market_id": "home_win",
-        "selection": "1 · Burgos gewinnt",
-        "fair_odds": 1.83,
-        "probability": 0.545,
-        "confidence": 0.7,
-        "league": "Spanish LALIGA 2",
-        "kickoff": "2026-09-27T16:30:00+00:00"
-      },
-      {
-        "match_id": "espn:401883201",
-        "market_id": "home_win",
-        "selection": "1 · Eibar gewinnt",
-        "fair_odds": 2.03,
-        "probability": 0.4926,
+        "selection": "1 · Tenerife gewinnt",
+        "fair_odds": 2.22,
+        "probability": 0.4501,
         "confidence": 0.75,
         "league": "Spanish LALIGA 2",
-        "kickoff": "2026-09-27T16:30:00+00:00"
+        "kickoff": "2026-09-26T16:30:00+00:00"
       },
       {
-        "match_id": "espn:401861070",
+        "match_id": "espn:401883312",
+        "market_id": "home_win",
+        "selection": "1 · RC Celta Fortuna gewinnt",
+        "fair_odds": 2.4,
+        "probability": 0.4173,
+        "confidence": 0.729,
+        "league": "Spanish LALIGA 2",
+        "kickoff": "2026-09-26T16:30:00+00:00"
+      },
+      {
+        "match_id": "espn:401861065",
         "market_id": "away_scores_both_halves",
-        "selection": "Wales trifft in beiden HZ",
-        "fair_odds": 8.51,
-        "probability": 0.1175,
+        "selection": "Switzerland trifft in beiden HZ",
+        "fair_odds": 9.75,
+        "probability": 0.1026,
         "confidence": 0.7,
         "league": "UEFA Nations League",
-        "kickoff": "2026-09-27T16:00:00+00:00"
+        "kickoff": "2026-09-26T18:45:00+00:00"
       }
     ],
-    "total_fair_odds": 150.69,
-    "joint_model_probability": 0.00662939,
+    "total_fair_odds": 150.05,
+    "joint_model_probability": 0.00669659,
     "risk_class": "hoch",
     "real_money_status": "locked_model_validation",
     "separate_from_daily_tips": true,
@@ -13071,12 +10987,66 @@
       "2026-09-26": {
         "date": "2026-09-26",
         "target_odds": 150.0,
-        "status": "no_qualified_combo",
+        "status": "model_combo_available",
         "quote_type": "fair_model_odds",
         "risk_profile": "aggressive",
         "correlation_control": "one_market_per_match_and_max_three_per_league",
-        "eligible_candidates": 62,
-        "legs": []
+        "eligible_candidates": 31,
+        "legs": [
+          {
+            "match_id": "espn:401861062",
+            "market_id": "btts_no",
+            "selection": "Beide Teams treffen · Nein",
+            "fair_odds": 1.66,
+            "probability": 0.6035,
+            "confidence": 0.7,
+            "league": "UEFA Nations League",
+            "kickoff": "2026-09-26T18:45:00+00:00"
+          },
+          {
+            "match_id": "espn:401861064",
+            "market_id": "btts_no",
+            "selection": "Beide Teams treffen · Nein",
+            "fair_odds": 1.74,
+            "probability": 0.5758,
+            "confidence": 0.7,
+            "league": "UEFA Nations League",
+            "kickoff": "2026-09-26T18:45:00+00:00"
+          },
+          {
+            "match_id": "espn:401883163",
+            "market_id": "home_win",
+            "selection": "1 · Tenerife gewinnt",
+            "fair_odds": 2.22,
+            "probability": 0.4501,
+            "confidence": 0.75,
+            "league": "Spanish LALIGA 2",
+            "kickoff": "2026-09-26T16:30:00+00:00"
+          },
+          {
+            "match_id": "espn:401883312",
+            "market_id": "home_win",
+            "selection": "1 · RC Celta Fortuna gewinnt",
+            "fair_odds": 2.4,
+            "probability": 0.4173,
+            "confidence": 0.729,
+            "league": "Spanish LALIGA 2",
+            "kickoff": "2026-09-26T16:30:00+00:00"
+          },
+          {
+            "match_id": "espn:401861065",
+            "market_id": "away_scores_both_halves",
+            "selection": "Switzerland trifft in beiden HZ",
+            "fair_odds": 9.75,
+            "probability": 0.1026,
+            "confidence": 0.7,
+            "league": "UEFA Nations League",
+            "kickoff": "2026-09-26T18:45:00+00:00"
+          }
+        ],
+        "total_fair_odds": 150.05,
+        "joint_model_probability": 0.00669659,
+        "risk_class": "hoch"
       },
       "2026-09-27": {
         "date": "2026-09-27",
@@ -13183,45 +11153,22 @@
       "2026-09-29",
       "2026-09-30"
     ],
-    "partial_failures": [
-      {
-        "source": "TheSportsDB",
-        "query_date": "2026-09-28",
-        "league": "4401"
-      },
-      {
-        "source": "TheSportsDB",
-        "query_date": "2026-09-28",
-        "league": "4337"
-      },
-      {
-        "source": "TheSportsDB",
-        "query_date": "2026-09-28",
-        "league": "4344"
-      }
-    ],
+    "partial_failures": [],
     "kickoff_conflicts": [],
     "sofascore_fixtures": 0,
     "sofascore_state": "disabled_access_blocked",
     "api_football_fixtures": 0,
     "api_football_odds": 0,
     "api_football_state": "not_configured",
-    "espn_fixtures": 46,
-    "espn_odds": 181,
+    "espn_fixtures": 39,
+    "espn_odds": 150,
     "openligadb_fixtures": 0,
     "openfootball_fixtures": 0,
-    "thesportsdb_fixtures": 7,
-    "thesportsdb_confirmed_fixtures": 7,
-    "thesportsdb_failed_leagues": [
-      "4337",
-      "4344",
-      "4401"
-    ],
-    "merged_fixtures": 46,
-    "errors": [
-      "TheSportsDB 2026-09-29: TheSportsDB failed for all 12 requested leagues",
-      "TheSportsDB 2026-09-30: TheSportsDB failed for all 12 requested leagues"
-    ]
+    "thesportsdb_fixtures": 6,
+    "thesportsdb_confirmed_fixtures": 6,
+    "thesportsdb_failed_leagues": [],
+    "merged_fixtures": 39,
+    "errors": []
   },
   "training": {
     "matches": 31883,
@@ -13248,11 +11195,11 @@
   },
   "live_evaluation": {
     "schema_version": 1,
-    "generated_at": "2026-09-26T11:28:27.490422+00:00",
-    "total_predictions": 5181,
-    "settled_predictions": 4580,
-    "pending_predictions": 601,
-    "excluded_predictions": 1067,
+    "generated_at": "2026-09-26T16:26:21.301945+00:00",
+    "total_predictions": 5178,
+    "settled_predictions": 4604,
+    "pending_predictions": 574,
+    "excluded_predictions": 1070,
     "identity_audit": [
       {
         "kept_prediction_id": "espn:401876472:home_win",
@@ -14468,11 +12415,11 @@
     ],
     "excluded_duplicate_or_conflicting_predictions": 173,
     "excluded_late_publications": 22,
-    "excluded_missing_half_time": 861,
+    "excluded_missing_half_time": 864,
     "excluded_missing_final_result": 11,
     "all": {
-      "predictions": 4580,
-      "fixture_ids": 496,
+      "predictions": 4604,
+      "fixture_ids": 499,
       "calibration_bins": [
         {
           "lower": 0.0,
@@ -14493,34 +12440,34 @@
         {
           "lower": 0.2,
           "upper": 0.3,
-          "predictions": 943,
-          "mean_probability": 0.260067,
-          "observed_frequency": 0.279958,
-          "gap": 0.019891
+          "predictions": 947,
+          "mean_probability": 0.260155,
+          "observed_frequency": 0.280887,
+          "gap": 0.020732
         },
         {
           "lower": 0.3,
           "upper": 0.4,
-          "predictions": 904,
-          "mean_probability": 0.35082,
-          "observed_frequency": 0.381637,
-          "gap": 0.030817
+          "predictions": 909,
+          "mean_probability": 0.350815,
+          "observed_frequency": 0.380638,
+          "gap": 0.029823
         },
         {
           "lower": 0.4,
           "upper": 0.5,
-          "predictions": 1285,
-          "mean_probability": 0.449921,
-          "observed_frequency": 0.455253,
-          "gap": 0.005331
+          "predictions": 1294,
+          "mean_probability": 0.449905,
+          "observed_frequency": 0.454405,
+          "gap": 0.0045
         },
         {
           "lower": 0.5,
           "upper": 0.6,
-          "predictions": 918,
-          "mean_probability": 0.544915,
-          "observed_frequency": 0.535948,
-          "gap": -0.008967
+          "predictions": 924,
+          "mean_probability": 0.544904,
+          "observed_frequency": 0.537879,
+          "gap": -0.007025
         },
         {
           "lower": 0.6,
@@ -14547,14 +12494,14 @@
           "gap": 0.188133
         }
       ],
-      "brier": 0.230464,
-      "accuracy": 0.6127,
+      "brier": 0.230442,
+      "accuracy": 0.6132,
       "roi": -0.0859,
-      "roi_bets": 1431
+      "roi_bets": 1446
     },
     "daily_tips": {
-      "predictions": 254,
-      "fixture_ids": 199,
+      "predictions": 255,
+      "fixture_ids": 200,
       "calibration_bins": [
         {
           "lower": 0.1,
@@ -14591,10 +12538,10 @@
         {
           "lower": 0.5,
           "upper": 0.6,
-          "predictions": 121,
-          "mean_probability": 0.55238,
-          "observed_frequency": 0.504132,
-          "gap": -0.048248
+          "predictions": 122,
+          "mean_probability": 0.5526,
+          "observed_frequency": 0.508197,
+          "gap": -0.044403
         },
         {
           "lower": 0.6,
@@ -14613,8 +12560,8 @@
           "gap": 0.069981
         }
       ],
-      "brier": 0.229954,
-      "accuracy": 0.5906,
+      "brier": 0.229746,
+      "accuracy": 0.5922,
       "roi": 0.0011,
       "roi_bets": 112
     },
@@ -14736,8 +12683,8 @@
         "roi_bets": 0
       },
       "away_win": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.0,
@@ -14758,18 +12705,18 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 180,
-            "mean_probability": 0.264513,
-            "observed_frequency": 0.316667,
-            "gap": 0.052153
+            "predictions": 181,
+            "mean_probability": 0.264652,
+            "observed_frequency": 0.320442,
+            "gap": 0.05579
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 178,
-            "mean_probability": 0.336842,
-            "observed_frequency": 0.38764,
-            "gap": 0.050798
+            "predictions": 180,
+            "mean_probability": 0.336754,
+            "observed_frequency": 0.383333,
+            "gap": 0.046579
           },
           {
             "lower": 0.4,
@@ -14804,14 +12751,14 @@
             "gap": -0.378567
           }
         ],
-        "brier": 0.216572,
+        "brier": 0.216715,
         "accuracy": 0.6774,
-        "roi": -0.1114,
-        "roi_bets": 325
+        "roi": -0.1098,
+        "roi_bets": 328
       },
       "btts_no": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -14832,18 +12779,18 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 281,
-            "mean_probability": 0.447639,
-            "observed_frequency": 0.398577,
-            "gap": -0.049063
+            "predictions": 283,
+            "mean_probability": 0.447628,
+            "observed_frequency": 0.39576,
+            "gap": -0.051868
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 101,
-            "mean_probability": 0.534444,
-            "observed_frequency": 0.376238,
-            "gap": -0.158206
+            "predictions": 102,
+            "mean_probability": 0.534882,
+            "observed_frequency": 0.382353,
+            "gap": -0.152529
           },
           {
             "lower": 0.6,
@@ -14862,14 +12809,14 @@
             "gap": 0.2864
           }
         ],
-        "brier": 0.242357,
-        "accuracy": 0.5665,
+        "brier": 0.242052,
+        "accuracy": 0.5691,
         "roi": null,
         "roi_bets": 0
       },
       "btts_over_2_5": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -14890,18 +12837,18 @@
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 152,
-            "mean_probability": 0.358884,
-            "observed_frequency": 0.467105,
-            "gap": 0.108222
+            "predictions": 153,
+            "mean_probability": 0.358594,
+            "observed_frequency": 0.464052,
+            "gap": 0.105458
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 227,
-            "mean_probability": 0.444707,
-            "observed_frequency": 0.524229,
-            "gap": 0.079522
+            "predictions": 229,
+            "mean_probability": 0.444516,
+            "observed_frequency": 0.528384,
+            "gap": 0.083868
           },
           {
             "lower": 0.5,
@@ -14928,14 +12875,14 @@
             "gap": -0.7131
           }
         ],
-        "brier": 0.258109,
-        "accuracy": 0.504,
+        "brier": 0.258091,
+        "accuracy": 0.503,
         "roi": null,
         "roi_bets": 0
       },
       "btts_yes": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -14956,18 +12903,18 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 101,
-            "mean_probability": 0.465556,
-            "observed_frequency": 0.623762,
-            "gap": 0.158206
+            "predictions": 102,
+            "mean_probability": 0.465118,
+            "observed_frequency": 0.617647,
+            "gap": 0.152529
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 281,
-            "mean_probability": 0.552361,
-            "observed_frequency": 0.601423,
-            "gap": 0.049063
+            "predictions": 283,
+            "mean_probability": 0.552372,
+            "observed_frequency": 0.60424,
+            "gap": 0.051868
           },
           {
             "lower": 0.6,
@@ -14986,14 +12933,14 @@
             "gap": -0.152071
           }
         ],
-        "brier": 0.242357,
-        "accuracy": 0.5665,
+        "brier": 0.242052,
+        "accuracy": 0.5691,
         "roi": null,
         "roi_bets": 0
       },
       "draw": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -15006,10 +12953,10 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 425,
-            "mean_probability": 0.262679,
-            "observed_frequency": 0.254118,
-            "gap": -0.008561
+            "predictions": 428,
+            "mean_probability": 0.262787,
+            "observed_frequency": 0.254673,
+            "gap": -0.008114
           },
           {
             "lower": 0.3,
@@ -15020,10 +12967,10 @@
             "gap": 0.025025
           }
         ],
-        "brier": 0.191009,
-        "accuracy": 0.7419,
-        "roi": -0.0643,
-        "roi_bets": 325
+        "brier": 0.191194,
+        "accuracy": 0.7415,
+        "roi": -0.0634,
+        "roi_bets": 328
       },
       "first_half_over_1_5": {
         "predictions": 204,
@@ -15142,8 +13089,8 @@
         "roi_bets": 0
       },
       "home_win": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.0,
@@ -15172,18 +13119,18 @@
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 122,
-            "mean_probability": 0.358777,
-            "observed_frequency": 0.360656,
-            "gap": 0.001879
+            "predictions": 124,
+            "mean_probability": 0.35926,
+            "observed_frequency": 0.362903,
+            "gap": 0.003644
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 212,
-            "mean_probability": 0.443256,
-            "observed_frequency": 0.367925,
-            "gap": -0.075332
+            "predictions": 213,
+            "mean_probability": 0.443245,
+            "observed_frequency": 0.366197,
+            "gap": -0.077047
           },
           {
             "lower": 0.5,
@@ -15218,14 +13165,14 @@
             "gap": 0.1757
           }
         ],
-        "brier": 0.233501,
-        "accuracy": 0.623,
-        "roi": -0.0914,
-        "roi_bets": 325
+        "brier": 0.233543,
+        "accuracy": 0.6232,
+        "roi": -0.093,
+        "roi_bets": 328
       },
       "over_2_5": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.2,
@@ -15246,18 +13193,18 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 147,
-            "mean_probability": 0.45644,
-            "observed_frequency": 0.557823,
-            "gap": 0.101383
+            "predictions": 149,
+            "mean_probability": 0.456695,
+            "observed_frequency": 0.557047,
+            "gap": 0.100352
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 216,
-            "mean_probability": 0.5429,
-            "observed_frequency": 0.601852,
-            "gap": 0.058952
+            "predictions": 217,
+            "mean_probability": 0.542806,
+            "observed_frequency": 0.603687,
+            "gap": 0.060881
           },
           {
             "lower": 0.6,
@@ -15284,14 +13231,14 @@
             "gap": 0.19435
           }
         ],
-        "brier": 0.243166,
-        "accuracy": 0.5685,
-        "roi": 0.0201,
-        "roi_bets": 228
+        "brier": 0.243111,
+        "accuracy": 0.5691,
+        "roi": 0.0227,
+        "roi_bets": 231
       },
       "under_2_5": {
-        "predictions": 496,
-        "fixture_ids": 496,
+        "predictions": 499,
+        "fixture_ids": 499,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -15320,18 +13267,18 @@
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 216,
-            "mean_probability": 0.4571,
-            "observed_frequency": 0.398148,
-            "gap": -0.058952
+            "predictions": 217,
+            "mean_probability": 0.457194,
+            "observed_frequency": 0.396313,
+            "gap": -0.060881
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 147,
-            "mean_probability": 0.54356,
-            "observed_frequency": 0.442177,
-            "gap": -0.101383
+            "predictions": 149,
+            "mean_probability": 0.543305,
+            "observed_frequency": 0.442953,
+            "gap": -0.100352
           },
           {
             "lower": 0.6,
@@ -15350,10 +13297,10 @@
             "gap": -0.25015
           }
         ],
-        "brier": 0.243166,
-        "accuracy": 0.5685,
-        "roi": -0.1786,
-        "roi_bets": 228
+        "brier": 0.243111,
+        "accuracy": 0.5691,
+        "roi": -0.1823,
+        "roi_bets": 231
       }
     },
     "leagues": {
@@ -15786,8 +13733,8 @@
         "roi_bets": 144
       },
       "La Liga 2": {
-        "predictions": 272,
-        "fixture_ids": 34,
+        "predictions": 288,
+        "fixture_ids": 36,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -15800,34 +13747,34 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 47,
-            "mean_probability": 0.265862,
-            "observed_frequency": 0.319149,
-            "gap": 0.053287
+            "predictions": 50,
+            "mean_probability": 0.266724,
+            "observed_frequency": 0.32,
+            "gap": 0.053276
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 56,
-            "mean_probability": 0.345954,
-            "observed_frequency": 0.392857,
-            "gap": 0.046904
+            "predictions": 58,
+            "mean_probability": 0.346414,
+            "observed_frequency": 0.396552,
+            "gap": 0.050138
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 83,
-            "mean_probability": 0.450196,
-            "observed_frequency": 0.433735,
-            "gap": -0.016461
+            "predictions": 90,
+            "mean_probability": 0.450126,
+            "observed_frequency": 0.433333,
+            "gap": -0.016792
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 65,
-            "mean_probability": 0.543405,
-            "observed_frequency": 0.492308,
-            "gap": -0.051097
+            "predictions": 69,
+            "mean_probability": 0.542939,
+            "observed_frequency": 0.507246,
+            "gap": -0.035693
           },
           {
             "lower": 0.6,
@@ -15846,10 +13793,10 @@
             "gap": -0.25015
           }
         ],
-        "brier": 0.237727,
-        "accuracy": 0.5772,
-        "roi": -0.1023,
-        "roi_bets": 124
+        "brier": 0.237631,
+        "accuracy": 0.5799,
+        "roi": -0.1016,
+        "roi_bets": 134
       },
       "Ligue 1": {
         "predictions": 262,
@@ -16364,8 +14311,8 @@
         "roi_bets": 84
       },
       "UEFA Nations League": {
-        "predictions": 128,
-        "fixture_ids": 16,
+        "predictions": 136,
+        "fixture_ids": 17,
         "calibration_bins": [
           {
             "lower": 0.1,
@@ -16378,34 +14325,34 @@
           {
             "lower": 0.2,
             "upper": 0.3,
-            "predictions": 21,
-            "mean_probability": 0.263138,
-            "observed_frequency": 0.238095,
-            "gap": -0.025043
+            "predictions": 22,
+            "mean_probability": 0.264064,
+            "observed_frequency": 0.272727,
+            "gap": 0.008664
           },
           {
             "lower": 0.3,
             "upper": 0.4,
-            "predictions": 29,
-            "mean_probability": 0.35431,
-            "observed_frequency": 0.448276,
-            "gap": 0.093966
+            "predictions": 32,
+            "mean_probability": 0.353319,
+            "observed_frequency": 0.40625,
+            "gap": 0.052931
           },
           {
             "lower": 0.4,
             "upper": 0.5,
-            "predictions": 34,
-            "mean_probability": 0.445785,
-            "observed_frequency": 0.5,
-            "gap": 0.054215
+            "predictions": 36,
+            "mean_probability": 0.445533,
+            "observed_frequency": 0.472222,
+            "gap": 0.026689
           },
           {
             "lower": 0.5,
             "upper": 0.6,
-            "predictions": 32,
-            "mean_probability": 0.551206,
-            "observed_frequency": 0.46875,
-            "gap": -0.082456
+            "predictions": 34,
+            "mean_probability": 0.55165,
+            "observed_frequency": 0.5,
+            "gap": -0.05165
           },
           {
             "lower": 0.6,
@@ -16424,10 +14371,10 @@
             "gap": 0.2991
           }
         ],
-        "brier": 0.229481,
-        "accuracy": 0.5781,
-        "roi": -0.1934,
-        "roi_bets": 70
+        "brier": 0.228126,
+        "accuracy": 0.5956,
+        "roi": -0.1843,
+        "roi_bets": 75
       }
     },
     "league_source_names": {
@@ -19172,8 +17119,8 @@
       },
       "La Liga 2": {
         "away_win": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -19186,28 +17133,28 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 15,
-              "mean_probability": 0.266647,
-              "observed_frequency": 0.4,
-              "gap": 0.133353
+              "predictions": 16,
+              "mean_probability": 0.268087,
+              "observed_frequency": 0.4375,
+              "gap": 0.169413
             },
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 13,
-              "mean_probability": 0.325323,
-              "observed_frequency": 0.538462,
-              "gap": 0.213138
+              "predictions": 14,
+              "mean_probability": 0.325736,
+              "observed_frequency": 0.5,
+              "gap": 0.174264
             }
           ],
-          "brier": 0.256562,
-          "accuracy": 0.5588,
-          "roi": 0.4696,
-          "roi_bets": 26
+          "brier": 0.259368,
+          "accuracy": 0.5556,
+          "roi": 0.4789,
+          "roi_bets": 28
         },
         "btts_no": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -19220,10 +17167,10 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 17,
-              "mean_probability": 0.453994,
-              "observed_frequency": 0.647059,
-              "gap": 0.193065
+              "predictions": 19,
+              "mean_probability": 0.453153,
+              "observed_frequency": 0.578947,
+              "gap": 0.125795
             },
             {
               "lower": 0.5,
@@ -19242,14 +17189,14 @@
               "gap": 0.013467
             }
           ],
-          "brier": 0.254582,
-          "accuracy": 0.4412,
+          "brier": 0.251495,
+          "accuracy": 0.4722,
           "roi": null,
           "roi_bets": 0
         },
         "btts_over_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -19278,10 +17225,10 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 11,
-              "mean_probability": 0.440709,
-              "observed_frequency": 0.181818,
-              "gap": -0.258891
+              "predictions": 13,
+              "mean_probability": 0.437962,
+              "observed_frequency": 0.307692,
+              "gap": -0.130269
             },
             {
               "lower": 0.5,
@@ -19292,14 +17239,14 @@
               "gap": 0.154167
             }
           ],
-          "brier": 0.235485,
-          "accuracy": 0.6765,
+          "brier": 0.240918,
+          "accuracy": 0.6389,
           "roi": null,
           "roi_bets": 0
         },
         "btts_yes": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -19320,10 +17267,10 @@
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 17,
-              "mean_probability": 0.546006,
-              "observed_frequency": 0.352941,
-              "gap": -0.193065
+              "predictions": 19,
+              "mean_probability": 0.546847,
+              "observed_frequency": 0.421053,
+              "gap": -0.125795
             },
             {
               "lower": 0.6,
@@ -19334,22 +17281,22 @@
               "gap": 0.0386
             }
           ],
-          "brier": 0.254582,
-          "accuracy": 0.4412,
+          "brier": 0.251495,
+          "accuracy": 0.4722,
           "roi": null,
           "roi_bets": 0
         },
         "draw": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 26,
-              "mean_probability": 0.267546,
-              "observed_frequency": 0.192308,
-              "gap": -0.075238
+              "predictions": 28,
+              "mean_probability": 0.268114,
+              "observed_frequency": 0.178571,
+              "gap": -0.089543
             },
             {
               "lower": 0.3,
@@ -19360,30 +17307,30 @@
               "gap": -0.197025
             }
           ],
-          "brier": 0.15692,
-          "accuracy": 0.8235,
-          "roi": -0.6269,
-          "roi_bets": 26
+          "brier": 0.152421,
+          "accuracy": 0.8333,
+          "roi": -0.6536,
+          "roi_bets": 28
         },
         "home_win": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 9,
-              "mean_probability": 0.362933,
-              "observed_frequency": 0.333333,
-              "gap": -0.0296
+              "predictions": 10,
+              "mean_probability": 0.36539,
+              "observed_frequency": 0.4,
+              "gap": 0.03461
             },
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 17,
-              "mean_probability": 0.439488,
-              "observed_frequency": 0.294118,
-              "gap": -0.145371
+              "predictions": 18,
+              "mean_probability": 0.439561,
+              "observed_frequency": 0.277778,
+              "gap": -0.161783
             },
             {
               "lower": 0.5,
@@ -19402,14 +17349,14 @@
               "gap": 0.394
             }
           ],
-          "brier": 0.217946,
-          "accuracy": 0.6765,
-          "roi": -0.22,
-          "roi_bets": 26
+          "brier": 0.221656,
+          "accuracy": 0.6667,
+          "roi": -0.1971,
+          "roi_bets": 28
         },
         "over_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.2,
@@ -19430,18 +17377,18 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 13,
-              "mean_probability": 0.443,
-              "observed_frequency": 0.307692,
-              "gap": -0.135308
+              "predictions": 14,
+              "mean_probability": 0.446293,
+              "observed_frequency": 0.357143,
+              "gap": -0.08915
             },
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 14,
-              "mean_probability": 0.542129,
-              "observed_frequency": 0.428571,
-              "gap": -0.113557
+              "predictions": 15,
+              "mean_probability": 0.540827,
+              "observed_frequency": 0.466667,
+              "gap": -0.07416
             },
             {
               "lower": 0.6,
@@ -19452,14 +17399,14 @@
               "gap": 0.3814
             }
           ],
-          "brier": 0.262871,
+          "brier": 0.261849,
           "accuracy": 0.5,
-          "roi": 0.0709,
-          "roi_bets": 23
+          "roi": 0.1316,
+          "roi_bets": 25
         },
         "under_2_5": {
-          "predictions": 34,
-          "fixture_ids": 34,
+          "predictions": 36,
+          "fixture_ids": 36,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -19472,18 +17419,18 @@
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 14,
-              "mean_probability": 0.457871,
-              "observed_frequency": 0.571429,
-              "gap": 0.113557
+              "predictions": 15,
+              "mean_probability": 0.459173,
+              "observed_frequency": 0.533333,
+              "gap": 0.07416
             },
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 13,
-              "mean_probability": 0.557,
-              "observed_frequency": 0.692308,
-              "gap": 0.135308
+              "predictions": 14,
+              "mean_probability": 0.553707,
+              "observed_frequency": 0.642857,
+              "gap": 0.08915
             },
             {
               "lower": 0.6,
@@ -19502,10 +17449,10 @@
               "gap": -0.25015
             }
           ],
-          "brier": 0.262871,
+          "brier": 0.261849,
           "accuracy": 0.5,
-          "roi": -0.1957,
-          "roi_bets": 23
+          "roi": -0.26,
+          "roi_bets": 25
         }
       },
       "Ligue 1": {
@@ -22518,8 +20465,8 @@
       },
       "UEFA Nations League": {
         "away_win": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -22540,38 +20487,38 @@
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 7,
-              "mean_probability": 0.342157,
-              "observed_frequency": 0.714286,
-              "gap": 0.372129
+              "predictions": 8,
+              "mean_probability": 0.340225,
+              "observed_frequency": 0.625,
+              "gap": 0.284775
             }
           ],
-          "brier": 0.233508,
-          "accuracy": 0.5625,
-          "roi": 0.1087,
-          "roi_bets": 16
+          "brier": 0.22605,
+          "accuracy": 0.5882,
+          "roi": 0.0435,
+          "roi_bets": 17
         },
         "btts_no": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 16,
-              "mean_probability": 0.550588,
-              "observed_frequency": 0.5625,
-              "gap": 0.011912
+              "predictions": 17,
+              "mean_probability": 0.552271,
+              "observed_frequency": 0.588235,
+              "gap": 0.035965
             }
           ],
-          "brier": 0.248327,
-          "accuracy": 0.5625,
+          "brier": 0.244136,
+          "accuracy": 0.5882,
           "roi": null,
           "roi_bets": 0
         },
         "btts_over_2_5": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.2,
@@ -22584,38 +20531,38 @@
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 14,
-              "mean_probability": 0.350021,
-              "observed_frequency": 0.357143,
-              "gap": 0.007121
+              "predictions": 15,
+              "mean_probability": 0.34766,
+              "observed_frequency": 0.333333,
+              "gap": -0.014327
             }
           ],
-          "brier": 0.235851,
-          "accuracy": 0.625,
+          "brier": 0.2278,
+          "accuracy": 0.6471,
           "roi": null,
           "roi_bets": 0
         },
         "btts_yes": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 16,
-              "mean_probability": 0.449412,
-              "observed_frequency": 0.4375,
-              "gap": -0.011912
+              "predictions": 17,
+              "mean_probability": 0.447729,
+              "observed_frequency": 0.411765,
+              "gap": -0.035965
             }
           ],
-          "brier": 0.248327,
-          "accuracy": 0.5625,
+          "brier": 0.244136,
+          "accuracy": 0.5882,
           "roi": null,
           "roi_bets": 0
         },
         "draw": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.1,
@@ -22628,28 +20575,28 @@
             {
               "lower": 0.2,
               "upper": 0.3,
-              "predictions": 14,
-              "mean_probability": 0.2586,
-              "observed_frequency": 0.142857,
-              "gap": -0.115743
+              "predictions": 15,
+              "mean_probability": 0.26026,
+              "observed_frequency": 0.2,
+              "gap": -0.06026
             }
           ],
-          "brier": 0.12915,
-          "accuracy": 0.875,
-          "roi": -0.5406,
-          "roi_bets": 16
+          "brier": 0.151752,
+          "accuracy": 0.8235,
+          "roi": -0.3853,
+          "roi_bets": 17
         },
         "home_win": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.3,
               "upper": 0.4,
-              "predictions": 4,
-              "mean_probability": 0.37595,
-              "observed_frequency": 0.25,
-              "gap": -0.12595
+              "predictions": 5,
+              "mean_probability": 0.37874,
+              "observed_frequency": 0.2,
+              "gap": -0.17874
             },
             {
               "lower": 0.4,
@@ -22684,22 +20631,22 @@
               "gap": 0.2991
             }
           ],
-          "brier": 0.21855,
-          "accuracy": 0.5625,
-          "roi": -0.275,
-          "roi_bets": 16
+          "brier": 0.214637,
+          "accuracy": 0.5882,
+          "roi": -0.3176,
+          "roi_bets": 17
         },
         "over_2_5": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.4,
               "upper": 0.5,
-              "predictions": 5,
-              "mean_probability": 0.44934,
-              "observed_frequency": 0.4,
-              "gap": -0.04934
+              "predictions": 6,
+              "mean_probability": 0.4514,
+              "observed_frequency": 0.333333,
+              "gap": -0.118067
             },
             {
               "lower": 0.5,
@@ -22718,14 +20665,14 @@
               "gap": -0.13105
             }
           ],
-          "brier": 0.261069,
-          "accuracy": 0.4375,
-          "roi": -0.33,
-          "roi_bets": 11
+          "brier": 0.258251,
+          "accuracy": 0.4706,
+          "roi": -0.3858,
+          "roi_bets": 12
         },
         "under_2_5": {
-          "predictions": 16,
-          "fixture_ids": 16,
+          "predictions": 17,
+          "fixture_ids": 17,
           "calibration_bins": [
             {
               "lower": 0.3,
@@ -22746,16 +20693,16 @@
             {
               "lower": 0.5,
               "upper": 0.6,
-              "predictions": 5,
-              "mean_probability": 0.55066,
-              "observed_frequency": 0.6,
-              "gap": 0.04934
+              "predictions": 6,
+              "mean_probability": 0.5486,
+              "observed_frequency": 0.666667,
+              "gap": 0.118067
             }
           ],
-          "brier": 0.261069,
-          "accuracy": 0.4375,
-          "roi": 0.1273,
-          "roi_bets": 11
+          "brier": 0.258251,
+          "accuracy": 0.4706,
+          "roi": 0.1683,
+          "roi_bets": 12
         }
       }
     },
